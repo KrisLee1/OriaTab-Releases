@@ -2,15 +2,15 @@
 
 [简体中文](../README.md) · **繁體中文** · [English](../docs/README.en.md) · [日本語](../docs/README.ja.md) · [한국어](../docs/README.ko.md) · [Deutsch](../docs/README.de.md) · [Français](../docs/README.fr.md) · [Русский](../docs/README.ru.md)
 
-[Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/gjdpgbmoageooodkfnkjkookbblegkac) · [OriaTheme](https://theme.oria.org.cn)
+[Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/gjdpgbmoageooodkfnkjkookbblegkac) · [Chrome Web Store](https://chrome.google.com/webstore/detail/ohhiiomjfebohooaapnoiiegonnmhfhj) · [OriaTheme](https://theme.oria.org.cn)
 
 OriaTab 提供可自訂的新分頁，結合搜尋、書籤、分頁群組、桌布、日曆，以及可在一般網頁中使用的 Aide 對話與翻譯。
 
 ## 下載與安裝
 
-適用於桌面版 Chrome 與 Edge，兩者使用相同的 Manifest V3 擴充功能套件。Chrome 商店版本正在審核中。
+適用於桌面版 Chrome 與 Edge，兩者使用相同的 Manifest V3 擴充功能套件。
 
-1. 在 [Releases](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) 的 Assets 下載 `oriatab-0.1.0.zip`，解壓縮到準備長期保留的資料夾。
+1. 在 [Releases](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) 的 Assets 下載 `oriatab-0.1.1.zip`，解壓縮到準備長期保留的資料夾。
 2. Chrome 開啟 `chrome://extensions`；Edge 開啟 `edge://extensions`。
 3. 開啟「開發人員模式」，選擇「載入未封裝項目」。
 4. 選取直接包含 `manifest.json` 的資料夾，開啟新分頁即可使用。
@@ -25,18 +25,18 @@ OriaTab 提供可自訂的新分頁，結合搜尋、書籤、分頁群組、桌
 
 手動安裝的版本需要手動更新。將新版檔案替換到相同的安裝路徑，再於擴充功能管理頁重新載入。請勿先解除安裝，這會移除本機資料。
 
-下載附件 `SHA256SUMS.txt`，以以下指令計算 ZIP 的 SHA-256，並比較校驗值。
+下載倉庫的 [SHA256SUMS.txt](../SHA256SUMS.txt)，以以下指令計算 ZIP 的 SHA-256，並比較校驗值。
 
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.0.zip
+shasum -a 256 oriatab-0.1.1.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.0.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
 ```
 
 ## 疑難排解

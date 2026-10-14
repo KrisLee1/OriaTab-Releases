@@ -2,15 +2,15 @@
 
 [简体中文](../README.md) · [繁體中文](../docs/README.zh-TW.md) · [English](../docs/README.en.md) · [日本語](../docs/README.ja.md) · [한국어](../docs/README.ko.md) · **Deutsch** · [Français](../docs/README.fr.md) · [Русский](../docs/README.ru.md)
 
-[Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/gjdpgbmoageooodkfnkjkookbblegkac) · [OriaTheme](https://theme.oria.org.cn)
+[Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/gjdpgbmoageooodkfnkjkookbblegkac) · [Chrome Web Store](https://chrome.google.com/webstore/detail/ohhiiomjfebohooaapnoiiegonnmhfhj) · [OriaTheme](https://theme.oria.org.cn)
 
 OriaTab ist eine anpassbare neue Tab-Seite mit Suche, Lesezeichen, Tabgruppen, Hintergrundbildern und Kalender. Aide bietet Chat und Übersetzung auch in einem schwebenden Fenster auf gewöhnlichen Webseiten.
 
 ## Download und Installation
 
-Chrome und Edge für Desktop verwenden dasselbe Manifest-V3-Paket. Die Version für den Chrome Web Store wird derzeit geprüft.
+Chrome und Edge für Desktop verwenden dasselbe Manifest-V3-Paket.
 
-1. Lade `oriatab-0.1.0.zip` unter [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) herunter und entpacke die Datei in einen Ordner, den du dauerhaft behältst.
+1. Lade `oriatab-0.1.1.zip` unter [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) herunter und entpacke die Datei in einen Ordner, den du dauerhaft behältst.
 2. Öffne `chrome://extensions` in Chrome oder `edge://extensions` in Edge.
 3. Aktiviere den **Entwicklermodus** und wähle **Entpackte Erweiterung laden**.
 4. Wähle den Ordner, der `manifest.json` direkt enthält, und öffne einen neuen Tab.
@@ -25,18 +25,18 @@ Unter **Einstellungen → Darstellung** kannst du Sprache, Liquid Glass oder ein
 
 Manuell installierte Erweiterungen müssen manuell aktualisiert werden. Ersetze die Dateien im selben Installationsordner und lade die Erweiterung auf der Verwaltungsseite neu. Deinstalliere sie nicht vorher: Dabei werden lokale Erweiterungsdaten entfernt.
 
-Lade den Anhang `SHA256SUMS.txt` herunter. Berechne mit dem folgenden Befehl den SHA-256-Wert der ZIP-Datei und vergleiche ihn mit der Prüfsumme.
+Lade [SHA256SUMS.txt](../SHA256SUMS.txt) aus diesem Repository herunter. Berechne mit dem folgenden Befehl den SHA-256-Wert der ZIP-Datei und vergleiche ihn mit der Prüfsumme.
 
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.0.zip
+shasum -a 256 oriatab-0.1.1.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.0.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
 ```
 
 ## Fehlerbehebung
