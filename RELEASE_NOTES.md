@@ -14,3 +14,7 @@
 构建验证：37 个单元测试文件、260 项测试通过。模型服务需要自行配置。
 
 第三方组件声明和许可证随扩展包一并提供。
+
+## 安装说明 / Installation guides
+
+[简体中文](https://github.com/KrisLee1/OriaTab-Releases/blob/main/README.md) · [繁體中文](https://github.com/KrisLee1/OriaTab-Releases/blob/main/docs/README.zh-TW.md) · [English](https://github.com/KrisLee1/OriaTab-Releases/blob/main/docs/README.en.md) · [日本語](https://github.com/KrisLee1/OriaTab-Releases/blob/main/docs/README.ja.md) · [한국어](https://github.com/KrisLee1/OriaTab-Releases/blob/main/docs/README.ko.md) · [Deutsch](https://github.com/KrisLee1/OriaTab-Releases/blob/main/docs/README.de.md) · [Français](https://github.com/KrisLee1/OriaTab-Releases/blob/main/docs/README.fr.md) · [Русский](https://github.com/KrisLee1/OriaTab-Releases/blob/main/docs/README.ru.md)
