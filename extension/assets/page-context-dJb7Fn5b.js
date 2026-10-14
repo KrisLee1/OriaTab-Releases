@@ -1,0 +1,1 @@
+function e(e){try{let t=new URL(e);return/^https?:$/.test(t.protocol)?t.origin+`/*`:void 0}catch{return}}export{e as t};

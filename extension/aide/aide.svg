@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="-128 -128 256 256">
+  <title>Aide idle</title>
+  <defs>
+    <linearGradient id="bodyGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8D4FF"/>
+      <stop offset="38%" stop-color="#D9BEFC"/>
+      <stop offset="72%" stop-color="#CDB0F4"/>
+      <stop offset="100%" stop-color="#B88FE8"/>
+    </linearGradient>
+    <radialGradient id="glassLight" cx="0.31" cy="0.18" r="0.77">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.76"/>
+      <stop offset="34%" stop-color="#F6EDFF" stop-opacity="0.28"/>
+      <stop offset="72%" stop-color="#D9B9F8" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#8C59C5" stop-opacity="0.22"/>
+    </radialGradient>
+    <linearGradient id="rimLight" x1="0.08" y1="0.04" x2="0.92" y2="0.96">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="42%" stop-color="#F8EFFF" stop-opacity="0.42"/>
+      <stop offset="72%" stop-color="#C79CEB" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#8753BB" stop-opacity="0.54"/>
+    </linearGradient>
+    <filter id="bodyShadow" x="-35%" y="-35%" width="170%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#5E387E" flood-opacity="0.26"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#7B4AA5" flood-opacity="0.18"/>
+    </filter>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <path id="aideBody" d="M 101.60 0.00 C 101.60 3.26 100.79 6.69 99.43 9.79 C 98.08 12.89 95.86 15.92 93.48 18.59 C 91.10 21.27 88.05 23.68 85.16 25.83 C 82.27 27.99 79.04 29.81 76.13 31.53 C 73.22 33.26 70.30 34.70 67.68 36.18 C 65.07 37.65 62.65 38.97 60.44 40.38 C 58.22 41.79 56.25 43.16 54.38 44.63 C 52.51 46.10 50.84 47.59 49.21 49.21 C 47.59 50.84 46.10 52.51 44.63 54.38 C 43.16 56.25 41.79 58.22 40.38 60.44 C 38.97 62.65 37.65 65.07 36.18 67.68 C 34.70 70.30 33.26 73.22 31.53 76.13 C 29.81 79.04 27.99 82.27 25.83 85.16 C 23.68 88.05 21.27 91.10 18.59 93.48 C 15.92 95.86 12.89 98.08 9.79 99.43 C 6.69 100.79 3.26 101.60 0.00 101.60 C -3.26 101.60 -6.69 100.79 -9.79 99.43 C -12.89 98.08 -15.92 95.86 -18.59 93.48 C -21.27 91.10 -23.68 88.05 -25.83 85.16 C -27.99 82.27 -29.81 79.04 -31.53 76.13 C -33.26 73.22 -34.70 70.30 -36.18 67.68 C -37.65 65.07 -38.97 62.65 -40.38 60.44 C -41.79 58.22 -43.16 56.25 -44.63 54.38 C -46.10 52.51 -47.59 50.84 -49.21 49.21 C -50.84 47.59 -52.51 46.10 -54.38 44.63 C -56.25 43.16 -58.22 41.79 -60.44 40.38 C -62.65 38.97 -65.07 37.65 -67.68 36.18 C -70.30 34.70 -73.22 33.26 -76.13 31.53 C -79.04 29.81 -82.27 27.99 -85.16 25.83 C -88.05 23.68 -91.10 21.27 -93.48 18.59 C -95.86 15.92 -98.08 12.89 -99.43 9.79 C -100.79 6.69 -101.60 3.26 -101.60 0.00 C -101.60 -3.26 -100.79 -6.69 -99.43 -9.79 C -98.08 -12.89 -95.86 -15.92 -93.48 -18.59 C -91.10 -21.27 -88.05 -23.68 -85.16 -25.83 C -82.27 -27.99 -79.04 -29.81 -76.13 -31.53 C -73.22 -33.26 -70.30 -34.70 -67.68 -36.18 C -65.07 -37.65 -62.65 -38.97 -60.44 -40.38 C -58.22 -41.79 -56.25 -43.16 -54.38 -44.63 C -52.51 -46.10 -50.84 -47.59 -49.21 -49.21 C -47.59 -50.84 -46.10 -52.51 -44.63 -54.38 C -43.16 -56.25 -41.79 -58.22 -40.38 -60.44 C -38.97 -62.65 -37.65 -65.07 -36.18 -67.68 C -34.70 -70.30 -33.26 -73.22 -31.53 -76.13 C -29.81 -79.04 -27.99 -82.27 -25.83 -85.16 C -23.68 -88.05 -21.27 -91.10 -18.59 -93.48 C -15.92 -95.86 -12.89 -98.08 -9.79 -99.43 C -6.69 -100.79 -3.26 -101.60 -0.00 -101.60 C 3.26 -101.60 6.69 -100.79 9.79 -99.43 C 12.89 -98.08 15.92 -95.86 18.59 -93.48 C 21.27 -91.10 23.68 -88.05 25.83 -85.16 C 27.99 -82.27 29.81 -79.04 31.53 -76.13 C 33.26 -73.22 34.70 -70.30 36.18 -67.68 C 37.65 -65.07 38.97 -62.65 40.38 -60.44 C 41.79 -58.22 43.16 -56.25 44.63 -54.38 C 46.10 -52.51 47.59 -50.84 49.21 -49.21 C 50.84 -47.59 52.51 -46.10 54.38 -44.63 C 56.25 -43.16 58.22 -41.79 60.44 -40.38 C 62.65 -38.97 65.07 -37.65 67.68 -36.18 C 70.30 -34.70 73.22 -33.26 76.13 -31.53 C 79.04 -29.81 82.27 -27.99 85.16 -25.83 C 88.05 -23.68 91.10 -21.27 93.48 -18.59 C 95.86 -15.92 98.08 -12.89 99.43 -9.79 C 100.79 -6.69 101.60 -3.26 101.60 0.00 Z"/>
+    <clipPath id="bodyClip">
+      <use href="#aideBody"/>
+    </clipPath>
+  </defs>
+  <use href="#aideBody" fill="url(#bodyGradient)" filter="url(#bodyShadow)"/>
+  <g clip-path="url(#bodyClip)" pointer-events="none">
+    <rect x="-112" y="-112" width="224" height="224" fill="url(#glassLight)"/>
+    <ellipse cx="-28" cy="-37" rx="42" ry="16" transform="rotate(-43 -28 -37)" fill="#FFFFFF" opacity="0.48" filter="url(#softBlur)"/>
+    <path d="M -73 -28 C -50 -49 -37 -62 -25 -83" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="4" cy="88" rx="66" ry="42" fill="#7F4AB4" opacity="0.1" filter="url(#softBlur)"/>
+  </g>
+  <use href="#aideBody" fill="none" stroke="url(#rimLight)" stroke-width="1.8" stroke-linejoin="round"/>
+  <use href="#aideBody" fill="none" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="0.7" stroke-linejoin="round"/>
+  <ellipse cx="-20" cy="-12" rx="7.2" ry="11.5" fill="#111112"/>
+  <ellipse cx="20" cy="-12" rx="7.2" ry="11.5" fill="#111112"/>
+  <path d="M -11.5 17 Q 0 24 11.5 17" fill="none" stroke="#111112" stroke-width="4.2" stroke-linecap="round"/>
+</svg>

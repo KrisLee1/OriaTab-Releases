@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#2932e1">
+  <defs>
+    <mask id="paw" x="0" y="0" width="64" height="64" maskUnits="userSpaceOnUse">
+      <path fill="#fff" d="M32 25c-7 0-9 8-14 13C12 44 6 48 9 55c3 8 15 6 23 5 8 1 20 3 23-5 3-7-3-11-9-17-5-5-7-13-14-13Z"/>
+      <g fill="none" stroke="#000" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M29 36v16m0-6c0-6-10-6-10 1s10 7 10 0M36 42v6c0 6 8 6 8 0v-6"/>
+      </g>
+    </mask>
+  </defs>
+  <ellipse cx="12" cy="25" rx="6.5" ry="9" transform="rotate(-24 12 25)"/>
+  <ellipse cx="25" cy="12" rx="6.8" ry="9.5" transform="rotate(8 25 12)"/>
+  <ellipse cx="41" cy="12" rx="6.8" ry="9.5" transform="rotate(-8 41 12)"/>
+  <ellipse cx="54" cy="25" rx="6.5" ry="9" transform="rotate(24 54 25)"/>
+  <path mask="url(#paw)" d="M32 25c-7 0-9 8-14 13C12 44 6 48 9 55c3 8 15 6 23 5 8 1 20 3 23-5 3-7-3-11-9-17-5-5-7-13-14-13Z"/>
+</svg>

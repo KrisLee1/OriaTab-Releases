@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440" role="img" aria-labelledby="title desc">
+  <title id="title">弥散渐变光影</title>
+  <desc id="desc">雾蓝、淡紫、玫瑰粉与暖杏色柔散交融，浅薄荷光晕和乳白亮部缓缓漫开，没有清晰的轮廓或边界。</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#cbd7f1"/><stop offset=".5" stop-color="#e3d9ed"/><stop offset="1" stop-color="#efe3e8"/>
+    </linearGradient>
+    <radialGradient id="blue">
+      <stop stop-color="#8caceb" stop-opacity=".92"/><stop offset=".35" stop-color="#9fbcec" stop-opacity=".68"/><stop offset=".7" stop-color="#afc8ef" stop-opacity=".25"/><stop offset="1" stop-color="#b5cef1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet">
+      <stop stop-color="#aa8add" stop-opacity=".86"/><stop offset=".36" stop-color="#b69ae3" stop-opacity=".65"/><stop offset=".72" stop-color="#c5b0e9" stop-opacity=".24"/><stop offset="1" stop-color="#d2c5ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose">
+      <stop stop-color="#f2b1d0" stop-opacity=".92"/><stop offset=".35" stop-color="#efbcd8" stop-opacity=".68"/><stop offset=".7" stop-color="#f1cce2" stop-opacity=".28"/><stop offset="1" stop-color="#f3deec" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="peach">
+      <stop stop-color="#ffd0ae" stop-opacity=".9"/><stop offset=".38" stop-color="#f9d4bd" stop-opacity=".68"/><stop offset=".75" stop-color="#f4dfd6" stop-opacity=".23"/><stop offset="1" stop-color="#f3e6e1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mint">
+      <stop stop-color="#b1dfd8" stop-opacity=".77"/><stop offset=".35" stop-color="#c0e5df" stop-opacity=".57"/><stop offset=".72" stop-color="#d8eeea" stop-opacity=".18"/><stop offset="1" stop-color="#e5f2ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="light">
+      <stop stop-color="#fff7ec" stop-opacity=".62"/><stop offset=".35" stop-color="#fff5f0" stop-opacity=".38"/><stop offset=".7" stop-color="#faf3f6" stop-opacity=".13"/><stop offset="1" stop-color="#f8f1fa" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".012"/></feComponentTransfer></filter>
+  </defs>
+  <path d="M0 0h2560v1440H0z" fill="url(#base)"/>
+  <ellipse cx="240" cy="90" rx="1450" ry="1000" fill="url(#blue)"/>
+  <ellipse cx="540" cy="1420" rx="1420" ry="1100" fill="url(#violet)"/>
+  <ellipse cx="2270" cy="100" rx="1550" ry="1130" fill="url(#rose)"/>
+  <ellipse cx="2370" cy="1510" rx="1260" ry="1020" fill="url(#peach)"/>
+  <ellipse cx="1770" cy="990" rx="970" ry="780" fill="url(#mint)"/>
+  <ellipse cx="1260" cy="620" rx="1040" ry="870" fill="url(#light)"/>
+  <path d="M0 0h2560v1440H0z" filter="url(#grain)"/>
+</svg>

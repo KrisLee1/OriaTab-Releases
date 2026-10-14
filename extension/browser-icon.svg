@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">OriaTab</title>
+  <desc id="description">A flowing pearlescent ice-blue O with Aide's full, rounded four-lobed violet silhouette across its upper-right edge. Black rounded-square background for browser tabs and extension icons.</desc>
+  <defs>
+    <linearGradient id="halo-base" x1="100" y1="120" x2="415" y2="422" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A4E5F7"/>
+      <stop offset=".32" stop-color="#B5D9FB"/>
+      <stop offset=".64" stop-color="#C3CBFA"/>
+      <stop offset="1" stop-color="#A4DFF5"/>
+    </linearGradient>
+    <radialGradient id="halo-cyan" cx="0" cy="0" r="1" gradientTransform="translate(130 179) rotate(30) scale(189 226)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FFF6" stop-opacity=".82"/>
+      <stop offset=".25" stop-color="#D8FFF6" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#D8FFF6" stop-opacity=".41"/>
+      <stop offset=".75" stop-color="#D8FFF6" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#D8FFF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo-crown" cx="0" cy="0" r="1" gradientTransform="translate(275 85) rotate(72) scale(155 202)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7F9FF" stop-opacity=".62"/>
+      <stop offset=".25" stop-color="#E7F9FF" stop-opacity=".53"/>
+      <stop offset=".5" stop-color="#E7F9FF" stop-opacity=".31"/>
+      <stop offset=".75" stop-color="#E7F9FF" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#E7F9FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo-lilac" cx="0" cy="0" r="1" gradientTransform="translate(151 392) rotate(42) scale(188 153)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DBC5F9" stop-opacity=".92"/>
+      <stop offset=".25" stop-color="#DBC5F9" stop-opacity=".78"/>
+      <stop offset=".5" stop-color="#DBC5F9" stop-opacity=".46"/>
+      <stop offset=".75" stop-color="#DBC5F9" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#DBC5F9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo-pearl" cx="0" cy="0" r="1" gradientTransform="translate(327 419) rotate(-36) scale(189 138)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAFFF5" stop-opacity=".87"/>
+      <stop offset=".25" stop-color="#EAFFF5" stop-opacity=".74"/>
+      <stop offset=".5" stop-color="#EAFFF5" stop-opacity=".43"/>
+      <stop offset=".75" stop-color="#EAFFF5" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#EAFFF5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="halo-edge" x1="147" y1="94" x2="329" y2="451" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#77C6FF" stop-opacity=".64"/>
+      <stop offset=".5" stop-color="#A0AAFF" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#79D6F8" stop-opacity=".48"/>
+    </linearGradient>
+    <linearGradient id="star-base" x1="321" y1="106" x2="425" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3CDFB"/>
+      <stop offset=".43" stop-color="#CBAAF3"/>
+      <stop offset=".78" stop-color="#B58AE9"/>
+      <stop offset="1" stop-color="#C6A4F1"/>
+    </linearGradient>
+    <radialGradient id="star-light" cx="0" cy="0" r="1" gradientTransform="translate(405 83) rotate(115) scale(124 50)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2DFFF" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#F2DFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="star-tip" cx="0" cy="0" r="1" gradientTransform="translate(331 286) rotate(-68) scale(109 47)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDBBFA"/>
+      <stop offset="1" stop-color="#DDBBFA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="star-edge" x1="323" y1="115" x2="423" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C6A0EB" stop-opacity=".6"/>
+      <stop offset=".5" stop-color="#AE85D9" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#E9CDFF" stop-opacity=".65"/>
+    </linearGradient>
+    <path id="halo" fill-rule="evenodd" d="M450 269a194 189 0 1 1-388 0 194 189 0 1 1 388 0Zm-84 0a110 109 0 1 0-220 0 110 109 0 1 0 220 0Z"/>
+    <path id="spark" d="M 466.71 208.44 C 465.83 211.52 464.14 214.53 462.02 217.08 C 459.91 219.64 457.00 221.89 454.04 223.76 C 451.07 225.65 447.55 227.09 444.25 228.34 C 440.94 229.59 437.41 230.43 434.20 231.27 C 430.99 232.11 427.85 232.68 424.98 233.36 C 422.13 234.04 419.49 234.63 417.03 235.37 C 414.56 236.09 412.33 236.85 410.17 237.73 C 408.01 238.61 406.04 239.56 404.06 240.65 C 402.10 241.75 400.24 242.92 398.35 244.28 C 396.46 245.65 394.64 247.13 392.71 248.84 C 390.79 250.55 388.89 252.47 386.80 254.53 C 384.70 256.60 382.55 258.96 380.14 261.23 C 377.73 263.51 375.14 266.06 372.33 268.20 C 369.52 270.34 366.43 272.57 363.26 274.08 C 360.10 275.60 356.65 276.88 353.36 277.31 C 350.08 277.75 346.63 277.59 343.56 276.71 C 340.48 275.83 337.47 274.14 334.92 272.02 C 332.36 269.91 330.11 267.00 328.24 264.04 C 326.35 261.07 324.91 257.55 323.66 254.25 C 322.41 250.94 321.57 247.41 320.73 244.20 C 319.89 240.99 319.32 237.85 318.64 234.98 C 317.96 232.13 317.37 229.49 316.63 227.03 C 315.91 224.56 315.15 222.33 314.27 220.17 C 313.39 218.01 312.44 216.04 311.35 214.06 C 310.25 212.10 309.08 210.24 307.72 208.35 C 306.35 206.46 304.87 204.64 303.16 202.71 C 301.45 200.79 299.53 198.89 297.47 196.80 C 295.40 194.70 293.04 192.55 290.77 190.14 C 288.49 187.73 285.94 185.14 283.80 182.33 C 281.66 179.52 279.43 176.43 277.92 173.26 C 276.40 170.10 275.12 166.65 274.69 163.36 C 274.25 160.08 274.41 156.63 275.29 153.56 C 276.17 150.48 277.86 147.47 279.98 144.92 C 282.09 142.36 285.00 140.11 287.96 138.24 C 290.93 136.35 294.45 134.91 297.75 133.66 C 301.06 132.41 304.59 131.57 307.80 130.73 C 311.01 129.89 314.15 129.32 317.02 128.64 C 319.87 127.96 322.51 127.37 324.97 126.63 C 327.44 125.91 329.67 125.15 331.83 124.27 C 333.99 123.39 335.96 122.44 337.94 121.35 C 339.90 120.25 341.76 119.08 343.65 117.72 C 345.54 116.35 347.36 114.87 349.29 113.16 C 351.21 111.45 353.11 109.53 355.20 107.47 C 357.30 105.40 359.45 103.04 361.86 100.77 C 364.27 98.49 366.86 95.94 369.67 93.80 C 372.48 91.66 375.57 89.43 378.74 87.92 C 381.90 86.40 385.35 85.12 388.64 84.69 C 391.92 84.25 395.37 84.41 398.44 85.29 C 401.52 86.17 404.53 87.86 407.08 89.98 C 409.64 92.09 411.89 95.00 413.76 97.96 C 415.65 100.93 417.09 104.45 418.34 107.75 C 419.59 111.06 420.43 114.59 421.27 117.80 C 422.11 121.01 422.68 124.15 423.36 127.02 C 424.04 129.87 424.63 132.51 425.37 134.97 C 426.09 137.44 426.85 139.67 427.73 141.83 C 428.61 143.99 429.56 145.96 430.65 147.94 C 431.75 149.90 432.92 151.76 434.28 153.65 C 435.65 155.54 437.13 157.36 438.84 159.29 C 440.55 161.21 442.47 163.11 444.53 165.20 C 446.60 167.30 448.96 169.45 451.23 171.86 C 453.51 174.27 456.06 176.86 458.20 179.67 C 460.34 182.48 462.57 185.57 464.08 188.74 C 465.60 191.90 466.88 195.35 467.31 198.64 C 467.75 201.92 467.59 205.37 466.71 208.44 Z"/>
+    <clipPath id="halo-clip"><use href="#halo"/></clipPath>
+    <clipPath id="star-clip"><use href="#spark"/></clipPath>
+    <linearGradient id="browser-tile" x1="256" y1="8" x2="256" y2="504" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#242424"/>
+      <stop offset=".55" stop-color="#151515"/>
+      <stop offset="1" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <linearGradient id="browser-tile-edge" x1="256" y1="8" x2="256" y2="504" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A4A4A"/>
+      <stop offset=".35" stop-color="#252525"/>
+      <stop offset="1" stop-color="#303030"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="496" height="496" rx="128" fill="url(#browser-tile)" stroke="url(#browser-tile-edge)" stroke-width="2"/>
+  <!-- All material is vector gradients; the master artwork retains its transparent counter over the browser tile. -->
+  <!-- Align the halo center (256, 269) with the canvas center; Aide follows the halo. -->
+  <g transform="translate(0 -13)">
+  <g clip-path="url(#halo-clip)">
+    <path fill="url(#halo-base)" d="M60 78h392v382H60z"/>
+    <path fill="url(#halo-cyan)" d="M60 78h392v382H60z"/>
+    <path fill="url(#halo-crown)" d="M60 78h392v382H60z"/>
+    <path fill="url(#halo-lilac)" d="M60 78h392v382H60z"/>
+    <path fill="url(#halo-pearl)" d="M60 78h392v382H60z"/>
+  </g>
+  <use href="#halo" stroke="url(#halo-edge)" stroke-width=".8"/>
+  <!-- Aide: original idle body contour from public/aide/aide.svg, uniformly scaled and rotated; face omitted for the brand mark. -->
+  <use href="#spark" fill="url(#star-base)"/>
+  <g clip-path="url(#star-clip)">
+    <path fill="url(#star-light)" d="M255 44h230v257H255z"/>
+    <path fill="url(#star-tip)" d="M255 44h230v257H255z"/>
+  </g>
+  <use href="#spark" stroke="url(#star-edge)" stroke-width=".8" stroke-linejoin="round"/>
+  </g>
+</svg>

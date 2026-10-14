@@ -9,8 +9,8 @@
 
 下载 `oriatab-0.1.0.zip` 并解压，通过 Chrome / Edge 扩展管理页的「加载已解压的扩展程序」安装。完整步骤见仓库 README。
 
-附件 `SHA256SUMS.txt` 用于核对下载文件完整性。GitHub 自动生成的 Source code 压缩包不是扩展安装包。
+附件 `SHA256SUMS.txt` 用于核对下载文件完整性。仓库的 [`extension/`](https://github.com/KrisLee1/OriaTab-Releases/tree/main/extension) 目录同时提供已解压的扩展文件。
 
 构建验证：37 个单元测试文件、260 项测试通过。模型服务需要自行配置。
 
-Development source is not included in this distribution repository. Third-party notices remain included in the extension package.
+第三方组件声明和许可证随扩展包一并提供。

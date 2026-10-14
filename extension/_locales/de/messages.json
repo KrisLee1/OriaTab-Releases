@@ -1,0 +1,1464 @@
+{
+  "extensionName": {
+    "message": "OriaTab"
+  },
+  "extensionDescription": {
+    "message": "Neuer Tab mit Liquid Glass, Themes und mehreren Sprachen. KI-Assistent Aide liest und übersetzt Webseiten über Tabs hinweg."
+  },
+  "aide_command_open": {
+    "message": "Aide öffnen"
+  },
+  "calendar_settings": {
+    "message": "Kalendereinstellungen"
+  },
+  "calendar_region": {
+    "message": "Feiertagsregion"
+  },
+  "calendar_regionNone": {
+    "message": "Keine Feiertage"
+  },
+  "calendar_regionHint": {
+    "message": "Zeigt landesweite Feiertage der gewählten Region, einschließlich Ausgleichsarbeitstagen in China."
+  },
+  "calendar_showLunar": {
+    "message": "Chinesischen Mondkalender anzeigen"
+  },
+  "calendar_lunarHint": {
+    "message": "Monddaten, traditionelle Feste und Sonnenperioden unter dem Datum anzeigen, auch offline."
+  },
+  "calendar_workday": {
+    "message": "Ausgleichsarbeitstag"
+  },
+  "calendar_holiday": {
+    "message": "Freier Tag"
+  },
+  "calendar_workMarker": {
+    "message": "A"
+  },
+  "calendar_restMarker": {
+    "message": "F"
+  },
+  "calendar_loading": {
+    "message": "Feiertage werden geladen…"
+  },
+  "calendar_cached": {
+    "message": "Gespeicherte Feiertagsdaten werden verwendet"
+  },
+  "calendar_unavailable": {
+    "message": "Keine Feiertagsdaten für dieses Jahr"
+  },
+  "calendar_error": {
+    "message": "Feiertage konnten nicht geladen werden"
+  },
+  "calendar_publicHolidays": {
+    "message": "Gesetzliche Feiertage"
+  },
+  "calendar_title": {
+    "message": "Kalender"
+  },
+  "calendar_open": {
+    "message": "Kalender öffnen"
+  },
+  "calendar_today": {
+    "message": "Heute"
+  },
+  "browserGroups": {
+    "message": "Offene Browser-Tabgruppen"
+  },
+  "savedGroups": {
+    "message": "Gespeicherte Tabgruppen"
+  },
+  "readBrowserGroups": {
+    "message": "Browser-Tabgruppen lesen"
+  },
+  "permissionGroups": {
+    "message": "Zugriff auf offene Tabgruppen und Tabs erlauben."
+  },
+  "noBrowserGroups": {
+    "message": "Keine offenen Tabgruppen"
+  },
+  "unnamedGroup": {
+    "message": "Unbenannte Gruppe"
+  },
+  "saveBrowserGroup": {
+    "message": "In OriaTab speichern"
+  },
+  "openCurrentTab": {
+    "message": "Im aktuellen Tab öffnen"
+  },
+  "openNewTab": {
+    "message": "In neuem Tab öffnen"
+  },
+  "hdIconsTitle": {
+    "message": "Hochauflösende Website-Symbole"
+  },
+  "later": {
+    "message": "Später"
+  },
+  "switchToLight": {
+    "message": "Zum hellen Modus wechseln"
+  },
+  "switchToDark": {
+    "message": "Zum dunklen Modus wechseln"
+  },
+  "hdIcons": {
+    "message": "HD-Symbole automatisch laden"
+  },
+  "enableHdIcons": {
+    "message": "HD-Symbole laden"
+  },
+  "iconPermissionHint": {
+    "message": "Website-Zugriff erlauben, um offizielle HD-Symbole zu finden und zu speichern."
+  },
+  "customThemeColor": {
+    "message": "Eigene Akzentfarbe"
+  },
+  "invalidColor": {
+    "message": "Eine gültige Farbe wählen."
+  },
+  "themeColor": {
+    "message": "Akzentfarbe"
+  },
+  "sage": {
+    "message": "Salbei"
+  },
+  "blue": {
+    "message": "Blau"
+  },
+  "violet": {
+    "message": "Violett"
+  },
+  "rose": {
+    "message": "Rosa"
+  },
+  "amber": {
+    "message": "Bernstein"
+  },
+  "moveUp": {
+    "message": "Move up"
+  },
+  "moveDown": {
+    "message": "Move down"
+  },
+  "dockPosition": {
+    "message": "Dock-Position"
+  },
+  "top": {
+    "message": "Oben"
+  },
+  "bottom": {
+    "message": "Unten"
+  },
+  "left": {
+    "message": "Links"
+  },
+  "right": {
+    "message": "Rechts"
+  },
+  "engineEnabled": {
+    "message": "$engine$ aktivieren",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "engineDisabled": {
+    "message": "Eine aktive Suchmaschine wählen."
+  },
+  "lastEngine": {
+    "message": "Mindestens eine Suchmaschine muss aktiv bleiben."
+  },
+  "wallpaperBlur": {
+    "message": "Hintergrundunschärfe"
+  },
+  "wallpaperAuto": {
+    "message": "Hintergrund automatisch wechseln"
+  },
+  "wallpaperInterval": {
+    "message": "Wechselintervall"
+  },
+  "wallpaperOrder": {
+    "message": "Reihenfolge"
+  },
+  "sequential": {
+    "message": "Der Reihe nach"
+  },
+  "random": {
+    "message": "Zufällig"
+  },
+  "minutes": {
+    "message": "$count$ Min.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hours": {
+    "message": "$count$ Std.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daily": {
+    "message": "Täglich"
+  },
+  "searchPlaceholder": {
+    "message": "Web oder Lesezeichen durchsuchen…"
+  },
+  "searchWith": {
+    "message": "Mit $engine$ suchen",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "webSearch": {
+    "message": "Websuche"
+  },
+  "bookmarks": {
+    "message": "Lesezeichen"
+  },
+  "groups": {
+    "message": "Tabgruppen"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "wallpapers": {
+    "message": "Hintergründe"
+  },
+  "websites": {
+    "message": "Websites"
+  },
+  "addEngine": {
+    "message": "Suchmaschinen verwalten"
+  },
+  "selectedEngine": {
+    "message": "Standardsuchmaschine"
+  },
+  "engineName": {
+    "message": "Name der Suchmaschine"
+  },
+  "engineTemplate": {
+    "message": "Such-URL-Vorlage"
+  },
+  "templateHint": {
+    "message": "{query} an der Stelle des Suchbegriffs einfügen."
+  },
+  "engineAdd": {
+    "message": "Suchmaschine hinzufügen"
+  },
+  "engineEdit": {
+    "message": "Suchmaschine bearbeiten"
+  },
+  "addWebsite": {
+    "message": "Website hinzufügen"
+  },
+  "editWebsite": {
+    "message": "Website bearbeiten"
+  },
+  "websiteName": {
+    "message": "Website-Name"
+  },
+  "websiteUrl": {
+    "message": "Website-URL"
+  },
+  "removeDock": {
+    "message": "Aus Dock entfernen"
+  },
+  "moveLeft": {
+    "message": "Nach links"
+  },
+  "moveRight": {
+    "message": "Nach rechts"
+  },
+  "addToDock": {
+    "message": "Zum Dock hinzufügen"
+  },
+  "alreadyPinned": {
+    "message": "Dieses Element ist bereits im Dock."
+  },
+  "pinned": {
+    "message": "Zum Dock hinzugefügt"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "delete": {
+    "message": "Löschen"
+  },
+  "edit": {
+    "message": "Bearbeiten"
+  },
+  "done": {
+    "message": "Fertig"
+  },
+  "back": {
+    "message": "Zurück"
+  },
+  "retry": {
+    "message": "Erneut versuchen"
+  },
+  "loading": {
+    "message": "Wird geladen…"
+  },
+  "saving": {
+    "message": "Wird gespeichert…"
+  },
+  "nameRequired": {
+    "message": "Bitte einen Namen eingeben."
+  },
+  "invalidUrl": {
+    "message": "Eine gültige HTTP- oder HTTPS-URL eingeben."
+  },
+  "invalidTemplate": {
+    "message": "Eine HTTP(S)-URL mit genau einem {query} eingeben."
+  },
+  "saveFailed": {
+    "message": "Speichern fehlgeschlagen. Bitte erneut versuchen."
+  },
+  "builtinProtected": {
+    "message": "Integrierte Elemente können nicht gelöscht werden."
+  },
+  "missingGroup": {
+    "message": "Diese gespeicherte Gruppe existiert nicht mehr."
+  },
+  "groupRequired": {
+    "message": "Namen eingeben und mindestens eine Seite auswählen."
+  },
+  "genericError": {
+    "message": "Ein Fehler ist aufgetreten. Bitte erneut versuchen."
+  },
+  "preview": {
+    "message": "Browservorschau"
+  },
+  "previewHint": {
+    "message": "Demo-Lesezeichen und Tabs. Für eigene Daten die Erweiterung installieren."
+  },
+  "previewRestore": {
+    "message": "Die Vorschau kann keine Tabs wiederherstellen. Erweiterung in Chrome oder Edge laden."
+  },
+  "allBookmarks": {
+    "message": "Alle Lesezeichen"
+  },
+  "bookmarkSearch": {
+    "message": "Lesezeichen suchen…"
+  },
+  "noBookmarks": {
+    "message": "Noch keine Lesezeichen"
+  },
+  "noResults": {
+    "message": "Nichts gefunden"
+  },
+  "trySearch": {
+    "message": "Einen anderen Namen oder eine Website versuchen."
+  },
+  "bookmarkEmptyHint": {
+    "message": "Im Browser gespeicherte Websites erscheinen hier."
+  },
+  "folder": {
+    "message": "Ordner"
+  },
+  "openFolder": {
+    "message": "Ordner öffnen"
+  },
+  "unsupported": {
+    "message": "OriaTab kann diese Seite nicht öffnen."
+  },
+  "permissionTitle": {
+    "message": "Ihr Browser, Ihr Zuhause"
+  },
+  "permissionBookmarks": {
+    "message": "Lesezeichenzugriff zum Durchsuchen und Hinzufügen zum Dock erlauben."
+  },
+  "permissionTabs": {
+    "message": "Zugriff auf Tabtitel und URLs erlauben, um dieses Fenster zu speichern."
+  },
+  "permissionDenied": {
+    "message": "Zugriff wurde nicht gewährt. Sie können es erneut versuchen."
+  },
+  "allow": {
+    "message": "Zugriff erlauben"
+  },
+  "createGroup": {
+    "message": "Dieses Fenster speichern"
+  },
+  "createGroupTitle": {
+    "message": "Aktuelles Fenster speichern"
+  },
+  "groupName": {
+    "message": "Gruppenname"
+  },
+  "groupPlaceholder": {
+    "message": "Neues Projekt, Wochenendlektüre…"
+  },
+  "chooseTabs": {
+    "message": "Zusammengehörige Seiten auswählen"
+  },
+  "selectedCount": {
+    "message": "Das ist$count$ausgewählt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectAll": {
+    "message": "Alle auswählen"
+  },
+  "deselectAll": {
+    "message": "Alle auswählen"
+  },
+  "excluded": {
+    "message": "Nicht gespeichert: neuer Tab oder ungültige URL"
+  },
+  "pinOnSave": {
+    "message": "Diese Gruppe zum Dock hinzufügen"
+  },
+  "saveGroup": {
+    "message": "Gruppe speichern"
+  },
+  "groupSaved": {
+    "message": "Gruppe gespeichert"
+  },
+  "noGroups": {
+    "message": "Keine gespeicherten Gruppen"
+  },
+  "noGroupsHint": {
+    "message": "Die Seiten dieses Fensters als erste Tabgruppe speichern."
+  },
+  "tabsCount": {
+    "message": "$count$ Seiten",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "openAll": {
+    "message": "Alle Seiten öffnen"
+  },
+  "openGroup": {
+    "message": "Gruppe öffnen"
+  },
+  "newGroup": {
+    "message": "Neue Gruppe"
+  },
+  "groupRenameTitle": {
+    "message": "Gruppe umbenennen"
+  },
+  "groupAddPages": {
+    "message": "Seiten hinzufügen"
+  },
+  "groupAddUrl": {
+    "message": "URL eingeben"
+  },
+  "groupSiteTitle": {
+    "message": "Seitentitel"
+  },
+  "groupFetchingTitle": {
+    "message": "Seitentitel wird geladen…"
+  },
+  "groupAllowTitle": {
+    "message": "Zugriff erlauben und Titel laden"
+  },
+  "groupTitleUnavailable": {
+    "message": "Titel nicht verfügbar; selbst eingeben oder Domain verwenden"
+  },
+  "groupSiteTitleHint": {
+    "message": "Aus der URL geladen; eigene Eingabe ist möglich"
+  },
+  "groupSiteExists": {
+    "message": "Bereits in dieser Gruppe"
+  },
+  "groupBookmarkPermission": {
+    "message": "Lesezeichenzugriff erlauben, um Seiten zur Gruppe hinzuzufügen."
+  },
+  "groupEditHint": {
+    "message": "Minus entfernt, Plus fügt hinzu"
+  },
+  "groupDeleteShort": {
+    "message": "Gruppe löschen"
+  },
+  "groupInDock": {
+    "message": "Im Dock"
+  },
+  "groupRemovePage": {
+    "message": "Seite entfernen: $title$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupAdd": {
+    "message": "Hinzufügen"
+  },
+  "renameGroup": {
+    "message": "Gruppe bearbeiten"
+  },
+  "deleteGroup": {
+    "message": "Gespeicherte Gruppe löschen"
+  },
+  "deleteGroupHint": {
+    "message": "Gespeicherte Gruppe und Dock-Verknüpfung entfernen. Offene Tabs bleiben bestehen."
+  },
+  "removeSite": {
+    "message": "Aus Gruppe entfernen"
+  },
+  "groupRename": {
+    "message": "Gruppenname und Seiten"
+  },
+  "restoreFailed": {
+    "message": "Einige Seiten konnten nicht geöffnet werden"
+  },
+  "nativeGroupFailed": {
+    "message": "Seiten geöffnet, aber der Browser konnte sie nicht gruppieren."
+  },
+  "allOpened": {
+    "message": "Seiten geöffnet"
+  },
+  "upload": {
+    "message": "Hintergrund hinzufügen"
+  },
+  "dropWallpaper": {
+    "message": "Bild ablegen oder zum Auswählen klicken"
+  },
+  "uploadHint": {
+    "message": "JPG, PNG, WebP · Max. 20 MB · Bleibt auf Ihrem Gerät"
+  },
+  "builtIn": {
+    "message": "FÜR SIE AUSGEWÄHLT"
+  },
+  "yourWallpapers": {
+    "message": "IHRE SAMMLUNG"
+  },
+  "dawn": {
+    "message": "Morgendämmerung am See"
+  },
+  "dusk": {
+    "message": "Nach dem Regen"
+  },
+  "coast": {
+    "message": "Ruhige Küste"
+  },
+  "bloom": {
+    "message": "Diffuses Farbenspiel"
+  },
+  "moonlit": {
+    "message": "Mondlicht am See"
+  },
+  "aurora": {
+    "message": "Polarlicht"
+  },
+  "dunes": {
+    "message": "Goldene Dünen"
+  },
+  "mist": {
+    "message": "Waldnebel"
+  },
+  "current": {
+    "message": "Aktuell"
+  },
+  "wallpaperSaved": {
+    "message": "Hintergrund gespeichert"
+  },
+  "wallpaperDeleted": {
+    "message": "Hintergrund entfernt"
+  },
+  "imageType": {
+    "message": "Ein JPG-, PNG- oder WebP-Bild wählen."
+  },
+  "imageSize": {
+    "message": "Bild unter 20 MB und 80 Megapixeln wählen."
+  },
+  "imageInvalid": {
+    "message": "Dieses Bild konnte nicht gelesen werden."
+  },
+  "wallpaperLoadFailed": {
+    "message": "Hintergrund nicht verfügbar. Standard wird angezeigt."
+  },
+  "deleteWallpaper": {
+    "message": "Hintergrund löschen"
+  },
+  "themePreset": {
+    "message": "Design"
+  },
+  "liquidDefault": {
+    "message": "Liquid Glass (Standard)"
+  },
+  "appearance": {
+    "message": "Darstellung"
+  },
+  "search": {
+    "message": "Suche"
+  },
+  "dock": {
+    "message": "Dock"
+  },
+  "behavior": {
+    "message": "Verhalten"
+  },
+  "language": {
+    "message": "Anzeigesprache"
+  },
+  "liquid": {
+    "message": "Liquid Glass"
+  },
+  "theme": {
+    "message": "Darstellungsmodus"
+  },
+  "system": {
+    "message": "Systemeinstellung"
+  },
+  "light": {
+    "message": "Hell"
+  },
+  "dark": {
+    "message": "Dunkel"
+  },
+  "glassOpacity": {
+    "message": "Glasdeckkraft"
+  },
+  "glassColorConcentration": {
+    "message": "Farbintensität"
+  },
+  "refraction": {
+    "message": "Brechungsstärke"
+  },
+  "glassBevel": {
+    "message": "Randbreite"
+  },
+  "glassBlur": {
+    "message": "Unschärfe"
+  },
+  "glassDispersion": {
+    "message": "Farbdispersion"
+  },
+  "glassRim": {
+    "message": "Randlichter"
+  },
+  "wallpaperDim": {
+    "message": "Hintergrundabdunklung"
+  },
+  "iconSize": {
+    "message": "Symbolgröße"
+  },
+  "magnify": {
+    "message": "Beim Überfahren vergrößern"
+  },
+  "newTab": {
+    "message": "Websites in neuem Tab öffnen"
+  },
+  "nativeGroups": {
+    "message": "Als Browser-Tabgruppen wiederherstellen"
+  },
+  "reduceMotion": {
+    "message": "Bewegung reduzieren"
+  },
+  "engineDeleteHint": {
+    "message": "Diese eigene Suchmaschine entfernen?"
+  },
+  "deleteTitle": {
+    "message": "Dieses Element entfernen?"
+  },
+  "confirmDelete": {
+    "message": "Entfernen"
+  },
+  "dockDrop": {
+    "message": "Hier ablegen, um zum Dock hinzuzufügen"
+  },
+  "searchSettings": {
+    "message": "Sucheinstellungen"
+  },
+  "resetSelection": {
+    "message": "Auswahl aufgehoben"
+  },
+  "folderEmpty": {
+    "message": "Dieser Ordner ist leer."
+  },
+  "editSaved": {
+    "message": "Änderungen gespeichert"
+  },
+  "appearanceLanguage": {
+    "message": "Darstellung und Sprache"
+  },
+  "theme_fileHint": {
+    "message": "JSON · Max. 128 KB · Lokal gespeichert"
+  },
+  "theme_addApply": {
+    "message": "Hinzufügen und anwenden"
+  },
+  "theme_deleteConfirm": {
+    "message": "Theme „$name$“ löschen?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "themeLimit": {
+    "message": "Bis zu 50 eigene Themes sind möglich."
+  },
+  "themeDuplicate": {
+    "message": "Ein Theme mit dieser ID existiert bereits."
+  },
+  "theme_customThemes": {
+    "message": "Hinzugefügte Themen"
+  },
+  "theme_presetThemes": {
+    "message": "Vordefinierte Themen"
+  },
+  "theme_openEditor": {
+    "message": "Öffnen Sie den Editor"
+  },
+  "theme_add": {
+    "message": "Thema hinzufügen"
+  },
+  "theme_empty": {
+    "message": "Noch wurden keine Themen hinzugefügt."
+  },
+  "theme_delete": {
+    "message": "Thema löschen$name$Das ist",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "theme_importDescription": {
+    "message": "Wählen Sie eine Themendatei aus und bestätigen Sie den Anzeigennamen."
+  },
+  "theme_fileLabel": {
+    "message": "Thema-Datei"
+  },
+  "theme_dropFile": {
+    "message": "Wählen Sie eine Themendatei"
+  },
+  "theme_name": {
+    "message": "Name des Themas"
+  },
+  "theme_fileType": {
+    "message": "Wählen Sie eine Themendatei im JSON-Format aus."
+  },
+  "theme_fileSize": {
+    "message": "Die Themendateien dürfen nicht größer als 128 KB sein."
+  },
+  "theme_readFailed": {
+    "message": "Die Themendatei konnte nicht gelesen werden."
+  },
+  "themeInvalid": {
+    "message": "Diese Themendatei konnte nicht erkannt werden."
+  },
+  "material": {
+    "message": "Material"
+  },
+  "materialOpacity": {
+    "message": "Deckkraft"
+  },
+  "backgroundBlur": {
+    "message": "Hintergrundunschärfe"
+  },
+  "theme_originalColor": {
+    "message": "Originale Themenfarbe"
+  },
+  "background_style": {
+    "message": "Hintergrundstil"
+  },
+  "background_theme": {
+    "message": "Designstil"
+  },
+  "background_custom": {
+    "message": "Eigener Hintergrund"
+  },
+  "background_preview": {
+    "message": "Hintergrundvorschau"
+  },
+  "background_type": {
+    "message": "Verlaufstyp"
+  },
+  "background_solid": {
+    "message": "Einfarbig"
+  },
+  "background_linear": {
+    "message": "Linearer Verlauf"
+  },
+  "background_radial": {
+    "message": "Radialer Verlauf"
+  },
+  "background_conic": {
+    "message": "Konischer Verlauf"
+  },
+  "background_repeating_linear": {
+    "message": "Wiederholter linearer Verlauf"
+  },
+  "background_repeating_radial": {
+    "message": "Wiederholter radialer Verlauf"
+  },
+  "background_angle": {
+    "message": "Verlaufswinkel"
+  },
+  "background_origin": {
+    "message": "Verlaufsmittelpunkt"
+  },
+  "background_originX": {
+    "message": "Mittelpunkt X"
+  },
+  "background_originY": {
+    "message": "Mittelpunkt Y"
+  },
+  "background_color": {
+    "message": "Hintergrundfarbe"
+  },
+  "background_stops": {
+    "message": "Farbstopps"
+  },
+  "background_stop": {
+    "message": "Stopp $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopColor": {
+    "message": "Farbe von Stopp $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopPosition": {
+    "message": "Position von Stopp $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_removeStop": {
+    "message": "Stopp $count$ entfernen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_addStop": {
+    "message": "Farbstopp hinzufügen"
+  },
+  "background_pickColor": {
+    "message": "$label$ auswählen",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_colorOpacity": {
+    "message": "Deckkraft: $label$",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_imageHint": {
+    "message": "Ein Bildhintergrund ist aktiv. Wähle einen Farbhintergrund, um ihn zu ersetzen."
+  },
+  "background_themeHint": {
+    "message": "Verwendet Hintergrundfarbe, Verlauf und Textur des aktuellen Designs und folgt Design und Farbmodus."
+  },
+  "background_colorHint": {
+    "message": "Wähle unten ein Bild, um zum Bildhintergrund zurückzukehren. Farbhintergründe pausieren den Bildwechsel."
+  },
+  "background_ivory": {
+    "message": "Elfenbein"
+  },
+  "background_mist": {
+    "message": "Nebel"
+  },
+  "background_slate": {
+    "message": "Schiefer"
+  },
+  "background_sunrise": {
+    "message": "Sonnenaufgangsverlauf"
+  },
+  "background_sea": {
+    "message": "Küstenverlauf"
+  },
+  "background_aurora": {
+    "message": "Polarlichtverlauf"
+  },
+  "apply": {
+    "message": "Anwenden"
+  },
+  "background_defaultName": {
+    "message": "Mein Hintergrund"
+  },
+  "background_savedHint": {
+    "message": "Gespeicherte Hintergründe per Rechtsklick bearbeiten oder löschen."
+  },
+  "background_edit": {
+    "message": "Hintergrund bearbeiten"
+  },
+  "background_add": {
+    "message": "Hintergrund hinzufügen"
+  },
+  "background_limit": {
+    "message": "Du kannst bis zu 100 Hintergründe speichern."
+  },
+  "background_opacity": {
+    "message": "Deckkraft"
+  },
+  "background_position": {
+    "message": "Position"
+  },
+  "wallpaper_galleries": {
+    "message": "Hintergrundquellen"
+  },
+  "wallpaper_builtin": {
+    "message": "Integriert"
+  },
+  "wallpaper_custom": {
+    "message": "Eigene"
+  },
+  "wallpaper_onlineHint": {
+    "message": "Kostenlos kommerziell nutzbare Bilder. Auswahl lädt das hochauflösende Hintergrundbild online."
+  },
+  "wallpaper_customEmpty": {
+    "message": "Noch keine eigenen Hintergrundbilder."
+  },
+  "wallpaper_loadError": {
+    "message": "Bild konnte nicht geladen werden"
+  },
+  "wallpaper_license": {
+    "message": "Lizenz"
+  },
+  "fontColor": {
+    "message": "Schriftfarbe"
+  },
+  "fontColor_native": {
+    "message": "Standardschriftfarbe des Designs"
+  },
+  "fontColor_light": {
+    "message": "Helle Schrift"
+  },
+  "fontColor_dark": {
+    "message": "Dunkle Schrift"
+  },
+  "fontColor_warm": {
+    "message": "Warme Schrift"
+  },
+  "fontColor_gray": {
+    "message": "Graue Schrift"
+  },
+  "fontColor_custom": {
+    "message": "Eigene Schriftfarbe"
+  },
+  "wallpaper_catalogError": {
+    "message": "Galerie konnte nicht geladen werden"
+  },
+  "wallpaper_search": {
+    "message": "Online-Hintergründe suchen"
+  },
+  "wallpaper_searchHint": {
+    "message": "Stichwörter, z. B. mountain, earth"
+  },
+  "wallpaper_loadMore": {
+    "message": "Mehr laden"
+  },
+  "wallpaper_end": {
+    "message": "Alle Ergebnisse angezeigt"
+  },
+  "wallpaper_empty": {
+    "message": "Keine passenden Bilder. Versuche ein anderes Stichwort."
+  },
+  "browserSearch": {
+    "message": "Standard-Suchmaschine des Browsers"
+  },
+  "syncBrowserSearch": {
+    "message": "Browserstandard verwenden"
+  },
+  "browserSearchHint": {
+    "message": "Jede Suche verwendet den aktuellen Browserstandard. Beim ersten Mal ist eine Berechtigung nötig."
+  },
+  "browserSearchPreviewHint": {
+    "message": "Die Webvorschau verwendet die Suchmaschine unten. Die Erweiterung kann dem Browserstandard folgen."
+  },
+  "appearanceColors": {
+    "message": "Theme und Farben"
+  },
+  "themeManagement": {
+    "message": "Themes verwalten"
+  },
+  "searchMode": {
+    "message": "Suchmodus"
+  },
+  "independentSearch": {
+    "message": "Unabhängig auswählen"
+  },
+  "openBrowserSearchSettings": {
+    "message": "Browser-Sucheinstellungen öffnen"
+  },
+  "independentSearchHint": {
+    "message": "Gilt nur für OriaTab-Suchen. Der Browserstandard bleibt unverändert."
+  },
+  "searchResults": {
+    "message": "Suchergebnisse"
+  },
+  "history": {
+    "message": "Verlauf"
+  },
+  "historyHint": {
+    "message": "Besuchte Seiten einschließlich Suchergebnisse durchsuchen. Zum Aktivieren ist eine Berechtigung nötig."
+  },
+  "historyError": {
+    "message": "Verlauf konnte nicht gelesen werden. Versuche es später erneut."
+  },
+  "allowHistory": {
+    "message": "Zugriff auf Verlauf erlauben"
+  },
+  "allowBookmarks": {
+    "message": "Zugriff auf Lesezeichen erlauben"
+  },
+  "engine_bing": {
+    "message": "Bing"
+  },
+  "engine_baidu": {
+    "message": "Baidu"
+  },
+  "engine_google": {
+    "message": "Google"
+  },
+  "engine_quark": {
+    "message": "Quark"
+  },
+  "engine_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "engine_brave": {
+    "message": "Brave"
+  },
+  "engine_sogou": {
+    "message": "Sogou"
+  },
+  "engine_360": {
+    "message": "360 Suche"
+  },
+  "engine_yahoo": {
+    "message": "Yahoo"
+  },
+  "wallpaper_bingDaily": {
+    "message": "Täglich aktualisieren"
+  },
+  "wallpaper_bingDailyHint": {
+    "message": "Automatisch das neueste Bing-Hintergrundbild verwenden. Offline bleibt das aktuelle Bild erhalten."
+  },
+  "wallpaper_bingHint": {
+    "message": "Aktuelle tägliche Bing-Hintergrundbilder. Auswahl lädt das Bild in voller Auflösung."
+  },
+  "wallpaper_bingUsage": {
+    "message": "Nur als Hintergrundbild"
+  },
+  "wallpaper_bingPermission": {
+    "message": "Bing-Zugriff erlauben, um aktuelle tägliche Hintergrundbilder zu laden."
+  },
+  "wallpaper_bingEmpty": {
+    "message": "Keine Bing-Hintergrundbilder verfügbar."
+  },
+  "wallpaper_refresh": {
+    "message": "Hintergrundbilder aktualisieren"
+  },
+  "aide_add": {
+    "message": "Hinzufügen"
+  },
+  "aide_name": {
+    "message": "Name"
+  },
+  "aide_custom": {
+    "message": "Benutzerdefiniert"
+  },
+  "aide_removePlatform": {
+    "message": "Plattform entfernen"
+  },
+  "aide_chat": {
+    "message": "Chat"
+  },
+  "aide_translate": {
+    "message": "Übersetzen"
+  },
+  "aide_models": {
+    "message": "Modellplattformen"
+  },
+  "aide_model": {
+    "message": "Modell"
+  },
+  "aide_preset": {
+    "message": "Plattformvorlage"
+  },
+  "aide_protocol": {
+    "message": "API-Protokoll"
+  },
+  "aide_apiAddress": {
+    "message": "API-Adresse"
+  },
+  "aide_configured": {
+    "message": "Konfiguriert"
+  },
+  "aide_notConfigured": {
+    "message": "Nicht konfiguriert"
+  },
+  "aide_enterKey": {
+    "message": "Schlüssel eingeben"
+  },
+  "aide_keepKey": {
+    "message": "Leer lassen, um den Schlüssel zu behalten"
+  },
+  "aide_fetchModels": {
+    "message": "Modelle laden"
+  },
+  "aide_tools": {
+    "message": "Werkzeuge"
+  },
+  "aide_webSearch": {
+    "message": "Websuche"
+  },
+  "aide_translationTool": {
+    "message": "Übersetzungswerkzeug"
+  },
+  "aide_provider": {
+    "message": "Anbieter"
+  },
+  "aide_searchProvider": {
+    "message": "Suchanbieter"
+  },
+  "aide_translationProvider": {
+    "message": "Übersetzungsanbieter"
+  },
+  "aide_domain": {
+    "message": "Übersetzungsbereich"
+  },
+  "aide_accessKey": {
+    "message": "App-ID / Access Key"
+  },
+  "aide_secretKey": {
+    "message": "Secret Key"
+  },
+  "aide_keyStorage": {
+    "message": "Schlüssel bleiben im lokalen Browserspeicher und gehören nicht zum Chatverlauf."
+  },
+  "aide_saved": {
+    "message": "Gespeichert"
+  },
+  "aide_newChat": {
+    "message": "Neuer Chat"
+  },
+  "aide_history": {
+    "message": "Chatverlauf"
+  },
+  "aide_noHistory": {
+    "message": "Noch keine Gespräche"
+  },
+  "aide_deleteChat": {
+    "message": "Chat löschen"
+  },
+  "aide_noModel": {
+    "message": "Kein Modell hinzugefügt"
+  },
+  "aide_welcome": {
+    "message": "Wie kann ich helfen?"
+  },
+  "aide_welcomeHint": {
+    "message": "Fragen stellen, im Web suchen oder Text übersetzen."
+  },
+  "aide_configureHint": {
+    "message": "Modellplattform und API-Schlüssel hinzufügen, um zu starten."
+  },
+  "aide_configure": {
+    "message": "Modell konfigurieren"
+  },
+  "aide_you": {
+    "message": "Du"
+  },
+  "aide_assistant": {
+    "message": "Aide-Antwort"
+  },
+  "aide_thinking": {
+    "message": "Denken"
+  },
+  "aide_retry": {
+    "message": "Neu generieren"
+  },
+  "aide_message": {
+    "message": "Nachricht"
+  },
+  "aide_messagePlaceholder": {
+    "message": "Aide fragen… Enter zum Senden, Shift+Enter für eine neue Zeile"
+  },
+  "aide_stop": {
+    "message": "Stoppen"
+  },
+  "aide_stopped": {
+    "message": "Gestoppt"
+  },
+  "aide_send": {
+    "message": "Senden"
+  },
+  "aide_sourceLanguage": {
+    "message": "Ausgangssprache"
+  },
+  "aide_targetLanguage": {
+    "message": "Zielsprache"
+  },
+  "aide_autoDetect": {
+    "message": "Automatisch erkennen"
+  },
+  "aide_swapLanguages": {
+    "message": "Sprachen tauschen"
+  },
+  "aide_translationText": {
+    "message": "Zu übersetzender Text"
+  },
+  "aide_translationPlaceholder": {
+    "message": "Text eingeben oder einfügen…"
+  },
+  "aide_copy": {
+    "message": "Kopieren"
+  },
+  "aide_copied": {
+    "message": "Kopiert"
+  },
+  "aide_readAloud": {
+    "message": "Vorlesen"
+  },
+  "aide_stopReading": {
+    "message": "Vorlesen stoppen"
+  },
+  "aide_requestFailed": {
+    "message": "Anfrage fehlgeschlagen. Verbindung und Einstellungen prüfen."
+  },
+  "aide_permissionNeeded": {
+    "message": "Zugriff auf die konfigurierten Dienste erlauben."
+  },
+  "aide_modelNotConfigured": {
+    "message": "Zuerst Modell und API-Schlüssel konfigurieren."
+  },
+  "aide_translationNotConfigured": {
+    "message": "Übersetzungsschlüssel in den Einstellungen konfigurieren."
+  },
+  "aide_searchNotConfigured": {
+    "message": "Such-API-Schlüssel in den Einstellungen konfigurieren."
+  },
+  "aide_noSearchResults": {
+    "message": "Keine Ergebnisse. Andere Suche oder Anbieter versuchen."
+  },
+  "aide_invalidEndpoint": {
+    "message": "HTTPS-API-Adresse eingeben; lokale Dienste dürfen HTTP nutzen."
+  },
+  "aide_invalidConfig": {
+    "message": "Plattformname, API-Adresse und Modell-ID prüfen."
+  },
+  "aide_invalidRequest": {
+    "message": "Ungültige Anfrage. Text und Spracheinstellungen prüfen."
+  },
+  "aide_contextExceeded": {
+    "message": "Die Unterhaltung überschreitet das Kontextlimit. Starten Sie einen neuen Chat oder kürzen Sie die Eingabe."
+  },
+  "aide_incompleteResponse": {
+    "message": "Antwort unterbrochen. Erneut generieren."
+  },
+  "aide_toolLimit": {
+    "message": "Werkzeuglimit erreicht. Frage eingrenzen und erneut versuchen."
+  },
+  "aide_disconnected": {
+    "message": "Verbindung getrennt. Bitte erneut versuchen."
+  },
+  "aide_provider_model": {
+    "message": "Modellübersetzung"
+  },
+  "aide_provider_youdao": {
+    "message": "Youdao"
+  },
+  "aide_provider_baidu": {
+    "message": "Baidu"
+  },
+  "aide_provider_volcengine": {
+    "message": "Volcengine"
+  },
+  "aide_domain_general": {
+    "message": "Allgemein"
+  },
+  "aide_domain_information_technology": {
+    "message": "Informationstechnik"
+  },
+  "aide_domain_finance": {
+    "message": "Finanzen"
+  },
+  "aide_domain_manufacturing": {
+    "message": "Fertigung"
+  },
+  "aide_domain_biomedicine": {
+    "message": "Biomedizin"
+  },
+  "aide_domain_web_literature": {
+    "message": "Webliteratur"
+  },
+  "aide_domain_game": {
+    "message": "Spiele"
+  },
+  "aide_providerError": {
+    "message": "Anfrage fehlgeschlagen. Verbindung und Einstellungen prüfen."
+  },
+  "aide_invalidResponse": {
+    "message": "Anfrage fehlgeschlagen. Verbindung und Einstellungen prüfen."
+  },
+  "aide_translationRejected": {
+    "message": "Anfrage fehlgeschlagen. Verbindung und Einstellungen prüfen."
+  },
+  "aide_toolNotAllowed": {
+    "message": "Anfrage fehlgeschlagen. Verbindung und Einstellungen prüfen."
+  },
+  "aide_provider_google": {
+    "message": "Google Cloud Translation"
+  },
+  "aide_provider_deepl": {
+    "message": "DeepL"
+  },
+  "aide_search_bing": {
+    "message": "Bing"
+  },
+  "aide_search_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "aide_search_wikipedia": {
+    "message": "Wikipedia"
+  },
+  "aide_search_tavily": {
+    "message": "Tavily"
+  },
+  "aide_search_exa": {
+    "message": "Exa"
+  },
+  "aide_search_brave": {
+    "message": "Brave"
+  },
+  "aide_search_serpapi": {
+    "message": "SerpAPI"
+  },
+  "aide_search_bocha": {
+    "message": "Bocha"
+  },
+  "aide_search_zhipu": {
+    "message": "Zhipu"
+  },
+  "aide_search_aliyun": {
+    "message": "Alibaba IQS"
+  },
+  "aide_search_qianfan": {
+    "message": "Baidu Qianfan"
+  },
+  "searchAskAide": {
+    "message": "Aide fragen"
+  },
+  "searchTranslate": {
+    "message": "Übersetzen"
+  },
+  "aide_invalidToolCall": {
+    "message": "Der Modell-Toolaufruf blieb nach automatischen Versuchen ungültig. Erneut versuchen oder das Modell wechseln."
+  },
+  "aide_contextSummaryFailed": {
+    "message": "Kontextkomprimierung fehlgeschlagen. Verlauf unverändert; bitte erneut versuchen."
+  },
+  "aide_imageModelUnsupported": {
+    "message": "Wählen Sie ein Vision-Modell aus, das Bildeingabe unterstützt."
+  },
+  "calendar_showHeaderLunar": {
+    "message": "Monddatum auf Startseite"
+  },
+  "calendar_headerLunarHint": {
+    "message": "Zeigt unter dem Datum Mondkalender, Festtage und Feiertage oder Ausgleichsarbeitstage an."
+  },
+  "calendar_workdayShort": {
+    "message": "Ausgleichsarbeitstag"
+  },
+  "aide_page_translate": {
+    "message": "Übersetzen"
+  },
+  "aide_page_explain": {
+    "message": "Erklären"
+  },
+  "aide_page_ask": {
+    "message": "Aide fragen"
+  },
+  "aide_page_move": {
+    "message": "Aide-Fenster verschieben"
+  },
+  "aide_page_resize": {
+    "message": "Größe des Aide-Fensters ändern"
+  },
+  "aide_page_loadImage": {
+    "message": "Bild laden"
+  },
+  "aide_page_imagePermission": {
+    "message": "Erlaube den Zugriff auf die Bildadresse, um es zu Aide hinzuzufügen."
+  },
+  "aide_page_imageFailed": {
+    "message": "Das Bild konnte nicht geladen werden. Lade es hoch und versuche es erneut."
+  },
+  "aide_page_explainText": {
+    "message": "Erkläre den folgenden ausgewählten Text:\n\n$text$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_page_explainImage": {
+    "message": "Erkläre dieses Bild."
+  },
+  "aide_page_translateImage": {
+    "message": "Lies den Text im Bild und übersetze ihn ins $language$.",
+    "placeholders": {
+      "language": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_shortcut_title": {
+    "message": "Tastenkürzel"
+  },
+  "aide_shortcut_open": {
+    "message": "Aide öffnen"
+  },
+  "aide_shortcut_current": {
+    "message": "Aktuelles Tastenkürzel"
+  },
+  "aide_shortcut_customize": {
+    "message": "Tastenkürzel anpassen"
+  },
+  "aide_shortcut_unassigned": {
+    "message": "Nicht zugewiesen"
+  },
+  "aide_shortcut_unavailable": {
+    "message": "Zum Einrichten eines Tastenkürzels die Erweiterung installieren."
+  },
+  "aide_shortcut_error": {
+    "message": "Die Tastenkürzel-Einstellungen konnten nicht gelesen oder geöffnet werden. Bitte erneut versuchen."
+  },
+  "aide_pageContentUnavailable": {
+    "message": "Die aktuelle Seite konnte nicht gelesen werden. Seite aktualisieren und Aide erneut öffnen."
+  }
+}

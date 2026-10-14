@@ -1,6 +1,6 @@
 # OriaTab · 扩展下载
 
-OriaTab 的公开扩展包发布仓库，提供安装包、版本说明和校验值。开发源码在独立仓库维护，不在这里发布。
+OriaTab 的公开扩展包发布仓库，提供安装包、版本说明和校验值。
 
 [下载最新版本](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) · [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/gjdpgbmoageooodkfnkjkookbblegkac) · [OriaTheme](https://theme.oria.org.cn)
 
@@ -13,7 +13,7 @@ Chrome 商店版本正在审核。桌面 Chrome 和 Edge 可以手动加载同�
 3. 开启「开发者模式」，点击「加载已解压的扩展程序」。
 4. 选择包含 `manifest.json` 的解压目录，打开新标签页即可使用。
 
-请下载命名为 `oriatab-版本号.zip` 的附件。GitHub 自动生成的 **Source code** 压缩包仅包含本仓库说明文件，不能作为扩展安装。
+也可以通过仓库的 **Code → Download ZIP** 下载并解压，或使用 Git 克隆本仓库；加载其中的 [`extension/`](extension/) 文件夹即可。该目录是已解压的扩展包，包含 `manifest.json`。
 
 ## 更新与校验
 
@@ -28,10 +28,10 @@ Chrome 商店版本正在审核。桌面 Chrome 和 Edge 可以手动加载同�
 - Aide 对话和翻译，可在普通网页中打开悬浮窗口；模型服务需自行配置。
 - 简体中文、繁體中文、English、日本語、한국어、Deutsch、Français、Русский。
 
-## 发布范围
+## 第三方声明
 
-本仓库仅分发构建后的扩展包，公开下载不代表开发源码开源。扩展包中的第三方组件声明和许可证见 `THIRD_PARTY_NOTICES.txt` 与 `licenses/`。
+扩展包中的第三方组件声明和许可证见 [`extension/THIRD_PARTY_NOTICES.txt`](extension/THIRD_PARTY_NOTICES.txt) 与 [`extension/licenses/`](extension/licenses/)。
 
 ---
 
-Official release downloads for OriaTab. Download the named extension ZIP from **Releases → Assets**, extract it, then use **Load unpacked** in Chrome or Edge with Developer mode enabled. The automatically generated source archives contain only this distribution repository, not an installable extension. Development source is not published here.
+Official release downloads for OriaTab. Download the named extension ZIP from **Releases → Assets**, extract it, then use **Load unpacked** in Chrome or Edge with Developer mode enabled. Alternatively, download or clone this repository and load the `extension/` folder.

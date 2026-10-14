@@ -1,0 +1,1464 @@
+{
+  "extensionName": {
+    "message": "OriaTab"
+  },
+  "extensionDescription": {
+    "message": "Новая вкладка с жидким стеклом, темами и языками. ИИ-помощник Aide читает и переводит веб-страницы в разных вкладках."
+  },
+  "aide_command_open": {
+    "message": "Открыть Aide"
+  },
+  "calendar_settings": {
+    "message": "Настройки календаря"
+  },
+  "calendar_region": {
+    "message": "Регион праздников"
+  },
+  "calendar_regionNone": {
+    "message": "Не показывать праздники"
+  },
+  "calendar_regionHint": {
+    "message": "Общенациональные праздники выбранного региона, включая перенесённые рабочие дни в Китае."
+  },
+  "calendar_showLunar": {
+    "message": "Показывать китайский лунный календарь"
+  },
+  "calendar_lunarHint": {
+    "message": "Лунные даты, традиционные праздники и солнечные сезоны под датами, в том числе без интернета."
+  },
+  "calendar_workday": {
+    "message": "Перенесённый рабочий день"
+  },
+  "calendar_holiday": {
+    "message": "Выходной день"
+  },
+  "calendar_workMarker": {
+    "message": "Р"
+  },
+  "calendar_restMarker": {
+    "message": "В"
+  },
+  "calendar_loading": {
+    "message": "Загрузка праздников…"
+  },
+  "calendar_cached": {
+    "message": "Используются сохранённые данные о праздниках"
+  },
+  "calendar_unavailable": {
+    "message": "Нет данных о праздниках за этот год"
+  },
+  "calendar_error": {
+    "message": "Не удалось загрузить праздники"
+  },
+  "calendar_publicHolidays": {
+    "message": "Государственные праздники"
+  },
+  "calendar_title": {
+    "message": "Календарь"
+  },
+  "calendar_open": {
+    "message": "Открыть календарь"
+  },
+  "calendar_today": {
+    "message": "Сегодня"
+  },
+  "browserGroups": {
+    "message": "Открытые группы вкладок"
+  },
+  "savedGroups": {
+    "message": "Сохранённые группы вкладок"
+  },
+  "readBrowserGroups": {
+    "message": "Прочитать группы вкладок"
+  },
+  "permissionGroups": {
+    "message": "Разрешите доступ к открытым группам и вкладкам."
+  },
+  "noBrowserGroups": {
+    "message": "Нет открытых групп вкладок"
+  },
+  "unnamedGroup": {
+    "message": "Группа без названия"
+  },
+  "saveBrowserGroup": {
+    "message": "Сохранить в OriaTab"
+  },
+  "openCurrentTab": {
+    "message": "Открыть в текущей вкладке"
+  },
+  "openNewTab": {
+    "message": "Открыть в новой вкладке"
+  },
+  "hdIconsTitle": {
+    "message": "Значки сайтов высокого разрешения"
+  },
+  "later": {
+    "message": "Позже"
+  },
+  "switchToLight": {
+    "message": "Переключить на светлый режим"
+  },
+  "switchToDark": {
+    "message": "Переключить на тёмный режим"
+  },
+  "hdIcons": {
+    "message": "Автоматически загружать значки HD"
+  },
+  "enableHdIcons": {
+    "message": "Загрузить значки HD"
+  },
+  "iconPermissionHint": {
+    "message": "Разрешите доступ к сайтам для поиска и сохранения официальных значков HD."
+  },
+  "customThemeColor": {
+    "message": "Свой цвет акцента"
+  },
+  "invalidColor": {
+    "message": "Выберите допустимый цвет."
+  },
+  "themeColor": {
+    "message": "Цвет акцента"
+  },
+  "sage": {
+    "message": "Шалфейный"
+  },
+  "blue": {
+    "message": "Синий"
+  },
+  "violet": {
+    "message": "Фиолетовый"
+  },
+  "rose": {
+    "message": "Розовый"
+  },
+  "amber": {
+    "message": "Янтарный"
+  },
+  "moveUp": {
+    "message": "Move up"
+  },
+  "moveDown": {
+    "message": "Move down"
+  },
+  "dockPosition": {
+    "message": "Положение Dock"
+  },
+  "top": {
+    "message": "Сверху"
+  },
+  "bottom": {
+    "message": "Снизу"
+  },
+  "left": {
+    "message": "Слева"
+  },
+  "right": {
+    "message": "Справа"
+  },
+  "engineEnabled": {
+    "message": "Включить $engine$",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "engineDisabled": {
+    "message": "Выберите включённую поисковую систему."
+  },
+  "lastEngine": {
+    "message": "Оставьте хотя бы одну поисковую систему включённой."
+  },
+  "wallpaperBlur": {
+    "message": "Размытие обоев"
+  },
+  "wallpaperAuto": {
+    "message": "Автоматически менять обои"
+  },
+  "wallpaperInterval": {
+    "message": "Частота смены"
+  },
+  "wallpaperOrder": {
+    "message": "Порядок смены"
+  },
+  "sequential": {
+    "message": "По порядку"
+  },
+  "random": {
+    "message": "Случайно"
+  },
+  "minutes": {
+    "message": "$count$ мин",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hours": {
+    "message": "$count$ ч",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daily": {
+    "message": "Каждый день"
+  },
+  "searchPlaceholder": {
+    "message": "Поиск в интернете или закладках…"
+  },
+  "searchWith": {
+    "message": "Искать в $engine$",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "webSearch": {
+    "message": "Поиск в Интернете"
+  },
+  "bookmarks": {
+    "message": "Закладки"
+  },
+  "groups": {
+    "message": "Группы вкладок"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "wallpapers": {
+    "message": "Обои"
+  },
+  "websites": {
+    "message": "Сайты"
+  },
+  "addEngine": {
+    "message": "Управление поисковыми системами"
+  },
+  "selectedEngine": {
+    "message": "Поисковая система по умолчанию"
+  },
+  "engineName": {
+    "message": "Название поисковой системы"
+  },
+  "engineTemplate": {
+    "message": "Шаблон URL поиска"
+  },
+  "templateHint": {
+    "message": "Вставьте {query} на место поискового запроса."
+  },
+  "engineAdd": {
+    "message": "Добавить поисковую систему"
+  },
+  "engineEdit": {
+    "message": "Изменить поисковую систему"
+  },
+  "addWebsite": {
+    "message": "Добавить сайт"
+  },
+  "editWebsite": {
+    "message": "Изменить сайт"
+  },
+  "websiteName": {
+    "message": "Название сайта"
+  },
+  "websiteUrl": {
+    "message": "URL сайта"
+  },
+  "removeDock": {
+    "message": "Удалить из Dock"
+  },
+  "moveLeft": {
+    "message": "Переместить влево"
+  },
+  "moveRight": {
+    "message": "Переместить вправо"
+  },
+  "addToDock": {
+    "message": "Добавить в Dock"
+  },
+  "alreadyPinned": {
+    "message": "Этот элемент уже есть в Dock."
+  },
+  "pinned": {
+    "message": "Добавлено в Dock"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "delete": {
+    "message": "Удалить"
+  },
+  "edit": {
+    "message": "Изменить"
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "retry": {
+    "message": "Повторить"
+  },
+  "loading": {
+    "message": "Загрузка…"
+  },
+  "saving": {
+    "message": "Сохранение…"
+  },
+  "nameRequired": {
+    "message": "Введите название."
+  },
+  "invalidUrl": {
+    "message": "Введите допустимый URL HTTP или HTTPS."
+  },
+  "invalidTemplate": {
+    "message": "Введите URL HTTP(S) с одним заполнителем {query}."
+  },
+  "saveFailed": {
+    "message": "Не удалось сохранить. Повторите попытку."
+  },
+  "builtinProtected": {
+    "message": "Встроенные элементы нельзя удалить."
+  },
+  "missingGroup": {
+    "message": "Эта сохранённая группа больше не существует."
+  },
+  "groupRequired": {
+    "message": "Введите название и выберите хотя бы одну страницу."
+  },
+  "genericError": {
+    "message": "Произошла ошибка. Повторите попытку."
+  },
+  "preview": {
+    "message": "Предпросмотр в браузере"
+  },
+  "previewHint": {
+    "message": "Демонстрационные закладки и вкладки. Для своих данных установите расширение."
+  },
+  "previewRestore": {
+    "message": "Предпросмотр не восстанавливает вкладки. Загрузите расширение в Chrome или Edge."
+  },
+  "allBookmarks": {
+    "message": "Все закладки"
+  },
+  "bookmarkSearch": {
+    "message": "Найти закладку…"
+  },
+  "noBookmarks": {
+    "message": "Пока нет закладок"
+  },
+  "noResults": {
+    "message": "Ничего не найдено"
+  },
+  "trySearch": {
+    "message": "Попробуйте другое название или сайт."
+  },
+  "bookmarkEmptyHint": {
+    "message": "Сохранённые в браузере сайты появятся здесь."
+  },
+  "folder": {
+    "message": "Папка"
+  },
+  "openFolder": {
+    "message": "Открыть папку"
+  },
+  "unsupported": {
+    "message": "OriaTab не может открыть эту страницу."
+  },
+  "permissionTitle": {
+    "message": "Ваш браузер — ваше пространство"
+  },
+  "permissionBookmarks": {
+    "message": "Разрешите доступ к закладкам для просмотра и добавления в Dock."
+  },
+  "permissionTabs": {
+    "message": "Разрешите доступ к заголовкам и URL вкладок для сохранения этого окна."
+  },
+  "permissionDenied": {
+    "message": "Доступ не разрешён. Можно повторить попытку позже."
+  },
+  "allow": {
+    "message": "Разрешить доступ"
+  },
+  "createGroup": {
+    "message": "Сохранить это окно"
+  },
+  "createGroupTitle": {
+    "message": "Сохранить текущее окно"
+  },
+  "groupName": {
+    "message": "Название группы"
+  },
+  "groupPlaceholder": {
+    "message": "Новый проект, чтение на выходных…"
+  },
+  "chooseTabs": {
+    "message": "Выберите страницы для группы"
+  },
+  "selectedCount": {
+    "message": "С другой стороны.$count$выбранные",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectAll": {
+    "message": "Выбрать всё"
+  },
+  "deselectAll": {
+    "message": "Вычеркнуть все"
+  },
+  "excluded": {
+    "message": "Не сохранено: новая вкладка или неподдерживаемый URL"
+  },
+  "pinOnSave": {
+    "message": "Добавить эту группу в Dock"
+  },
+  "saveGroup": {
+    "message": "Сохранить группу"
+  },
+  "groupSaved": {
+    "message": "Группа сохранена"
+  },
+  "noGroups": {
+    "message": "Нет сохранённых групп"
+  },
+  "noGroupsHint": {
+    "message": "Сохраните страницы текущего окна как первую группу вкладок."
+  },
+  "tabsCount": {
+    "message": "$count$ страниц",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "openAll": {
+    "message": "Открыть все страницы"
+  },
+  "openGroup": {
+    "message": "Открыть группу"
+  },
+  "newGroup": {
+    "message": "Новая группа"
+  },
+  "groupRenameTitle": {
+    "message": "Переименовать группу"
+  },
+  "groupAddPages": {
+    "message": "Добавить страницы"
+  },
+  "groupAddUrl": {
+    "message": "Ввести URL"
+  },
+  "groupSiteTitle": {
+    "message": "Название страницы"
+  },
+  "groupFetchingTitle": {
+    "message": "Получение названия страницы…"
+  },
+  "groupAllowTitle": {
+    "message": "Разрешить доступ и получить название"
+  },
+  "groupTitleUnavailable": {
+    "message": "Название недоступно; введите своё или используйте домен"
+  },
+  "groupSiteTitleHint": {
+    "message": "Получается по ссылке; можно ввести вручную"
+  },
+  "groupSiteExists": {
+    "message": "Уже в этой группе"
+  },
+  "groupBookmarkPermission": {
+    "message": "Разрешите доступ к закладкам, чтобы добавить страницы в группу."
+  },
+  "groupEditHint": {
+    "message": "Минус удаляет, плюс добавляет"
+  },
+  "groupDeleteShort": {
+    "message": "Удалить группу"
+  },
+  "groupInDock": {
+    "message": "В Dock"
+  },
+  "groupRemovePage": {
+    "message": "Удалить страницу: $title$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupAdd": {
+    "message": "Добавить"
+  },
+  "renameGroup": {
+    "message": "Изменить группу"
+  },
+  "deleteGroup": {
+    "message": "Удалить сохранённую группу"
+  },
+  "deleteGroupHint": {
+    "message": "Удаляет группу и ярлык Dock. Открытые вкладки сохраняются."
+  },
+  "removeSite": {
+    "message": "Удалить из группы"
+  },
+  "groupRename": {
+    "message": "Название группы и страницы"
+  },
+  "restoreFailed": {
+    "message": "Не удалось открыть некоторые страницы"
+  },
+  "nativeGroupFailed": {
+    "message": "Страницы открыты, но браузер не смог сгруппировать их."
+  },
+  "allOpened": {
+    "message": "Страницы открыты"
+  },
+  "upload": {
+    "message": "Добавить обои"
+  },
+  "dropWallpaper": {
+    "message": "Перетащите изображение или нажмите для выбора"
+  },
+  "uploadHint": {
+    "message": "JPG, PNG, WebP · До 20 МБ · Хранится на устройстве"
+  },
+  "builtIn": {
+    "message": "ПОДОБРАНО ДЛЯ ВАС"
+  },
+  "yourWallpapers": {
+    "message": "ВАША КОЛЛЕКЦИЯ"
+  },
+  "dawn": {
+    "message": "Рассвет у озера"
+  },
+  "dusk": {
+    "message": "После дождя"
+  },
+  "coast": {
+    "message": "Тихий берег"
+  },
+  "bloom": {
+    "message": "Рассеянный градиент"
+  },
+  "moonlit": {
+    "message": "Озеро в лунном свете"
+  },
+  "aurora": {
+    "message": "Северное сияние"
+  },
+  "dunes": {
+    "message": "Золотые дюны"
+  },
+  "mist": {
+    "message": "Лесной туман"
+  },
+  "current": {
+    "message": "Текущий"
+  },
+  "wallpaperSaved": {
+    "message": "Обои сохранены"
+  },
+  "wallpaperDeleted": {
+    "message": "Обои удалены"
+  },
+  "imageType": {
+    "message": "Выберите изображение JPG, PNG или WebP."
+  },
+  "imageSize": {
+    "message": "Выберите изображение менее 20 МБ и 80 мегапикселей."
+  },
+  "imageInvalid": {
+    "message": "Не удалось прочитать изображение."
+  },
+  "wallpaperLoadFailed": {
+    "message": "Обои недоступны. Показан фон по умолчанию."
+  },
+  "deleteWallpaper": {
+    "message": "Удалить обои"
+  },
+  "themePreset": {
+    "message": "Тема"
+  },
+  "liquidDefault": {
+    "message": "Жидкое стекло (по умолчанию)"
+  },
+  "appearance": {
+    "message": "Оформление"
+  },
+  "search": {
+    "message": "Поиск"
+  },
+  "dock": {
+    "message": "Dock"
+  },
+  "behavior": {
+    "message": "Поведение"
+  },
+  "language": {
+    "message": "Язык интерфейса"
+  },
+  "liquid": {
+    "message": "Жидкое стекло"
+  },
+  "theme": {
+    "message": "Режим оформления"
+  },
+  "system": {
+    "message": "Как в системе"
+  },
+  "light": {
+    "message": "Светлое"
+  },
+  "dark": {
+    "message": "Тёмное"
+  },
+  "glassOpacity": {
+    "message": "Непрозрачность стекла"
+  },
+  "glassColorConcentration": {
+    "message": "Интенсивность цвета"
+  },
+  "refraction": {
+    "message": "Толщина преломления"
+  },
+  "glassBevel": {
+    "message": "Ширина кромки"
+  },
+  "glassBlur": {
+    "message": "Размытие"
+  },
+  "glassDispersion": {
+    "message": "Дисперсия цвета"
+  },
+  "glassRim": {
+    "message": "Подсветка кромки"
+  },
+  "wallpaperDim": {
+    "message": "Затемнение обоев"
+  },
+  "iconSize": {
+    "message": "Размер значков"
+  },
+  "magnify": {
+    "message": "Увеличивать при наведении"
+  },
+  "newTab": {
+    "message": "Открывать сайты в новой вкладке"
+  },
+  "nativeGroups": {
+    "message": "Восстанавливать как группы вкладок браузера"
+  },
+  "reduceMotion": {
+    "message": "Уменьшить анимацию"
+  },
+  "engineDeleteHint": {
+    "message": "Удалить эту поисковую систему?"
+  },
+  "deleteTitle": {
+    "message": "Удалить этот элемент?"
+  },
+  "confirmDelete": {
+    "message": "Убрать"
+  },
+  "dockDrop": {
+    "message": "Перетащите сюда для добавления в Dock"
+  },
+  "searchSettings": {
+    "message": "Настройки поиска"
+  },
+  "resetSelection": {
+    "message": "Выбор сброшен"
+  },
+  "folderEmpty": {
+    "message": "Эта папка пуста."
+  },
+  "editSaved": {
+    "message": "Изменения сохранены"
+  },
+  "appearanceLanguage": {
+    "message": "Оформление и язык"
+  },
+  "theme_fileHint": {
+    "message": "JSON · До 128 КБ · Хранится на устройстве"
+  },
+  "theme_addApply": {
+    "message": "Добавить и применить"
+  },
+  "theme_deleteConfirm": {
+    "message": "Удалить тему «$name$»?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "themeLimit": {
+    "message": "Можно добавить до 50 тем."
+  },
+  "themeDuplicate": {
+    "message": "Тема с таким идентификатором уже существует."
+  },
+  "theme_customThemes": {
+    "message": "Добавленные темы"
+  },
+  "theme_presetThemes": {
+    "message": "Предназначенные темы"
+  },
+  "theme_openEditor": {
+    "message": "Открытый редактор"
+  },
+  "theme_add": {
+    "message": "Добавить тему"
+  },
+  "theme_empty": {
+    "message": "Темы пока не добавлены."
+  },
+  "theme_delete": {
+    "message": "Удалить тему$name$С другой стороны.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "theme_importDescription": {
+    "message": "Выберите файл темы и подтвердите его название отображения."
+  },
+  "theme_fileLabel": {
+    "message": "Файл темы"
+  },
+  "theme_dropFile": {
+    "message": "Выберите файл темы"
+  },
+  "theme_name": {
+    "message": "Название темы"
+  },
+  "theme_fileType": {
+    "message": "Выберите файл темы в формате JSON."
+  },
+  "theme_fileSize": {
+    "message": "Тематические файлы должны быть не более 128 КБ."
+  },
+  "theme_readFailed": {
+    "message": "Тематический файл не удалось прочитать."
+  },
+  "themeInvalid": {
+    "message": "Этот тематический файл не был узнан."
+  },
+  "material": {
+    "message": "Материал"
+  },
+  "materialOpacity": {
+    "message": "Непрозрачность"
+  },
+  "backgroundBlur": {
+    "message": "Размытие фона"
+  },
+  "theme_originalColor": {
+    "message": "Исходный цвет темы"
+  },
+  "background_style": {
+    "message": "Стиль фона"
+  },
+  "background_theme": {
+    "message": "Стиль темы"
+  },
+  "background_custom": {
+    "message": "Свой фон"
+  },
+  "background_preview": {
+    "message": "Предпросмотр фона"
+  },
+  "background_type": {
+    "message": "Тип градиента"
+  },
+  "background_solid": {
+    "message": "Сплошной цвет"
+  },
+  "background_linear": {
+    "message": "Линейный градиент"
+  },
+  "background_radial": {
+    "message": "Радиальный градиент"
+  },
+  "background_conic": {
+    "message": "Конический градиент"
+  },
+  "background_repeating_linear": {
+    "message": "Повторяющийся линейный градиент"
+  },
+  "background_repeating_radial": {
+    "message": "Повторяющийся радиальный градиент"
+  },
+  "background_angle": {
+    "message": "Угол градиента"
+  },
+  "background_origin": {
+    "message": "Центр градиента"
+  },
+  "background_originX": {
+    "message": "Центр X"
+  },
+  "background_originY": {
+    "message": "Центр Y"
+  },
+  "background_color": {
+    "message": "Цвет фона"
+  },
+  "background_stops": {
+    "message": "Цветовые точки"
+  },
+  "background_stop": {
+    "message": "Точка $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopColor": {
+    "message": "Цвет точки $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopPosition": {
+    "message": "Позиция точки $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_removeStop": {
+    "message": "Удалить точку $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_addStop": {
+    "message": "Добавить цветовую точку"
+  },
+  "background_pickColor": {
+    "message": "Выбрать $label$",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_colorOpacity": {
+    "message": "Непрозрачность: $label$",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_imageHint": {
+    "message": "Сейчас используются обои с изображением. Выберите цветной фон, чтобы заменить их."
+  },
+  "background_themeHint": {
+    "message": "Используются цвет, градиент и текстура текущей темы с учётом темы и режима отображения."
+  },
+  "background_colorHint": {
+    "message": "Выберите изображение ниже, чтобы вернуться к обоям. Цветной фон приостанавливает смену изображений."
+  },
+  "background_ivory": {
+    "message": "Слоновая кость"
+  },
+  "background_mist": {
+    "message": "Туман"
+  },
+  "background_slate": {
+    "message": "Сланец"
+  },
+  "background_sunrise": {
+    "message": "Градиент рассвета"
+  },
+  "background_sea": {
+    "message": "Прибрежный градиент"
+  },
+  "background_aurora": {
+    "message": "Градиент сияния"
+  },
+  "apply": {
+    "message": "Применить"
+  },
+  "background_defaultName": {
+    "message": "Мой фон"
+  },
+  "background_savedHint": {
+    "message": "Нажмите правой кнопкой на сохранённый фон, чтобы изменить или удалить его."
+  },
+  "background_edit": {
+    "message": "Изменить фон"
+  },
+  "background_add": {
+    "message": "Добавить фон"
+  },
+  "background_limit": {
+    "message": "Можно сохранить до 100 фонов."
+  },
+  "background_opacity": {
+    "message": "Непрозр."
+  },
+  "background_position": {
+    "message": "Позиция"
+  },
+  "wallpaper_galleries": {
+    "message": "Источники обоев"
+  },
+  "wallpaper_builtin": {
+    "message": "Встроенные"
+  },
+  "wallpaper_custom": {
+    "message": "Свои"
+  },
+  "wallpaper_onlineHint": {
+    "message": "Бесплатные изображения для коммерческого использования. Выберите, чтобы загрузить обои высокого разрешения из сети."
+  },
+  "wallpaper_customEmpty": {
+    "message": "Свои обои пока не добавлены."
+  },
+  "wallpaper_loadError": {
+    "message": "Не удалось загрузить изображение"
+  },
+  "wallpaper_license": {
+    "message": "Лицензия"
+  },
+  "fontColor": {
+    "message": "Цвет текста"
+  },
+  "fontColor_native": {
+    "message": "Цвет текста по теме"
+  },
+  "fontColor_light": {
+    "message": "Светлый текст"
+  },
+  "fontColor_dark": {
+    "message": "Тёмный текст"
+  },
+  "fontColor_warm": {
+    "message": "Тёплый текст"
+  },
+  "fontColor_gray": {
+    "message": "Серый текст"
+  },
+  "fontColor_custom": {
+    "message": "Свой цвет текста"
+  },
+  "wallpaper_catalogError": {
+    "message": "Не удалось загрузить галерею"
+  },
+  "wallpaper_search": {
+    "message": "Поиск обоев онлайн"
+  },
+  "wallpaper_searchHint": {
+    "message": "Ключевые слова: mountain, earth"
+  },
+  "wallpaper_loadMore": {
+    "message": "Загрузить ещё"
+  },
+  "wallpaper_end": {
+    "message": "Показаны все результаты"
+  },
+  "wallpaper_empty": {
+    "message": "Подходящих изображений нет. Попробуйте другое слово."
+  },
+  "browserSearch": {
+    "message": "Поисковая система браузера по умолчанию"
+  },
+  "syncBrowserSearch": {
+    "message": "Использовать поисковик браузера"
+  },
+  "browserSearchHint": {
+    "message": "При каждом поиске используется текущая система браузера. При первом использовании требуется разрешение."
+  },
+  "browserSearchPreviewHint": {
+    "message": "В веб-просмотре используется система ниже. Установите расширение для использования настроек браузера."
+  },
+  "appearanceColors": {
+    "message": "Тема и цвета"
+  },
+  "themeManagement": {
+    "message": "Управление темами"
+  },
+  "searchMode": {
+    "message": "Режим поиска"
+  },
+  "independentSearch": {
+    "message": "Выбирать отдельно"
+  },
+  "openBrowserSearchSettings": {
+    "message": "Открыть настройки поиска браузера"
+  },
+  "independentSearchHint": {
+    "message": "Применяется только к поиску в OriaTab. Поисковая система браузера не меняется."
+  },
+  "searchResults": {
+    "message": "Результаты поиска"
+  },
+  "history": {
+    "message": "История"
+  },
+  "historyHint": {
+    "message": "Поиск посещённых страниц, включая страницы результатов поиска. Для включения требуется разрешение."
+  },
+  "historyError": {
+    "message": "Не удалось прочитать историю. Повторите попытку позже."
+  },
+  "allowHistory": {
+    "message": "Разрешить доступ к истории"
+  },
+  "allowBookmarks": {
+    "message": "Разрешить доступ к закладкам"
+  },
+  "engine_bing": {
+    "message": "Bing"
+  },
+  "engine_baidu": {
+    "message": "Baidu"
+  },
+  "engine_google": {
+    "message": "Google"
+  },
+  "engine_quark": {
+    "message": "Quark"
+  },
+  "engine_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "engine_brave": {
+    "message": "Brave"
+  },
+  "engine_sogou": {
+    "message": "Sogou"
+  },
+  "engine_360": {
+    "message": "Поиск 360"
+  },
+  "engine_yahoo": {
+    "message": "Yahoo"
+  },
+  "wallpaper_bingDaily": {
+    "message": "Ежедневное обновление"
+  },
+  "wallpaper_bingDailyHint": {
+    "message": "Автоматически использовать последние обои Bing. Без сети сохранять текущее изображение."
+  },
+  "wallpaper_bingHint": {
+    "message": "Недавние ежедневные обои Bing. Выберите изображение для загрузки в высоком разрешении."
+  },
+  "wallpaper_bingUsage": {
+    "message": "Только для обоев"
+  },
+  "wallpaper_bingPermission": {
+    "message": "Разрешите доступ к Bing для загрузки недавних ежедневных обоев."
+  },
+  "wallpaper_bingEmpty": {
+    "message": "Нет доступных обоев Bing."
+  },
+  "wallpaper_refresh": {
+    "message": "Обновить обои"
+  },
+  "aide_add": {
+    "message": "Добавить"
+  },
+  "aide_name": {
+    "message": "Название"
+  },
+  "aide_custom": {
+    "message": "Свой"
+  },
+  "aide_removePlatform": {
+    "message": "Удалить платформу"
+  },
+  "aide_chat": {
+    "message": "Чат"
+  },
+  "aide_translate": {
+    "message": "Перевести"
+  },
+  "aide_models": {
+    "message": "Платформы моделей"
+  },
+  "aide_model": {
+    "message": "Модель"
+  },
+  "aide_preset": {
+    "message": "Шаблон платформы"
+  },
+  "aide_protocol": {
+    "message": "Протокол API"
+  },
+  "aide_apiAddress": {
+    "message": "Адрес API"
+  },
+  "aide_configured": {
+    "message": "Настроено"
+  },
+  "aide_notConfigured": {
+    "message": "Не настроено"
+  },
+  "aide_enterKey": {
+    "message": "Введите ключ"
+  },
+  "aide_keepKey": {
+    "message": "Оставьте пустым для сохранения ключа"
+  },
+  "aide_fetchModels": {
+    "message": "Загрузить модели"
+  },
+  "aide_tools": {
+    "message": "Инструменты"
+  },
+  "aide_webSearch": {
+    "message": "Веб-поиск"
+  },
+  "aide_translationTool": {
+    "message": "Инструмент перевода"
+  },
+  "aide_provider": {
+    "message": "Провайдер"
+  },
+  "aide_searchProvider": {
+    "message": "Провайдер поиска"
+  },
+  "aide_translationProvider": {
+    "message": "Провайдер перевода"
+  },
+  "aide_domain": {
+    "message": "Область перевода"
+  },
+  "aide_accessKey": {
+    "message": "ID приложения / Access Key"
+  },
+  "aide_secretKey": {
+    "message": "Secret Key"
+  },
+  "aide_keyStorage": {
+    "message": "Ключи хранятся локально в браузере и не попадают в историю чата."
+  },
+  "aide_saved": {
+    "message": "Сохранено"
+  },
+  "aide_newChat": {
+    "message": "Новый чат"
+  },
+  "aide_history": {
+    "message": "История чатов"
+  },
+  "aide_noHistory": {
+    "message": "Пока нет чатов"
+  },
+  "aide_deleteChat": {
+    "message": "Удалить чат"
+  },
+  "aide_noModel": {
+    "message": "Модель не добавлена"
+  },
+  "aide_welcome": {
+    "message": "Чем могу помочь?"
+  },
+  "aide_welcomeHint": {
+    "message": "Задавайте вопросы, ищите в интернете или переводите текст."
+  },
+  "aide_configureHint": {
+    "message": "Добавьте платформу модели и ключ API для начала."
+  },
+  "aide_configure": {
+    "message": "Настроить модель"
+  },
+  "aide_you": {
+    "message": "Вы"
+  },
+  "aide_assistant": {
+    "message": "Ответ Aide"
+  },
+  "aide_thinking": {
+    "message": "Размышление"
+  },
+  "aide_retry": {
+    "message": "Повторить"
+  },
+  "aide_message": {
+    "message": "Сообщение"
+  },
+  "aide_messagePlaceholder": {
+    "message": "Спросите Aide… Enter — отправить, Shift+Enter — новая строка"
+  },
+  "aide_stop": {
+    "message": "Остановить"
+  },
+  "aide_stopped": {
+    "message": "Остановлено"
+  },
+  "aide_send": {
+    "message": "Отправить"
+  },
+  "aide_sourceLanguage": {
+    "message": "Исходный язык"
+  },
+  "aide_targetLanguage": {
+    "message": "Целевой язык"
+  },
+  "aide_autoDetect": {
+    "message": "Определить автоматически"
+  },
+  "aide_swapLanguages": {
+    "message": "Поменять языки"
+  },
+  "aide_translationText": {
+    "message": "Текст для перевода"
+  },
+  "aide_translationPlaceholder": {
+    "message": "Введите или вставьте текст…"
+  },
+  "aide_copy": {
+    "message": "Копировать"
+  },
+  "aide_copied": {
+    "message": "Скопировано"
+  },
+  "aide_readAloud": {
+    "message": "Прочитать вслух"
+  },
+  "aide_stopReading": {
+    "message": "Остановить чтение"
+  },
+  "aide_requestFailed": {
+    "message": "Запрос не выполнен. Проверьте подключение и настройки."
+  },
+  "aide_permissionNeeded": {
+    "message": "Разрешите доступ к настроенным сервисам."
+  },
+  "aide_modelNotConfigured": {
+    "message": "Сначала настройте модель и ключ API."
+  },
+  "aide_translationNotConfigured": {
+    "message": "Настройте ключ перевода в настройках."
+  },
+  "aide_searchNotConfigured": {
+    "message": "Настройте ключ поиска в настройках."
+  },
+  "aide_noSearchResults": {
+    "message": "Нет результатов. Попробуйте другой запрос или сервис."
+  },
+  "aide_invalidEndpoint": {
+    "message": "Введите адрес API HTTPS; локально можно использовать HTTP."
+  },
+  "aide_invalidConfig": {
+    "message": "Проверьте название, адрес API и ID модели."
+  },
+  "aide_invalidRequest": {
+    "message": "Неверный запрос. Проверьте текст и языки."
+  },
+  "aide_contextExceeded": {
+    "message": "Диалог превышает контекст модели. Начните новый чат или сократите ввод."
+  },
+  "aide_incompleteResponse": {
+    "message": "Ответ прерван. Повторите запрос."
+  },
+  "aide_toolLimit": {
+    "message": "Достигнут лимит инструментов. Сузьте запрос."
+  },
+  "aide_disconnected": {
+    "message": "Соединение закрыто. Повторите запрос."
+  },
+  "aide_provider_model": {
+    "message": "Перевод моделью"
+  },
+  "aide_provider_youdao": {
+    "message": "Youdao"
+  },
+  "aide_provider_baidu": {
+    "message": "Baidu"
+  },
+  "aide_provider_volcengine": {
+    "message": "Volcengine"
+  },
+  "aide_domain_general": {
+    "message": "Общий"
+  },
+  "aide_domain_information_technology": {
+    "message": "Информационные технологии"
+  },
+  "aide_domain_finance": {
+    "message": "Финансы"
+  },
+  "aide_domain_manufacturing": {
+    "message": "Производство"
+  },
+  "aide_domain_biomedicine": {
+    "message": "Биомедицина"
+  },
+  "aide_domain_web_literature": {
+    "message": "Веб-литература"
+  },
+  "aide_domain_game": {
+    "message": "Игры"
+  },
+  "aide_providerError": {
+    "message": "Запрос не выполнен. Проверьте подключение и настройки."
+  },
+  "aide_invalidResponse": {
+    "message": "Запрос не выполнен. Проверьте подключение и настройки."
+  },
+  "aide_translationRejected": {
+    "message": "Запрос не выполнен. Проверьте подключение и настройки."
+  },
+  "aide_toolNotAllowed": {
+    "message": "Запрос не выполнен. Проверьте подключение и настройки."
+  },
+  "aide_provider_google": {
+    "message": "Google Cloud Translation"
+  },
+  "aide_provider_deepl": {
+    "message": "DeepL"
+  },
+  "aide_search_bing": {
+    "message": "Bing"
+  },
+  "aide_search_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "aide_search_wikipedia": {
+    "message": "Wikipedia"
+  },
+  "aide_search_tavily": {
+    "message": "Tavily"
+  },
+  "aide_search_exa": {
+    "message": "Exa"
+  },
+  "aide_search_brave": {
+    "message": "Brave"
+  },
+  "aide_search_serpapi": {
+    "message": "SerpAPI"
+  },
+  "aide_search_bocha": {
+    "message": "Bocha"
+  },
+  "aide_search_zhipu": {
+    "message": "Zhipu"
+  },
+  "aide_search_aliyun": {
+    "message": "Alibaba IQS"
+  },
+  "aide_search_qianfan": {
+    "message": "Baidu Qianfan"
+  },
+  "searchAskAide": {
+    "message": "Спросить Aide"
+  },
+  "searchTranslate": {
+    "message": "Перевести"
+  },
+  "aide_invalidToolCall": {
+    "message": "Модель вернула неверный вызов инструмента после автоматических попыток. Повторите запрос или смените модель."
+  },
+  "aide_contextSummaryFailed": {
+    "message": "Не удалось сжать контекст. История не изменена; повторите попытку."
+  },
+  "aide_imageModelUnsupported": {
+    "message": "Выберите модель зрения, которая поддерживает ввод изображения."
+  },
+  "calendar_showHeaderLunar": {
+    "message": "Лунная дата на главной"
+  },
+  "calendar_headerLunarHint": {
+    "message": "Показывать под датой лунную дату, праздник и выходной или рабочий день по переносу."
+  },
+  "calendar_workdayShort": {
+    "message": "Рабочий по переносу"
+  },
+  "aide_page_translate": {
+    "message": "Перевести"
+  },
+  "aide_page_explain": {
+    "message": "Объяснить"
+  },
+  "aide_page_ask": {
+    "message": "Спросить Aide"
+  },
+  "aide_page_move": {
+    "message": "Переместить окно Aide"
+  },
+  "aide_page_resize": {
+    "message": "Изменить размер окна Aide"
+  },
+  "aide_page_loadImage": {
+    "message": "Загрузить изображение"
+  },
+  "aide_page_imagePermission": {
+    "message": "Разрешите доступ к адресу изображения, чтобы добавить его в Aide."
+  },
+  "aide_page_imageFailed": {
+    "message": "Не удалось загрузить изображение. Загрузите его вручную и повторите попытку."
+  },
+  "aide_page_explainText": {
+    "message": "Объясните следующий выделенный текст:\n\n$text$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_page_explainImage": {
+    "message": "Объясните это изображение."
+  },
+  "aide_page_translateImage": {
+    "message": "Прочитайте и переведите текст на изображении на $language$.",
+    "placeholders": {
+      "language": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_shortcut_title": {
+    "message": "Сочетание клавиш"
+  },
+  "aide_shortcut_open": {
+    "message": "Открыть Aide"
+  },
+  "aide_shortcut_current": {
+    "message": "Текущее сочетание"
+  },
+  "aide_shortcut_customize": {
+    "message": "Настроить сочетание"
+  },
+  "aide_shortcut_unassigned": {
+    "message": "Не назначено"
+  },
+  "aide_shortcut_unavailable": {
+    "message": "Установите расширение, чтобы настроить сочетание клавиш."
+  },
+  "aide_shortcut_error": {
+    "message": "Не удалось прочитать или открыть настройки сочетания клавиш. Попробуйте ещё раз."
+  },
+  "aide_pageContentUnavailable": {
+    "message": "Не удалось прочитать текущую страницу. Обновите её и снова откройте Aide."
+  }
+}

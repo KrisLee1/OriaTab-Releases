@@ -1,0 +1,1464 @@
+{
+  "extensionName": {
+    "message": "OriaTab"
+  },
+  "extensionDescription": {
+    "message": "液态玻璃新标签页，支持主题、多种语言和 AI 助手 Aide，帮助你跨标签页阅读和翻译网页。"
+  },
+  "aide_command_open": {
+    "message": "打开 Aide"
+  },
+  "calendar_settings": {
+    "message": "日历设置"
+  },
+  "calendar_region": {
+    "message": "节假日地区"
+  },
+  "calendar_regionNone": {
+    "message": "不显示节假日"
+  },
+  "calendar_regionHint": {
+    "message": "显示所选国家或地区的全国性公众假日；中国包含调休补班。"
+  },
+  "calendar_showLunar": {
+    "message": "显示农历"
+  },
+  "calendar_lunarHint": {
+    "message": "在日期下方显示农历、传统节日及节气，离线也可使用。"
+  },
+  "calendar_workday": {
+    "message": "调休补班"
+  },
+  "calendar_holiday": {
+    "message": "放假"
+  },
+  "calendar_workMarker": {
+    "message": "班"
+  },
+  "calendar_restMarker": {
+    "message": "休"
+  },
+  "calendar_loading": {
+    "message": "正在加载节假日…"
+  },
+  "calendar_cached": {
+    "message": "使用已保存的节假日数据"
+  },
+  "calendar_unavailable": {
+    "message": "该年的节假日安排尚无数据"
+  },
+  "calendar_error": {
+    "message": "节假日加载失败"
+  },
+  "calendar_publicHolidays": {
+    "message": "公众假日"
+  },
+  "calendar_title": {
+    "message": "日历"
+  },
+  "calendar_open": {
+    "message": "打开日历"
+  },
+  "calendar_today": {
+    "message": "今天"
+  },
+  "browserGroups": {
+    "message": "已打开的浏览器标签组"
+  },
+  "savedGroups": {
+    "message": "已保存标签组"
+  },
+  "readBrowserGroups": {
+    "message": "读取浏览器标签组"
+  },
+  "permissionGroups": {
+    "message": "允许读取已打开的标签组及其页面。"
+  },
+  "noBrowserGroups": {
+    "message": "浏览器中没有已打开的标签组"
+  },
+  "unnamedGroup": {
+    "message": "未命名标签组"
+  },
+  "saveBrowserGroup": {
+    "message": "保存到 OriaTab"
+  },
+  "openCurrentTab": {
+    "message": "当前标签中打开"
+  },
+  "openNewTab": {
+    "message": "新标签中打开"
+  },
+  "hdIconsTitle": {
+    "message": "高清网站图标"
+  },
+  "later": {
+    "message": "稍后"
+  },
+  "switchToLight": {
+    "message": "切换到浅色模式"
+  },
+  "switchToDark": {
+    "message": "切换到深色模式"
+  },
+  "hdIcons": {
+    "message": "自动获取高清图标"
+  },
+  "enableHdIcons": {
+    "message": "获取高清图标"
+  },
+  "iconPermissionHint": {
+    "message": "允许访问网站，自动查找并缓存官方高清图标。"
+  },
+  "customThemeColor": {
+    "message": "自定义主题色"
+  },
+  "invalidColor": {
+    "message": "请选择有效的颜色。"
+  },
+  "themeColor": {
+    "message": "主题色"
+  },
+  "sage": {
+    "message": "鼠尾草绿"
+  },
+  "blue": {
+    "message": "蓝色"
+  },
+  "violet": {
+    "message": "紫色"
+  },
+  "rose": {
+    "message": "玫瑰色"
+  },
+  "amber": {
+    "message": "琥珀色"
+  },
+  "moveUp": {
+    "message": "向上移动"
+  },
+  "moveDown": {
+    "message": "向下移动"
+  },
+  "dockPosition": {
+    "message": "Dock 位置"
+  },
+  "top": {
+    "message": "上方"
+  },
+  "bottom": {
+    "message": "下方"
+  },
+  "left": {
+    "message": "左侧"
+  },
+  "right": {
+    "message": "右侧"
+  },
+  "engineEnabled": {
+    "message": "开启 $engine$",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "engineDisabled": {
+    "message": "请选择已开启的搜索引擎。"
+  },
+  "lastEngine": {
+    "message": "至少保留一个开启的搜索引擎。"
+  },
+  "wallpaperBlur": {
+    "message": "壁纸模糊"
+  },
+  "wallpaperAuto": {
+    "message": "自动切换壁纸"
+  },
+  "wallpaperInterval": {
+    "message": "切换频率"
+  },
+  "wallpaperOrder": {
+    "message": "切换顺序"
+  },
+  "sequential": {
+    "message": "顺序切换"
+  },
+  "random": {
+    "message": "随机切换"
+  },
+  "minutes": {
+    "message": "$count$ 分钟",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hours": {
+    "message": "$count$ 小时",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daily": {
+    "message": "每天"
+  },
+  "searchPlaceholder": {
+    "message": "搜索网页或书签…"
+  },
+  "searchWith": {
+    "message": "使用 $engine$ 搜索",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "webSearch": {
+    "message": "网页搜索"
+  },
+  "bookmarks": {
+    "message": "书签"
+  },
+  "groups": {
+    "message": "标签组"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "wallpapers": {
+    "message": "壁纸"
+  },
+  "websites": {
+    "message": "网站"
+  },
+  "addEngine": {
+    "message": "管理搜索引擎"
+  },
+  "selectedEngine": {
+    "message": "默认搜索引擎"
+  },
+  "engineName": {
+    "message": "引擎名称"
+  },
+  "engineTemplate": {
+    "message": "搜索链接模板"
+  },
+  "templateHint": {
+    "message": "在搜索词的位置填入 {query}。"
+  },
+  "engineAdd": {
+    "message": "添加搜索引擎"
+  },
+  "engineEdit": {
+    "message": "编辑搜索引擎"
+  },
+  "addWebsite": {
+    "message": "添加网站"
+  },
+  "editWebsite": {
+    "message": "编辑网站"
+  },
+  "websiteName": {
+    "message": "网站名称"
+  },
+  "websiteUrl": {
+    "message": "网站链接"
+  },
+  "removeDock": {
+    "message": "从 Dock 移除"
+  },
+  "moveLeft": {
+    "message": "向左移动"
+  },
+  "moveRight": {
+    "message": "向右移动"
+  },
+  "addToDock": {
+    "message": "添加到 Dock"
+  },
+  "alreadyPinned": {
+    "message": "这个项目已经在 Dock 中了。"
+  },
+  "pinned": {
+    "message": "已添加到 Dock"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "edit": {
+    "message": "编辑"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "retry": {
+    "message": "重试"
+  },
+  "loading": {
+    "message": "正在加载…"
+  },
+  "saving": {
+    "message": "正在保存…"
+  },
+  "nameRequired": {
+    "message": "请填写名称。"
+  },
+  "invalidUrl": {
+    "message": "请输入有效的 HTTP 或 HTTPS 网站链接。"
+  },
+  "invalidTemplate": {
+    "message": "请输入包含一个 {query} 占位符的 HTTP(S) 搜索链接。"
+  },
+  "saveFailed": {
+    "message": "保存失败，请重试。"
+  },
+  "builtinProtected": {
+    "message": "内置项目不能删除。"
+  },
+  "missingGroup": {
+    "message": "这个标签组已经不存在。"
+  },
+  "groupRequired": {
+    "message": "请填写名称，并至少选择一个页面。"
+  },
+  "genericError": {
+    "message": "操作失败，请重试。"
+  },
+  "preview": {
+    "message": "浏览器预览"
+  },
+  "previewHint": {
+    "message": "演示书签与标签页 · 安装扩展后使用真实浏览器数据。"
+  },
+  "previewRestore": {
+    "message": "预览环境无法恢复浏览器标签页，请在 Chrome 或 Edge 中加载扩展后使用。"
+  },
+  "allBookmarks": {
+    "message": "全部书签"
+  },
+  "bookmarkSearch": {
+    "message": "查找书签…"
+  },
+  "noBookmarks": {
+    "message": "这里还没有书签"
+  },
+  "noResults": {
+    "message": "没有找到结果"
+  },
+  "trySearch": {
+    "message": "试试其他名称或网站。"
+  },
+  "bookmarkEmptyHint": {
+    "message": "在浏览器中收藏网站，它就会出现在这里。"
+  },
+  "folder": {
+    "message": "文件夹"
+  },
+  "openFolder": {
+    "message": "打开文件夹"
+  },
+  "unsupported": {
+    "message": "OriaTab 暂不支持打开这个页面。"
+  },
+  "permissionTitle": {
+    "message": "让浏览器，更懂你的习惯"
+  },
+  "permissionBookmarks": {
+    "message": "允许读取书签，即可浏览收藏并添加到 Dock。"
+  },
+  "permissionTabs": {
+    "message": "允许读取标签页名称和网址，即可保存当前窗口的页面。"
+  },
+  "permissionDenied": {
+    "message": "尚未获得权限，准备好后可以再次授权。"
+  },
+  "allow": {
+    "message": "允许访问"
+  },
+  "createGroup": {
+    "message": "保存当前窗口"
+  },
+  "createGroupTitle": {
+    "message": "保存当前窗口"
+  },
+  "groupName": {
+    "message": "标签组名称"
+  },
+  "groupPlaceholder": {
+    "message": "新项目、周末阅读、下一次旅行…"
+  },
+  "chooseTabs": {
+    "message": "选择要放在一起的页面"
+  },
+  "selectedCount": {
+    "message": "已选择 $count$ 项",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectAll": {
+    "message": "全选"
+  },
+  "deselectAll": {
+    "message": "取消全选"
+  },
+  "excluded": {
+    "message": "不保存 · 新标签页或不支持的链接"
+  },
+  "pinOnSave": {
+    "message": "将这个标签组添加到 Dock"
+  },
+  "saveGroup": {
+    "message": "保存标签组"
+  },
+  "groupSaved": {
+    "message": "标签组已保存"
+  },
+  "noGroups": {
+    "message": "还没有标签组"
+  },
+  "noGroupsHint": {
+    "message": "保存当前窗口的页面，创建你的第一个标签组。"
+  },
+  "tabsCount": {
+    "message": "$count$ 个页面",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "openAll": {
+    "message": "打开全部页面"
+  },
+  "openGroup": {
+    "message": "打开标签组"
+  },
+  "newGroup": {
+    "message": "新建标签组"
+  },
+  "groupRenameTitle": {
+    "message": "编辑标签组名称"
+  },
+  "groupAddPages": {
+    "message": "添加页面"
+  },
+  "groupAddUrl": {
+    "message": "输入链接"
+  },
+  "groupSiteTitle": {
+    "message": "页面标题"
+  },
+  "groupFetchingTitle": {
+    "message": "正在获取页面标题…"
+  },
+  "groupAllowTitle": {
+    "message": "允许访问并获取标题"
+  },
+  "groupTitleUnavailable": {
+    "message": "未能获取标题，可手动填写或使用域名"
+  },
+  "groupSiteTitleHint": {
+    "message": "输入链接后自动获取，也可手动填写"
+  },
+  "groupSiteExists": {
+    "message": "已在标签组中"
+  },
+  "groupBookmarkPermission": {
+    "message": "允许读取书签，以选择页面添加到标签组。"
+  },
+  "groupEditHint": {
+    "message": "点击减号移除，点击加号添加"
+  },
+  "groupDeleteShort": {
+    "message": "删除标签组"
+  },
+  "groupInDock": {
+    "message": "已添加到 Dock"
+  },
+  "groupRemovePage": {
+    "message": "移除页面：$title$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupAdd": {
+    "message": "添加"
+  },
+  "renameGroup": {
+    "message": "编辑标签组"
+  },
+  "deleteGroup": {
+    "message": "删除已保存的标签组"
+  },
+  "deleteGroupHint": {
+    "message": "将删除已保存的标签组和 Dock 快捷方式，已打开的浏览器页面会保留。"
+  },
+  "removeSite": {
+    "message": "从标签组移除"
+  },
+  "groupRename": {
+    "message": "名称与页面"
+  },
+  "restoreFailed": {
+    "message": "部分页面未能打开"
+  },
+  "nativeGroupFailed": {
+    "message": "页面已打开，但浏览器未能将它们分组。"
+  },
+  "allOpened": {
+    "message": "页面已打开"
+  },
+  "upload": {
+    "message": "添加壁纸"
+  },
+  "dropWallpaper": {
+    "message": "拖入图片，或点击选择"
+  },
+  "uploadHint": {
+    "message": "JPG、PNG、WebP · 最大 20 MB · 仅保存在本机"
+  },
+  "builtIn": {
+    "message": "为你挑选"
+  },
+  "yourWallpapers": {
+    "message": "你的收藏"
+  },
+  "dawn": {
+    "message": "湖畔晨曦"
+  },
+  "dusk": {
+    "message": "雨后暮色"
+  },
+  "coast": {
+    "message": "静谧海岸"
+  },
+  "bloom": {
+    "message": "弥散渐变光影"
+  },
+  "moonlit": {
+    "message": "月映湖山"
+  },
+  "aurora": {
+    "message": "极光之境"
+  },
+  "dunes": {
+    "message": "流金沙丘"
+  },
+  "mist": {
+    "message": "雾林清晓"
+  },
+  "current": {
+    "message": "正在使用"
+  },
+  "wallpaperSaved": {
+    "message": "壁纸已保存"
+  },
+  "wallpaperDeleted": {
+    "message": "壁纸已删除"
+  },
+  "imageType": {
+    "message": "请选择 JPG、PNG 或 WebP 图片。"
+  },
+  "imageSize": {
+    "message": "请选择小于 20 MB、8000 万像素的图片。"
+  },
+  "imageInvalid": {
+    "message": "无法读取这张图片。"
+  },
+  "wallpaperLoadFailed": {
+    "message": "壁纸无法加载，已显示默认背景。"
+  },
+  "deleteWallpaper": {
+    "message": "删除壁纸"
+  },
+  "themePreset": {
+    "message": "主题"
+  },
+  "liquidDefault": {
+    "message": "液态玻璃（默认）"
+  },
+  "appearance": {
+    "message": "外观"
+  },
+  "search": {
+    "message": "搜索"
+  },
+  "dock": {
+    "message": "Dock"
+  },
+  "behavior": {
+    "message": "使用习惯"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "liquid": {
+    "message": "液态玻璃"
+  },
+  "theme": {
+    "message": "显示模式"
+  },
+  "system": {
+    "message": "跟随系统"
+  },
+  "light": {
+    "message": "浅色"
+  },
+  "dark": {
+    "message": "深色"
+  },
+  "glassOpacity": {
+    "message": "玻璃透明度"
+  },
+  "glassColorConcentration": {
+    "message": "颜色浓度"
+  },
+  "refraction": {
+    "message": "折射厚度"
+  },
+  "glassBevel": {
+    "message": "边缘宽度"
+  },
+  "glassBlur": {
+    "message": "模糊程度"
+  },
+  "glassDispersion": {
+    "message": "色散强度"
+  },
+  "glassRim": {
+    "message": "边缘高光"
+  },
+  "wallpaperDim": {
+    "message": "壁纸遮罩"
+  },
+  "iconSize": {
+    "message": "图标尺寸"
+  },
+  "magnify": {
+    "message": "悬停时放大"
+  },
+  "newTab": {
+    "message": "在新标签页打开网站"
+  },
+  "nativeGroups": {
+    "message": "恢复为浏览器标签组"
+  },
+  "reduceMotion": {
+    "message": "减少动画"
+  },
+  "engineDeleteHint": {
+    "message": "删除这个自定义搜索引擎？"
+  },
+  "deleteTitle": {
+    "message": "移除这个项目？"
+  },
+  "confirmDelete": {
+    "message": "移除"
+  },
+  "dockDrop": {
+    "message": "松开，添加到 Dock"
+  },
+  "searchSettings": {
+    "message": "搜索设置"
+  },
+  "resetSelection": {
+    "message": "已取消选择"
+  },
+  "folderEmpty": {
+    "message": "这个文件夹是空的。"
+  },
+  "editSaved": {
+    "message": "修改已保存"
+  },
+  "appearanceLanguage": {
+    "message": "外观与语言"
+  },
+  "theme_fileHint": {
+    "message": "JSON · 最大 128 KB · 保存在本机"
+  },
+  "theme_addApply": {
+    "message": "添加并应用"
+  },
+  "theme_deleteConfirm": {
+    "message": "删除主题 $name$？",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "themeLimit": {
+    "message": "最多可添加 50 个主题。"
+  },
+  "themeDuplicate": {
+    "message": "相同 ID 的主题已存在。"
+  },
+  "theme_customThemes": {
+    "message": "已添加主题"
+  },
+  "theme_presetThemes": {
+    "message": "预设主题"
+  },
+  "theme_openEditor": {
+    "message": "打开编辑器"
+  },
+  "theme_add": {
+    "message": "添加主题"
+  },
+  "theme_empty": {
+    "message": "尚未添加主题。"
+  },
+  "theme_delete": {
+    "message": "删除主题 $name$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "theme_importDescription": {
+    "message": "选择主题文件，并确认显示名称。"
+  },
+  "theme_fileLabel": {
+    "message": "主题文件"
+  },
+  "theme_dropFile": {
+    "message": "选择主题文件"
+  },
+  "theme_name": {
+    "message": "主题名称"
+  },
+  "theme_fileType": {
+    "message": "请选择 JSON 格式的主题文件。"
+  },
+  "theme_fileSize": {
+    "message": "主题文件不能超过 128 KB。"
+  },
+  "theme_readFailed": {
+    "message": "无法读取该主题文件。"
+  },
+  "themeInvalid": {
+    "message": "无法识别此主题文件。"
+  },
+  "material": {
+    "message": "材质"
+  },
+  "materialOpacity": {
+    "message": "透明度"
+  },
+  "backgroundBlur": {
+    "message": "背景模糊"
+  },
+  "theme_originalColor": {
+    "message": "主题原色"
+  },
+  "background_style": {
+    "message": "背景样式"
+  },
+  "background_theme": {
+    "message": "主题样式"
+  },
+  "background_custom": {
+    "message": "自定义背景"
+  },
+  "background_preview": {
+    "message": "背景预览"
+  },
+  "background_type": {
+    "message": "渐变类型"
+  },
+  "background_solid": {
+    "message": "纯色"
+  },
+  "background_linear": {
+    "message": "线性渐变"
+  },
+  "background_radial": {
+    "message": "径向渐变"
+  },
+  "background_conic": {
+    "message": "锥形渐变"
+  },
+  "background_repeating_linear": {
+    "message": "重复线性渐变"
+  },
+  "background_repeating_radial": {
+    "message": "重复径向渐变"
+  },
+  "background_angle": {
+    "message": "渐变角度"
+  },
+  "background_origin": {
+    "message": "渐变中心"
+  },
+  "background_originX": {
+    "message": "中心 X"
+  },
+  "background_originY": {
+    "message": "中心 Y"
+  },
+  "background_color": {
+    "message": "背景颜色"
+  },
+  "background_stops": {
+    "message": "渐变色标"
+  },
+  "background_stop": {
+    "message": "色标 $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopColor": {
+    "message": "色标 $count$ 颜色",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopPosition": {
+    "message": "色标 $count$ 位置",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_removeStop": {
+    "message": "删除色标 $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_addStop": {
+    "message": "添加色标"
+  },
+  "background_pickColor": {
+    "message": "选择$label$",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_colorOpacity": {
+    "message": "$label$不透明度",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_imageHint": {
+    "message": "当前使用图片壁纸。选择颜色背景可替换图片。"
+  },
+  "background_themeHint": {
+    "message": "使用当前主题的背景颜色、渐变和纹理，随主题与显示模式变化。"
+  },
+  "background_colorHint": {
+    "message": "选择下方图片可恢复图片壁纸；颜色背景暂停图片自动切换。"
+  },
+  "background_ivory": {
+    "message": "暖白"
+  },
+  "background_mist": {
+    "message": "雾绿"
+  },
+  "background_slate": {
+    "message": "深蓝灰"
+  },
+  "background_sunrise": {
+    "message": "晨曦渐变"
+  },
+  "background_sea": {
+    "message": "海岸渐变"
+  },
+  "background_aurora": {
+    "message": "极光渐变"
+  },
+  "apply": {
+    "message": "应用"
+  },
+  "background_defaultName": {
+    "message": "我的背景"
+  },
+  "background_savedHint": {
+    "message": "右键点击已保存的背景，可编辑或删除。"
+  },
+  "background_edit": {
+    "message": "编辑背景"
+  },
+  "background_add": {
+    "message": "添加背景"
+  },
+  "background_limit": {
+    "message": "最多可保存 100 个背景。"
+  },
+  "background_opacity": {
+    "message": "不透明度"
+  },
+  "background_position": {
+    "message": "位置"
+  },
+  "wallpaper_galleries": {
+    "message": "壁纸来源"
+  },
+  "wallpaper_builtin": {
+    "message": "内置"
+  },
+  "wallpaper_custom": {
+    "message": "自定义"
+  },
+  "wallpaper_onlineHint": {
+    "message": "免费商用图片，选择后在线加载高清壁纸。"
+  },
+  "wallpaper_customEmpty": {
+    "message": "尚未添加自定义壁纸。"
+  },
+  "wallpaper_loadError": {
+    "message": "图片加载失败"
+  },
+  "wallpaper_license": {
+    "message": "使用授权"
+  },
+  "fontColor": {
+    "message": "字体颜色"
+  },
+  "fontColor_native": {
+    "message": "主题默认字体颜色"
+  },
+  "fontColor_light": {
+    "message": "浅色字体"
+  },
+  "fontColor_dark": {
+    "message": "深色字体"
+  },
+  "fontColor_warm": {
+    "message": "暖色字体"
+  },
+  "fontColor_gray": {
+    "message": "灰色字体"
+  },
+  "fontColor_custom": {
+    "message": "自定义字体颜色"
+  },
+  "wallpaper_catalogError": {
+    "message": "图库加载失败"
+  },
+  "wallpaper_search": {
+    "message": "搜索在线壁纸"
+  },
+  "wallpaper_searchHint": {
+    "message": "关键词，如 mountain、earth"
+  },
+  "wallpaper_loadMore": {
+    "message": "加载更多"
+  },
+  "wallpaper_end": {
+    "message": "已显示全部结果"
+  },
+  "wallpaper_empty": {
+    "message": "没有符合条件的图片，试试其他关键词。"
+  },
+  "browserSearch": {
+    "message": "浏览器默认搜索引擎"
+  },
+  "syncBrowserSearch": {
+    "message": "使用浏览器默认引擎"
+  },
+  "browserSearchHint": {
+    "message": "每次搜索使用浏览器当前的默认引擎，首次使用需授权。"
+  },
+  "browserSearchPreviewHint": {
+    "message": "网页预览使用下方引擎；安装扩展后可跟随浏览器。"
+  },
+  "appearanceColors": {
+    "message": "主题与配色"
+  },
+  "themeManagement": {
+    "message": "主题管理"
+  },
+  "searchMode": {
+    "message": "搜索模式"
+  },
+  "independentSearch": {
+    "message": "独立选择"
+  },
+  "openBrowserSearchSettings": {
+    "message": "打开浏览器搜索设置"
+  },
+  "independentSearchHint": {
+    "message": "仅用于 OriaTab 搜索，不会修改浏览器默认引擎。"
+  },
+  "searchResults": {
+    "message": "搜索列表"
+  },
+  "history": {
+    "message": "历史记录"
+  },
+  "historyHint": {
+    "message": "匹配浏览器访问历史（含搜索结果页），开启时需授权。"
+  },
+  "historyError": {
+    "message": "无法读取历史记录，请稍后重试。"
+  },
+  "allowHistory": {
+    "message": "允许读取历史记录"
+  },
+  "allowBookmarks": {
+    "message": "允许读取书签"
+  },
+  "engine_bing": {
+    "message": "必应"
+  },
+  "engine_baidu": {
+    "message": "百度"
+  },
+  "engine_google": {
+    "message": "谷歌"
+  },
+  "engine_quark": {
+    "message": "夸克"
+  },
+  "engine_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "engine_brave": {
+    "message": "Brave"
+  },
+  "engine_sogou": {
+    "message": "搜狗"
+  },
+  "engine_360": {
+    "message": "360 搜索"
+  },
+  "engine_yahoo": {
+    "message": "雅虎"
+  },
+  "wallpaper_bingDaily": {
+    "message": "每日更新"
+  },
+  "wallpaper_bingDailyHint": {
+    "message": "自动使用必应最新发布的壁纸；离线时保留当前图片。"
+  },
+  "wallpaper_bingHint": {
+    "message": "近期必应每日壁纸，选择后加载高清图片。"
+  },
+  "wallpaper_bingUsage": {
+    "message": "仅限壁纸用途"
+  },
+  "wallpaper_bingPermission": {
+    "message": "允许访问必应，即可获取近期每日壁纸。"
+  },
+  "wallpaper_bingEmpty": {
+    "message": "暂无可用的必应壁纸。"
+  },
+  "wallpaper_refresh": {
+    "message": "刷新壁纸"
+  },
+  "aide_add": {
+    "message": "添加"
+  },
+  "aide_name": {
+    "message": "名称"
+  },
+  "aide_custom": {
+    "message": "自定义"
+  },
+  "aide_removePlatform": {
+    "message": "删除平台"
+  },
+  "aide_chat": {
+    "message": "对话"
+  },
+  "aide_translate": {
+    "message": "翻译"
+  },
+  "aide_models": {
+    "message": "模型平台"
+  },
+  "aide_model": {
+    "message": "模型"
+  },
+  "aide_preset": {
+    "message": "平台预设"
+  },
+  "aide_protocol": {
+    "message": "API 协议"
+  },
+  "aide_apiAddress": {
+    "message": "API 地址"
+  },
+  "aide_configured": {
+    "message": "已配置"
+  },
+  "aide_notConfigured": {
+    "message": "未配置"
+  },
+  "aide_enterKey": {
+    "message": "输入密钥"
+  },
+  "aide_keepKey": {
+    "message": "留空保留已保存密钥"
+  },
+  "aide_fetchModels": {
+    "message": "获取模型"
+  },
+  "aide_tools": {
+    "message": "工具"
+  },
+  "aide_webSearch": {
+    "message": "网页搜索"
+  },
+  "aide_translationTool": {
+    "message": "翻译工具"
+  },
+  "aide_provider": {
+    "message": "供应商"
+  },
+  "aide_searchProvider": {
+    "message": "搜索供应商"
+  },
+  "aide_translationProvider": {
+    "message": "翻译供应商"
+  },
+  "aide_domain": {
+    "message": "翻译领域"
+  },
+  "aide_accessKey": {
+    "message": "应用 ID / Access Key"
+  },
+  "aide_secretKey": {
+    "message": "Secret Key"
+  },
+  "aide_keyStorage": {
+    "message": "密钥保存在当前浏览器的本地存储中，不写入聊天记录。"
+  },
+  "aide_saved": {
+    "message": "已保存"
+  },
+  "aide_newChat": {
+    "message": "新对话"
+  },
+  "aide_history": {
+    "message": "对话历史"
+  },
+  "aide_noHistory": {
+    "message": "暂无对话记录"
+  },
+  "aide_deleteChat": {
+    "message": "删除对话"
+  },
+  "aide_noModel": {
+    "message": "尚未添加模型"
+  },
+  "aide_welcome": {
+    "message": "有什么可以帮你？"
+  },
+  "aide_welcomeHint": {
+    "message": "提问、搜索网页，或翻译一段文字。"
+  },
+  "aide_configureHint": {
+    "message": "添加模型平台并填写 API Key，即可开始对话。"
+  },
+  "aide_configure": {
+    "message": "配置模型"
+  },
+  "aide_you": {
+    "message": "你"
+  },
+  "aide_assistant": {
+    "message": "Aide 回复"
+  },
+  "aide_thinking": {
+    "message": "思考中"
+  },
+  "aide_retry": {
+    "message": "重新生成"
+  },
+  "aide_message": {
+    "message": "消息"
+  },
+  "aide_messagePlaceholder": {
+    "message": "询问 Aide… Enter 发送，Shift+Enter 换行"
+  },
+  "aide_stop": {
+    "message": "停止"
+  },
+  "aide_stopped": {
+    "message": "已停止"
+  },
+  "aide_send": {
+    "message": "发送"
+  },
+  "aide_sourceLanguage": {
+    "message": "源语言"
+  },
+  "aide_targetLanguage": {
+    "message": "目标语言"
+  },
+  "aide_autoDetect": {
+    "message": "自动检测"
+  },
+  "aide_swapLanguages": {
+    "message": "交换语言"
+  },
+  "aide_translationText": {
+    "message": "待翻译文本"
+  },
+  "aide_translationPlaceholder": {
+    "message": "输入或粘贴待翻译文本…"
+  },
+  "aide_copy": {
+    "message": "复制"
+  },
+  "aide_copied": {
+    "message": "已复制"
+  },
+  "aide_readAloud": {
+    "message": "朗读"
+  },
+  "aide_stopReading": {
+    "message": "停止朗读"
+  },
+  "aide_requestFailed": {
+    "message": "请求失败，请检查网络和服务配置后重试。"
+  },
+  "aide_permissionNeeded": {
+    "message": "请允许访问所配置的服务地址。"
+  },
+  "aide_modelNotConfigured": {
+    "message": "请先添加模型并配置 API Key。"
+  },
+  "aide_translationNotConfigured": {
+    "message": "请在设置中配置翻译服务密钥。"
+  },
+  "aide_searchNotConfigured": {
+    "message": "请在设置中配置搜索服务 API Key。"
+  },
+  "aide_noSearchResults": {
+    "message": "搜索未返回结果，请尝试其他查询或供应商。"
+  },
+  "aide_invalidEndpoint": {
+    "message": "请输入 HTTPS API 地址；本地服务可使用 HTTP。"
+  },
+  "aide_invalidConfig": {
+    "message": "请检查平台名称、API 地址和模型 ID。"
+  },
+  "aide_invalidRequest": {
+    "message": "请求参数无效，请检查文本和语言设置。"
+  },
+  "aide_contextExceeded": {
+    "message": "对话超出模型上下文容量，请新建对话或缩短输入。"
+  },
+  "aide_incompleteResponse": {
+    "message": "回复被中断，可重试继续生成。"
+  },
+  "aide_toolLimit": {
+    "message": "已达到本轮工具调用上限，请缩小问题范围后重试。"
+  },
+  "aide_disconnected": {
+    "message": "连接已断开，请重试。"
+  },
+  "aide_provider_model": {
+    "message": "模型翻译"
+  },
+  "aide_provider_youdao": {
+    "message": "有道翻译"
+  },
+  "aide_provider_baidu": {
+    "message": "百度翻译"
+  },
+  "aide_provider_volcengine": {
+    "message": "火山翻译"
+  },
+  "aide_domain_general": {
+    "message": "通用"
+  },
+  "aide_domain_information_technology": {
+    "message": "信息技术"
+  },
+  "aide_domain_finance": {
+    "message": "金融"
+  },
+  "aide_domain_manufacturing": {
+    "message": "制造业"
+  },
+  "aide_domain_biomedicine": {
+    "message": "生物医学"
+  },
+  "aide_domain_web_literature": {
+    "message": "网络文学"
+  },
+  "aide_domain_game": {
+    "message": "游戏"
+  },
+  "aide_providerError": {
+    "message": "请求失败，请检查网络和服务配置后重试。"
+  },
+  "aide_invalidResponse": {
+    "message": "请求失败，请检查网络和服务配置后重试。"
+  },
+  "aide_translationRejected": {
+    "message": "请求失败，请检查网络和服务配置后重试。"
+  },
+  "aide_toolNotAllowed": {
+    "message": "请求失败，请检查网络和服务配置后重试。"
+  },
+  "aide_provider_google": {
+    "message": "Google Cloud Translation"
+  },
+  "aide_provider_deepl": {
+    "message": "DeepL"
+  },
+  "aide_search_bing": {
+    "message": "Bing"
+  },
+  "aide_search_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "aide_search_wikipedia": {
+    "message": "Wikipedia"
+  },
+  "aide_search_tavily": {
+    "message": "Tavily"
+  },
+  "aide_search_exa": {
+    "message": "Exa"
+  },
+  "aide_search_brave": {
+    "message": "Brave"
+  },
+  "aide_search_serpapi": {
+    "message": "SerpAPI"
+  },
+  "aide_search_bocha": {
+    "message": "Bocha"
+  },
+  "aide_search_zhipu": {
+    "message": "Zhipu"
+  },
+  "aide_search_aliyun": {
+    "message": "Alibaba IQS"
+  },
+  "aide_search_qianfan": {
+    "message": "Baidu Qianfan"
+  },
+  "searchAskAide": {
+    "message": "问 Aide"
+  },
+  "searchTranslate": {
+    "message": "翻译"
+  },
+  "aide_invalidToolCall": {
+    "message": "模型工具调用格式无效，自动修复未成功，请重试或更换模型。"
+  },
+  "aide_contextSummaryFailed": {
+    "message": "上下文压缩失败，历史记录未改动，请重试。"
+  },
+  "aide_imageModelUnsupported": {
+    "message": "请选择支持图片输入的视觉模型。"
+  },
+  "calendar_showHeaderLunar": {
+    "message": "首页农历日期"
+  },
+  "calendar_headerLunarHint": {
+    "message": "在首页时间／日期下方显示农历、节日及放假／调休状态。"
+  },
+  "calendar_workdayShort": {
+    "message": "调休"
+  },
+  "aide_page_translate": {
+    "message": "翻译"
+  },
+  "aide_page_explain": {
+    "message": "解释"
+  },
+  "aide_page_ask": {
+    "message": "问Aide"
+  },
+  "aide_page_move": {
+    "message": "拖动 Aide 窗口"
+  },
+  "aide_page_resize": {
+    "message": "调整 Aide 窗口尺寸"
+  },
+  "aide_page_loadImage": {
+    "message": "载入图片"
+  },
+  "aide_page_imagePermission": {
+    "message": "请允许访问图片地址，以将它添加到 Aide。"
+  },
+  "aide_page_imageFailed": {
+    "message": "无法载入图片，请上传图片后重试。"
+  },
+  "aide_page_explainText": {
+    "message": "请解释以下选中的文本：\n\n$text$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_page_explainImage": {
+    "message": "请解释这张图片。"
+  },
+  "aide_page_translateImage": {
+    "message": "请识别并翻译图片中的文字，目标语言：$language$。",
+    "placeholders": {
+      "language": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_shortcut_title": {
+    "message": "快捷键"
+  },
+  "aide_shortcut_open": {
+    "message": "唤起 Aide"
+  },
+  "aide_shortcut_current": {
+    "message": "当前快捷键"
+  },
+  "aide_shortcut_customize": {
+    "message": "自定义快捷键"
+  },
+  "aide_shortcut_unassigned": {
+    "message": "未设置"
+  },
+  "aide_shortcut_unavailable": {
+    "message": "安装扩展后可设置快捷键。"
+  },
+  "aide_shortcut_error": {
+    "message": "无法读取或打开快捷键设置，请重试。"
+  },
+  "aide_pageContentUnavailable": {
+    "message": "无法读取当前网页内容。请刷新页面并重新打开 Aide 后重试。"
+  }
+}

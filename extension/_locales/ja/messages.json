@@ -1,0 +1,1464 @@
+{
+  "extensionName": {
+    "message": "OriaTab"
+  },
+  "extensionDescription": {
+    "message": "テーマと多言語に対応したリキッドガラスの新しいタブ。AI アシスタント Aide がタブをまたいでウェブページの読解と翻訳をサポートします。"
+  },
+  "aide_command_open": {
+    "message": "Aide を開く"
+  },
+  "calendar_settings": {
+    "message": "カレンダー設定"
+  },
+  "calendar_region": {
+    "message": "祝日の地域"
+  },
+  "calendar_regionNone": {
+    "message": "祝日を表示しない"
+  },
+  "calendar_regionHint": {
+    "message": "選択した国・地域の全国的な祝日を表示します。中国では振替出勤日も含みます。"
+  },
+  "calendar_showLunar": {
+    "message": "中国の旧暦を表示"
+  },
+  "calendar_lunarHint": {
+    "message": "日付の下に旧暦、伝統的な祭日、二十四節気を表示します。オフラインでも使えます。"
+  },
+  "calendar_workday": {
+    "message": "振替出勤日"
+  },
+  "calendar_holiday": {
+    "message": "休日"
+  },
+  "calendar_workMarker": {
+    "message": "出"
+  },
+  "calendar_restMarker": {
+    "message": "休"
+  },
+  "calendar_loading": {
+    "message": "祝日を読み込み中…"
+  },
+  "calendar_cached": {
+    "message": "保存済みの祝日データを使用"
+  },
+  "calendar_unavailable": {
+    "message": "この年の祝日データはありません"
+  },
+  "calendar_error": {
+    "message": "祝日を読み込めませんでした"
+  },
+  "calendar_publicHolidays": {
+    "message": "祝日"
+  },
+  "calendar_title": {
+    "message": "カレンダー"
+  },
+  "calendar_open": {
+    "message": "カレンダーを開く"
+  },
+  "calendar_today": {
+    "message": "今日"
+  },
+  "browserGroups": {
+    "message": "開いているブラウザーのタブグループ"
+  },
+  "savedGroups": {
+    "message": "保存したタブグループ"
+  },
+  "readBrowserGroups": {
+    "message": "ブラウザーのタブグループを読み込む"
+  },
+  "permissionGroups": {
+    "message": "開いているタブグループとタブへのアクセスを許可します。"
+  },
+  "noBrowserGroups": {
+    "message": "開いているタブグループはありません"
+  },
+  "unnamedGroup": {
+    "message": "無題のグループ"
+  },
+  "saveBrowserGroup": {
+    "message": "OriaTab に保存"
+  },
+  "openCurrentTab": {
+    "message": "現在のタブで開く"
+  },
+  "openNewTab": {
+    "message": "新しいタブで開く"
+  },
+  "hdIconsTitle": {
+    "message": "高解像度のサイトアイコン"
+  },
+  "later": {
+    "message": "後で"
+  },
+  "switchToLight": {
+    "message": "ライトモードに切り替える"
+  },
+  "switchToDark": {
+    "message": "ダークモードに切り替える"
+  },
+  "hdIcons": {
+    "message": "高解像度アイコンを自動取得"
+  },
+  "enableHdIcons": {
+    "message": "高解像度アイコンを取得"
+  },
+  "iconPermissionHint": {
+    "message": "公式の高解像度アイコンを取得・保存するため、サイトへのアクセスを許可してください。"
+  },
+  "customThemeColor": {
+    "message": "カスタムアクセントカラー"
+  },
+  "invalidColor": {
+    "message": "有効な色を選んでください。"
+  },
+  "themeColor": {
+    "message": "アクセントカラー"
+  },
+  "sage": {
+    "message": "セージ"
+  },
+  "blue": {
+    "message": "ブルー"
+  },
+  "violet": {
+    "message": "バイオレット"
+  },
+  "rose": {
+    "message": "ローズ"
+  },
+  "amber": {
+    "message": "アンバー"
+  },
+  "moveUp": {
+    "message": "Move up"
+  },
+  "moveDown": {
+    "message": "Move down"
+  },
+  "dockPosition": {
+    "message": "Dock の位置"
+  },
+  "top": {
+    "message": "上"
+  },
+  "bottom": {
+    "message": "下"
+  },
+  "left": {
+    "message": "左"
+  },
+  "right": {
+    "message": "右"
+  },
+  "engineEnabled": {
+    "message": "$engine$ を有効にする",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "engineDisabled": {
+    "message": "有効な検索エンジンを選んでください。"
+  },
+  "lastEngine": {
+    "message": "検索エンジンは最低 1 つ有効にしてください。"
+  },
+  "wallpaperBlur": {
+    "message": "壁紙のぼかし"
+  },
+  "wallpaperAuto": {
+    "message": "壁紙を自動変更"
+  },
+  "wallpaperInterval": {
+    "message": "変更頻度"
+  },
+  "wallpaperOrder": {
+    "message": "変更順序"
+  },
+  "sequential": {
+    "message": "順番に"
+  },
+  "random": {
+    "message": "ランダム"
+  },
+  "minutes": {
+    "message": "$count$ 分",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hours": {
+    "message": "$count$ 時間",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daily": {
+    "message": "毎日"
+  },
+  "searchPlaceholder": {
+    "message": "ウェブやブックマークを検索…"
+  },
+  "searchWith": {
+    "message": "$engine$ で検索",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "webSearch": {
+    "message": "ウェブ検索"
+  },
+  "bookmarks": {
+    "message": "ブックマーク"
+  },
+  "groups": {
+    "message": "タブグループ"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "wallpapers": {
+    "message": "壁紙"
+  },
+  "websites": {
+    "message": "サイト"
+  },
+  "addEngine": {
+    "message": "検索エンジンを管理"
+  },
+  "selectedEngine": {
+    "message": "既定の検索エンジン"
+  },
+  "engineName": {
+    "message": "検索エンジン名"
+  },
+  "engineTemplate": {
+    "message": "検索 URL テンプレート"
+  },
+  "templateHint": {
+    "message": "検索語の位置に {query} を指定してください。"
+  },
+  "engineAdd": {
+    "message": "検索エンジンを追加"
+  },
+  "engineEdit": {
+    "message": "検索エンジンを編集"
+  },
+  "addWebsite": {
+    "message": "サイトを追加"
+  },
+  "editWebsite": {
+    "message": "サイトを編集"
+  },
+  "websiteName": {
+    "message": "サイト名"
+  },
+  "websiteUrl": {
+    "message": "サイト URL"
+  },
+  "removeDock": {
+    "message": "Dock から削除"
+  },
+  "moveLeft": {
+    "message": "左へ移動"
+  },
+  "moveRight": {
+    "message": "右へ移動"
+  },
+  "addToDock": {
+    "message": "Dock に追加"
+  },
+  "alreadyPinned": {
+    "message": "この項目はすでに Dock にあります。"
+  },
+  "pinned": {
+    "message": "Dock に追加しました"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "edit": {
+    "message": "編集"
+  },
+  "done": {
+    "message": "完了"
+  },
+  "back": {
+    "message": "戻る"
+  },
+  "retry": {
+    "message": "再試行"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "saving": {
+    "message": "保存中…"
+  },
+  "nameRequired": {
+    "message": "名前を入力してください。"
+  },
+  "invalidUrl": {
+    "message": "有効な HTTP または HTTPS の URL を入力してください。"
+  },
+  "invalidTemplate": {
+    "message": "{query} を 1 つ含む HTTP(S) URL を入力してください。"
+  },
+  "saveFailed": {
+    "message": "保存できませんでした。再試行してください。"
+  },
+  "builtinProtected": {
+    "message": "組み込みの項目は削除できません。"
+  },
+  "missingGroup": {
+    "message": "この保存済みグループは存在しません。"
+  },
+  "groupRequired": {
+    "message": "名前を入力し、ページを 1 つ以上選んでください。"
+  },
+  "genericError": {
+    "message": "問題が発生しました。再試行してください。"
+  },
+  "preview": {
+    "message": "ブラウザープレビュー"
+  },
+  "previewHint": {
+    "message": "デモ用ブックマークとタブ。拡張機能をインストールして実際のデータを使用します。"
+  },
+  "previewRestore": {
+    "message": "プレビューではタブを復元できません。Chrome または Edge に拡張機能を読み込んでください。"
+  },
+  "allBookmarks": {
+    "message": "すべてのブックマーク"
+  },
+  "bookmarkSearch": {
+    "message": "ブックマークを検索…"
+  },
+  "noBookmarks": {
+    "message": "ブックマークはまだありません"
+  },
+  "noResults": {
+    "message": "見つかりませんでした"
+  },
+  "trySearch": {
+    "message": "別の名前やサイトで検索してください。"
+  },
+  "bookmarkEmptyHint": {
+    "message": "ブラウザーに保存したサイトがここに表示されます。"
+  },
+  "folder": {
+    "message": "フォルダー"
+  },
+  "openFolder": {
+    "message": "フォルダーを開く"
+  },
+  "unsupported": {
+    "message": "このページは OriaTab で開けません。"
+  },
+  "permissionTitle": {
+    "message": "ブラウザーを自分の空間に"
+  },
+  "permissionBookmarks": {
+    "message": "ブックマークの閲覧と Dock への追加を許可してください。"
+  },
+  "permissionTabs": {
+    "message": "このウィンドウのページを保存するため、タブのタイトルと URL へのアクセスを許可してください。"
+  },
+  "permissionDenied": {
+    "message": "アクセスが許可されませんでした。後で再試行できます。"
+  },
+  "allow": {
+    "message": "アクセスを許可"
+  },
+  "createGroup": {
+    "message": "このウィンドウを保存"
+  },
+  "createGroupTitle": {
+    "message": "現在のウィンドウを保存"
+  },
+  "groupName": {
+    "message": "グループ名"
+  },
+  "groupPlaceholder": {
+    "message": "新しいプロジェクト、週末の読書…"
+  },
+  "chooseTabs": {
+    "message": "まとめて保存するページを選択"
+  },
+  "selectedCount": {
+    "message": "について$count$選択した",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectAll": {
+    "message": "すべて選択"
+  },
+  "deselectAll": {
+    "message": "すべてを削除する"
+  },
+  "excluded": {
+    "message": "保存対象外：新しいタブまたは非対応 URL"
+  },
+  "pinOnSave": {
+    "message": "このグループを Dock に追加"
+  },
+  "saveGroup": {
+    "message": "グループを保存"
+  },
+  "groupSaved": {
+    "message": "グループを保存しました"
+  },
+  "noGroups": {
+    "message": "保存したグループはありません"
+  },
+  "noGroupsHint": {
+    "message": "現在のウィンドウのページを最初のタブグループとして保存できます。"
+  },
+  "tabsCount": {
+    "message": "$count$ ページ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "openAll": {
+    "message": "すべてのページを開く"
+  },
+  "openGroup": {
+    "message": "グループを開く"
+  },
+  "newGroup": {
+    "message": "新しいグループ"
+  },
+  "groupRenameTitle": {
+    "message": "グループ名を編集"
+  },
+  "groupAddPages": {
+    "message": "ページを追加"
+  },
+  "groupAddUrl": {
+    "message": "URL を入力"
+  },
+  "groupSiteTitle": {
+    "message": "ページタイトル"
+  },
+  "groupFetchingTitle": {
+    "message": "ページタイトルを取得中…"
+  },
+  "groupAllowTitle": {
+    "message": "アクセスを許可してタイトルを取得"
+  },
+  "groupTitleUnavailable": {
+    "message": "取得できません。手動入力またはドメイン名を使用できます"
+  },
+  "groupSiteTitleHint": {
+    "message": "URL から自動取得、または手動入力"
+  },
+  "groupSiteExists": {
+    "message": "このグループに追加済み"
+  },
+  "groupBookmarkPermission": {
+    "message": "ブックマークへのアクセスを許可して、グループにページを追加します。"
+  },
+  "groupEditHint": {
+    "message": "マイナスで削除、プラスで追加"
+  },
+  "groupDeleteShort": {
+    "message": "グループを削除"
+  },
+  "groupInDock": {
+    "message": "Dock に追加済み"
+  },
+  "groupRemovePage": {
+    "message": "ページを削除：$title$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupAdd": {
+    "message": "追加"
+  },
+  "renameGroup": {
+    "message": "グループを編集"
+  },
+  "deleteGroup": {
+    "message": "保存したグループを削除"
+  },
+  "deleteGroupHint": {
+    "message": "保存したグループと Dock のショートカットを削除します。開いているタブは変更されません。"
+  },
+  "removeSite": {
+    "message": "グループから削除"
+  },
+  "groupRename": {
+    "message": "グループ名とページ"
+  },
+  "restoreFailed": {
+    "message": "一部のページを開けませんでした"
+  },
+  "nativeGroupFailed": {
+    "message": "ページは開きましたが、ブラウザーでグループ化できませんでした。"
+  },
+  "allOpened": {
+    "message": "ページを開きました"
+  },
+  "upload": {
+    "message": "壁紙を追加"
+  },
+  "dropWallpaper": {
+    "message": "画像をドロップ、またはクリックして選択"
+  },
+  "uploadHint": {
+    "message": "JPG、PNG、WebP・最大 20 MB・端末内に保存"
+  },
+  "builtIn": {
+    "message": "厳選した壁紙"
+  },
+  "yourWallpapers": {
+    "message": "自分のコレクション"
+  },
+  "dawn": {
+    "message": "湖畔の夜明け"
+  },
+  "dusk": {
+    "message": "雨上がり"
+  },
+  "coast": {
+    "message": "静かな海岸"
+  },
+  "bloom": {
+    "message": "拡散グラデーション"
+  },
+  "moonlit": {
+    "message": "月映る湖"
+  },
+  "aurora": {
+    "message": "オーロラの空"
+  },
+  "dunes": {
+    "message": "黄金の砂丘"
+  },
+  "mist": {
+    "message": "霧の森"
+  },
+  "current": {
+    "message": "現在"
+  },
+  "wallpaperSaved": {
+    "message": "壁紙を保存しました"
+  },
+  "wallpaperDeleted": {
+    "message": "壁紙を削除しました"
+  },
+  "imageType": {
+    "message": "JPG、PNG、WebP 画像を選んでください。"
+  },
+  "imageSize": {
+    "message": "20 MB 未満、8,000 万画素以下の画像を選んでください。"
+  },
+  "imageInvalid": {
+    "message": "この画像を読み込めませんでした。"
+  },
+  "wallpaperLoadFailed": {
+    "message": "壁紙を使用できません。既定の背景を表示します。"
+  },
+  "deleteWallpaper": {
+    "message": "壁紙を削除"
+  },
+  "themePreset": {
+    "message": "テーマ"
+  },
+  "liquidDefault": {
+    "message": "リキッドグラス（既定）"
+  },
+  "appearance": {
+    "message": "外観"
+  },
+  "search": {
+    "message": "検索"
+  },
+  "dock": {
+    "message": "Dock"
+  },
+  "behavior": {
+    "message": "動作"
+  },
+  "language": {
+    "message": "表示言語"
+  },
+  "liquid": {
+    "message": "リキッドグラス"
+  },
+  "theme": {
+    "message": "外観モード"
+  },
+  "system": {
+    "message": "システムに合わせる"
+  },
+  "light": {
+    "message": "ライト"
+  },
+  "dark": {
+    "message": "ダーク"
+  },
+  "glassOpacity": {
+    "message": "ガラスの不透明度"
+  },
+  "glassColorConcentration": {
+    "message": "色の濃さ"
+  },
+  "refraction": {
+    "message": "屈折の厚さ"
+  },
+  "glassBevel": {
+    "message": "エッジの幅"
+  },
+  "glassBlur": {
+    "message": "ぼかし"
+  },
+  "glassDispersion": {
+    "message": "色分散"
+  },
+  "glassRim": {
+    "message": "エッジのハイライト"
+  },
+  "wallpaperDim": {
+    "message": "壁紙の暗さ"
+  },
+  "iconSize": {
+    "message": "アイコンサイズ"
+  },
+  "magnify": {
+    "message": "ホバーで拡大"
+  },
+  "newTab": {
+    "message": "サイトを新しいタブで開く"
+  },
+  "nativeGroups": {
+    "message": "ブラウザーのタブグループとして復元"
+  },
+  "reduceMotion": {
+    "message": "アニメーションを減らす"
+  },
+  "engineDeleteHint": {
+    "message": "このカスタム検索エンジンを削除しますか？"
+  },
+  "deleteTitle": {
+    "message": "この項目を削除しますか？"
+  },
+  "confirmDelete": {
+    "message": "削除"
+  },
+  "dockDrop": {
+    "message": "ここにドロップして Dock に追加"
+  },
+  "searchSettings": {
+    "message": "検索設定"
+  },
+  "resetSelection": {
+    "message": "選択を解除しました"
+  },
+  "folderEmpty": {
+    "message": "このフォルダーは空です。"
+  },
+  "editSaved": {
+    "message": "変更を保存しました"
+  },
+  "appearanceLanguage": {
+    "message": "外観と言語"
+  },
+  "theme_fileHint": {
+    "message": "JSON・最大 128 KB・端末内に保存"
+  },
+  "theme_addApply": {
+    "message": "追加して適用"
+  },
+  "theme_deleteConfirm": {
+    "message": "テーマ「$name$」を削除しますか？",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "themeLimit": {
+    "message": "追加できるテーマは 50 個までです。"
+  },
+  "themeDuplicate": {
+    "message": "同じ ID のテーマがすでにあります。"
+  },
+  "theme_customThemes": {
+    "message": "追加されたテーマ"
+  },
+  "theme_presetThemes": {
+    "message": "プレセットテーマ"
+  },
+  "theme_openEditor": {
+    "message": "公開編集者"
+  },
+  "theme_add": {
+    "message": "テーマを追加する"
+  },
+  "theme_empty": {
+    "message": "テーマはまだ追加されていません."
+  },
+  "theme_delete": {
+    "message": "テーマを削除する$name$について",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "theme_importDescription": {
+    "message": "テーマファイルを選択し,表示名を確認します."
+  },
+  "theme_fileLabel": {
+    "message": "テーマファイル"
+  },
+  "theme_dropFile": {
+    "message": "テーマファイルを選択"
+  },
+  "theme_name": {
+    "message": "テーマ名"
+  },
+  "theme_fileType": {
+    "message": "JSON形式でテーマファイルを選択します."
+  },
+  "theme_fileSize": {
+    "message": "テーマファイルは 128 KB 以上でなければならない."
+  },
+  "theme_readFailed": {
+    "message": "テーマファイルは読み取れなかった."
+  },
+  "themeInvalid": {
+    "message": "このテーマファイルは認識できませんでした."
+  },
+  "material": {
+    "message": "マテリアル"
+  },
+  "materialOpacity": {
+    "message": "不透明度"
+  },
+  "backgroundBlur": {
+    "message": "背景のぼかし"
+  },
+  "theme_originalColor": {
+    "message": "テーマ本来の色"
+  },
+  "background_style": {
+    "message": "背景スタイル"
+  },
+  "background_theme": {
+    "message": "テーマスタイル"
+  },
+  "background_custom": {
+    "message": "カスタム背景"
+  },
+  "background_preview": {
+    "message": "背景プレビュー"
+  },
+  "background_type": {
+    "message": "グラデーションの種類"
+  },
+  "background_solid": {
+    "message": "単色"
+  },
+  "background_linear": {
+    "message": "線形グラデーション"
+  },
+  "background_radial": {
+    "message": "放射状グラデーション"
+  },
+  "background_conic": {
+    "message": "円錐グラデーション"
+  },
+  "background_repeating_linear": {
+    "message": "反復線形グラデーション"
+  },
+  "background_repeating_radial": {
+    "message": "反復放射状グラデーション"
+  },
+  "background_angle": {
+    "message": "グラデーションの角度"
+  },
+  "background_origin": {
+    "message": "グラデーションの中心"
+  },
+  "background_originX": {
+    "message": "中心 X"
+  },
+  "background_originY": {
+    "message": "中心 Y"
+  },
+  "background_color": {
+    "message": "背景色"
+  },
+  "background_stops": {
+    "message": "カラーストップ"
+  },
+  "background_stop": {
+    "message": "ストップ $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopColor": {
+    "message": "ストップ $count$ の色",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopPosition": {
+    "message": "ストップ $count$ の位置",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_removeStop": {
+    "message": "ストップ $count$ を削除",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_addStop": {
+    "message": "カラーストップを追加"
+  },
+  "background_pickColor": {
+    "message": "$label$を選択",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_colorOpacity": {
+    "message": "$label$の不透明度",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_imageHint": {
+    "message": "画像の壁紙を使用中です。色の背景を選ぶと置き換わります。"
+  },
+  "background_themeHint": {
+    "message": "現在のテーマの背景色、グラデーション、テクスチャを使い、テーマと表示モードに追従します。"
+  },
+  "background_colorHint": {
+    "message": "下の画像を選ぶと画像の壁紙に戻ります。色の背景では画像の自動切替を一時停止します。"
+  },
+  "background_ivory": {
+    "message": "アイボリー"
+  },
+  "background_mist": {
+    "message": "ミスト"
+  },
+  "background_slate": {
+    "message": "スレート"
+  },
+  "background_sunrise": {
+    "message": "朝焼けグラデーション"
+  },
+  "background_sea": {
+    "message": "海岸グラデーション"
+  },
+  "background_aurora": {
+    "message": "オーロラグラデーション"
+  },
+  "apply": {
+    "message": "適用"
+  },
+  "background_defaultName": {
+    "message": "マイ背景"
+  },
+  "background_savedHint": {
+    "message": "保存済みの背景を右クリックすると編集や削除ができます。"
+  },
+  "background_edit": {
+    "message": "背景を編集"
+  },
+  "background_add": {
+    "message": "背景を追加"
+  },
+  "background_limit": {
+    "message": "背景は最大100個まで保存できます。"
+  },
+  "background_opacity": {
+    "message": "不透明度"
+  },
+  "background_position": {
+    "message": "位置"
+  },
+  "wallpaper_galleries": {
+    "message": "壁紙の提供元"
+  },
+  "wallpaper_builtin": {
+    "message": "内蔵"
+  },
+  "wallpaper_custom": {
+    "message": "カスタム"
+  },
+  "wallpaper_onlineHint": {
+    "message": "商用利用可能な無料画像です。選択すると高解像度の壁紙をオンラインで読み込みます。"
+  },
+  "wallpaper_customEmpty": {
+    "message": "カスタム壁紙はまだありません。"
+  },
+  "wallpaper_loadError": {
+    "message": "画像を読み込めませんでした"
+  },
+  "wallpaper_license": {
+    "message": "利用許諾"
+  },
+  "fontColor": {
+    "message": "文字色"
+  },
+  "fontColor_native": {
+    "message": "テーマ既定の文字色"
+  },
+  "fontColor_light": {
+    "message": "明るい文字"
+  },
+  "fontColor_dark": {
+    "message": "暗い文字"
+  },
+  "fontColor_warm": {
+    "message": "暖色の文字"
+  },
+  "fontColor_gray": {
+    "message": "グレーの文字"
+  },
+  "fontColor_custom": {
+    "message": "カスタム文字色"
+  },
+  "wallpaper_catalogError": {
+    "message": "ギャラリーを読み込めません"
+  },
+  "wallpaper_search": {
+    "message": "オンライン壁紙を検索"
+  },
+  "wallpaper_searchHint": {
+    "message": "キーワード：mountain、earth など"
+  },
+  "wallpaper_loadMore": {
+    "message": "さらに読み込む"
+  },
+  "wallpaper_end": {
+    "message": "すべての結果を表示しました"
+  },
+  "wallpaper_empty": {
+    "message": "該当する画像がありません。別のキーワードをお試しください。"
+  },
+  "browserSearch": {
+    "message": "ブラウザーの既定の検索エンジン"
+  },
+  "syncBrowserSearch": {
+    "message": "ブラウザーの既定エンジンを使用"
+  },
+  "browserSearchHint": {
+    "message": "検索時にブラウザーの現在の既定エンジンを使用します。初回は許可が必要です。"
+  },
+  "browserSearchPreviewHint": {
+    "message": "ウェブプレビューでは下のエンジンを使用します。拡張機能のインストール後に利用できます。"
+  },
+  "appearanceColors": {
+    "message": "テーマと配色"
+  },
+  "themeManagement": {
+    "message": "テーマ管理"
+  },
+  "searchMode": {
+    "message": "検索モード"
+  },
+  "independentSearch": {
+    "message": "個別に選択"
+  },
+  "openBrowserSearchSettings": {
+    "message": "ブラウザーの検索設定を開く"
+  },
+  "independentSearchHint": {
+    "message": "OriaTab の検索にのみ適用されます。ブラウザーの既定エンジンは変更されません。"
+  },
+  "searchResults": {
+    "message": "検索リスト"
+  },
+  "history": {
+    "message": "履歴"
+  },
+  "historyHint": {
+    "message": "検索結果ページを含む閲覧履歴を検索します。有効にするには許可が必要です。"
+  },
+  "historyError": {
+    "message": "履歴を読み込めません。後でもう一度お試しください。"
+  },
+  "allowHistory": {
+    "message": "履歴の読み取りを許可"
+  },
+  "allowBookmarks": {
+    "message": "ブックマークの読み取りを許可"
+  },
+  "engine_bing": {
+    "message": "Bing"
+  },
+  "engine_baidu": {
+    "message": "バイドゥ"
+  },
+  "engine_google": {
+    "message": "グーグル"
+  },
+  "engine_quark": {
+    "message": "Quark"
+  },
+  "engine_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "engine_brave": {
+    "message": "Brave"
+  },
+  "engine_sogou": {
+    "message": "Sogou"
+  },
+  "engine_360": {
+    "message": "360 検索"
+  },
+  "engine_yahoo": {
+    "message": "ヤフー"
+  },
+  "wallpaper_bingDaily": {
+    "message": "毎日更新"
+  },
+  "wallpaper_bingDailyHint": {
+    "message": "Bing の最新の壁紙を自動で使用します。オフラインでは現在の画像を保持します。"
+  },
+  "wallpaper_bingHint": {
+    "message": "最近の Bing 日替わり壁紙。選択すると高解像度の画像を読み込みます。"
+  },
+  "wallpaper_bingUsage": {
+    "message": "壁紙用途のみ"
+  },
+  "wallpaper_bingPermission": {
+    "message": "Bing へのアクセスを許可して、最近の日替わり壁紙を読み込みます。"
+  },
+  "wallpaper_bingEmpty": {
+    "message": "利用可能な Bing 壁紙はありません。"
+  },
+  "wallpaper_refresh": {
+    "message": "壁紙を更新"
+  },
+  "aide_add": {
+    "message": "追加"
+  },
+  "aide_name": {
+    "message": "名前"
+  },
+  "aide_custom": {
+    "message": "カスタム"
+  },
+  "aide_removePlatform": {
+    "message": "プラットフォームを削除"
+  },
+  "aide_chat": {
+    "message": "チャット"
+  },
+  "aide_translate": {
+    "message": "翻訳"
+  },
+  "aide_models": {
+    "message": "モデルプラットフォーム"
+  },
+  "aide_model": {
+    "message": "モデル"
+  },
+  "aide_preset": {
+    "message": "プリセット"
+  },
+  "aide_protocol": {
+    "message": "API プロトコル"
+  },
+  "aide_apiAddress": {
+    "message": "API アドレス"
+  },
+  "aide_configured": {
+    "message": "設定済み"
+  },
+  "aide_notConfigured": {
+    "message": "未設定"
+  },
+  "aide_enterKey": {
+    "message": "キーを入力"
+  },
+  "aide_keepKey": {
+    "message": "空欄で保存済みキーを保持"
+  },
+  "aide_fetchModels": {
+    "message": "モデルを取得"
+  },
+  "aide_tools": {
+    "message": "ツール"
+  },
+  "aide_webSearch": {
+    "message": "ウェブ検索"
+  },
+  "aide_translationTool": {
+    "message": "翻訳ツール"
+  },
+  "aide_provider": {
+    "message": "プロバイダー"
+  },
+  "aide_searchProvider": {
+    "message": "検索プロバイダー"
+  },
+  "aide_translationProvider": {
+    "message": "翻訳プロバイダー"
+  },
+  "aide_domain": {
+    "message": "翻訳分野"
+  },
+  "aide_accessKey": {
+    "message": "アプリ ID / Access Key"
+  },
+  "aide_secretKey": {
+    "message": "Secret Key"
+  },
+  "aide_keyStorage": {
+    "message": "キーはこのブラウザーのローカルストレージに保存され、会話履歴には含まれません。"
+  },
+  "aide_saved": {
+    "message": "保存しました"
+  },
+  "aide_newChat": {
+    "message": "新しいチャット"
+  },
+  "aide_history": {
+    "message": "チャット履歴"
+  },
+  "aide_noHistory": {
+    "message": "履歴はありません"
+  },
+  "aide_deleteChat": {
+    "message": "チャットを削除"
+  },
+  "aide_noModel": {
+    "message": "モデルが未追加"
+  },
+  "aide_welcome": {
+    "message": "何をお手伝いしましょうか？"
+  },
+  "aide_welcomeHint": {
+    "message": "質問、ウェブ検索、テキストの翻訳ができます。"
+  },
+  "aide_configureHint": {
+    "message": "モデルと API キーを追加して始めましょう。"
+  },
+  "aide_configure": {
+    "message": "モデルを設定"
+  },
+  "aide_you": {
+    "message": "あなた"
+  },
+  "aide_assistant": {
+    "message": "Aide の回答"
+  },
+  "aide_thinking": {
+    "message": "考え中"
+  },
+  "aide_retry": {
+    "message": "再生成"
+  },
+  "aide_message": {
+    "message": "メッセージ"
+  },
+  "aide_messagePlaceholder": {
+    "message": "Aide に質問… Enter で送信、Shift+Enter で改行"
+  },
+  "aide_stop": {
+    "message": "停止"
+  },
+  "aide_stopped": {
+    "message": "停止しました"
+  },
+  "aide_send": {
+    "message": "送信"
+  },
+  "aide_sourceLanguage": {
+    "message": "原文の言語"
+  },
+  "aide_targetLanguage": {
+    "message": "翻訳先の言語"
+  },
+  "aide_autoDetect": {
+    "message": "自動検出"
+  },
+  "aide_swapLanguages": {
+    "message": "言語を入れ替え"
+  },
+  "aide_translationText": {
+    "message": "翻訳するテキスト"
+  },
+  "aide_translationPlaceholder": {
+    "message": "翻訳するテキストを入力…"
+  },
+  "aide_copy": {
+    "message": "コピー"
+  },
+  "aide_copied": {
+    "message": "コピー済み"
+  },
+  "aide_readAloud": {
+    "message": "読み上げ"
+  },
+  "aide_stopReading": {
+    "message": "読み上げを停止"
+  },
+  "aide_requestFailed": {
+    "message": "接続とサービス設定を確認して再試行してください。"
+  },
+  "aide_permissionNeeded": {
+    "message": "設定したサービスへのアクセスを許可してください。"
+  },
+  "aide_modelNotConfigured": {
+    "message": "先にモデルと API キーを設定してください。"
+  },
+  "aide_translationNotConfigured": {
+    "message": "設定で翻訳サービスのキーを入力してください。"
+  },
+  "aide_searchNotConfigured": {
+    "message": "設定で検索 API キーを入力してください。"
+  },
+  "aide_noSearchResults": {
+    "message": "結果がありません。検索語やサービスを変更してください。"
+  },
+  "aide_invalidEndpoint": {
+    "message": "HTTPS の API アドレスを入力してください。ローカルは HTTP も使えます。"
+  },
+  "aide_invalidConfig": {
+    "message": "名前、API アドレス、モデル ID を確認してください。"
+  },
+  "aide_invalidRequest": {
+    "message": "テキストと言語設定を確認してください。"
+  },
+  "aide_contextExceeded": {
+    "message": "会話がモデルのコンテキスト上限を超えています。新しいチャットを開始するか、入力を短くしてください。"
+  },
+  "aide_incompleteResponse": {
+    "message": "回答が中断されました。再試行してください。"
+  },
+  "aide_toolLimit": {
+    "message": "ツールの上限に達しました。質問を絞ってください。"
+  },
+  "aide_disconnected": {
+    "message": "接続が切れました。再試行してください。"
+  },
+  "aide_provider_model": {
+    "message": "モデル翻訳"
+  },
+  "aide_provider_youdao": {
+    "message": "有道翻訳"
+  },
+  "aide_provider_baidu": {
+    "message": "百度翻訳"
+  },
+  "aide_provider_volcengine": {
+    "message": "Volcengine"
+  },
+  "aide_domain_general": {
+    "message": "一般"
+  },
+  "aide_domain_information_technology": {
+    "message": "情報技術"
+  },
+  "aide_domain_finance": {
+    "message": "金融"
+  },
+  "aide_domain_manufacturing": {
+    "message": "製造"
+  },
+  "aide_domain_biomedicine": {
+    "message": "生物医学"
+  },
+  "aide_domain_web_literature": {
+    "message": "ウェブ文学"
+  },
+  "aide_domain_game": {
+    "message": "ゲーム"
+  },
+  "aide_providerError": {
+    "message": "接続とサービス設定を確認して再試行してください。"
+  },
+  "aide_invalidResponse": {
+    "message": "接続とサービス設定を確認して再試行してください。"
+  },
+  "aide_translationRejected": {
+    "message": "接続とサービス設定を確認して再試行してください。"
+  },
+  "aide_toolNotAllowed": {
+    "message": "接続とサービス設定を確認して再試行してください。"
+  },
+  "aide_provider_google": {
+    "message": "Google Cloud Translation"
+  },
+  "aide_provider_deepl": {
+    "message": "DeepL"
+  },
+  "aide_search_bing": {
+    "message": "Bing"
+  },
+  "aide_search_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "aide_search_wikipedia": {
+    "message": "Wikipedia"
+  },
+  "aide_search_tavily": {
+    "message": "Tavily"
+  },
+  "aide_search_exa": {
+    "message": "Exa"
+  },
+  "aide_search_brave": {
+    "message": "Brave"
+  },
+  "aide_search_serpapi": {
+    "message": "SerpAPI"
+  },
+  "aide_search_bocha": {
+    "message": "Bocha"
+  },
+  "aide_search_zhipu": {
+    "message": "Zhipu"
+  },
+  "aide_search_aliyun": {
+    "message": "Alibaba IQS"
+  },
+  "aide_search_qianfan": {
+    "message": "Baidu Qianfan"
+  },
+  "searchAskAide": {
+    "message": "Aide に聞く"
+  },
+  "searchTranslate": {
+    "message": "翻訳"
+  },
+  "aide_invalidToolCall": {
+    "message": "自動再試行後もモデルのツール呼び出しが無効です。再試行するかモデルを変更してください。"
+  },
+  "aide_contextSummaryFailed": {
+    "message": "コンテキストの圧縮に失敗しました。履歴は変更されていません。再試行してください。"
+  },
+  "aide_imageModelUnsupported": {
+    "message": "画像入力をサポートするビジョンモデルを選択します."
+  },
+  "calendar_showHeaderLunar": {
+    "message": "ホームの旧暦日付"
+  },
+  "calendar_headerLunarHint": {
+    "message": "ホームの日付の下に旧暦、祝祭日、休日・振替出勤を表示します。"
+  },
+  "calendar_workdayShort": {
+    "message": "振替出勤"
+  },
+  "aide_page_translate": {
+    "message": "翻訳"
+  },
+  "aide_page_explain": {
+    "message": "説明"
+  },
+  "aide_page_ask": {
+    "message": "Aideに質問"
+  },
+  "aide_page_move": {
+    "message": "Aideウィンドウを移動"
+  },
+  "aide_page_resize": {
+    "message": "Aideウィンドウのサイズ変更"
+  },
+  "aide_page_loadImage": {
+    "message": "画像を読み込む"
+  },
+  "aide_page_imagePermission": {
+    "message": "画像をAideに追加するには、画像のアドレスへのアクセスを許可してください。"
+  },
+  "aide_page_imageFailed": {
+    "message": "画像を読み込めませんでした。アップロードして再試行してください。"
+  },
+  "aide_page_explainText": {
+    "message": "以下の選択したテキストを説明してください：\n\n$text$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_page_explainImage": {
+    "message": "この画像を説明してください。"
+  },
+  "aide_page_translateImage": {
+    "message": "画像内のテキストを読み取り、$language$に翻訳してください。",
+    "placeholders": {
+      "language": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_shortcut_title": {
+    "message": "キーボードショートカット"
+  },
+  "aide_shortcut_open": {
+    "message": "Aide を開く"
+  },
+  "aide_shortcut_current": {
+    "message": "現在のショートカット"
+  },
+  "aide_shortcut_customize": {
+    "message": "ショートカットを変更"
+  },
+  "aide_shortcut_unassigned": {
+    "message": "未設定"
+  },
+  "aide_shortcut_unavailable": {
+    "message": "拡張機能をインストールすると設定できます。"
+  },
+  "aide_shortcut_error": {
+    "message": "ショートカット設定を読み込むか開くことができませんでした。再試行してください。"
+  },
+  "aide_pageContentUnavailable": {
+    "message": "現在のページを読み取れません。ページを更新して Aide を開き直してください。"
+  }
+}

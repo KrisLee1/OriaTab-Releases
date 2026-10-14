@@ -1,0 +1,1464 @@
+{
+  "extensionName": {
+    "message": "OriaTab"
+  },
+  "extensionDescription": {
+    "message": "Nouvel onglet en verre liquide, avec thèmes et langues. Aide, votre assistant IA, lit et traduit les pages entre les onglets."
+  },
+  "aide_command_open": {
+    "message": "Ouvrir Aide"
+  },
+  "calendar_settings": {
+    "message": "Réglages du calendrier"
+  },
+  "calendar_region": {
+    "message": "Région des jours fériés"
+  },
+  "calendar_regionNone": {
+    "message": "Aucun jour férié"
+  },
+  "calendar_regionHint": {
+    "message": "Affiche les jours fériés nationaux de la région choisie, y compris les jours de travail compensatoires en Chine."
+  },
+  "calendar_showLunar": {
+    "message": "Afficher le calendrier lunaire chinois"
+  },
+  "calendar_lunarHint": {
+    "message": "Affiche les dates lunaires, fêtes traditionnelles et termes solaires sous les dates, même hors ligne."
+  },
+  "calendar_workday": {
+    "message": "Jour de travail compensatoire"
+  },
+  "calendar_holiday": {
+    "message": "Jour de repos"
+  },
+  "calendar_workMarker": {
+    "message": "T"
+  },
+  "calendar_restMarker": {
+    "message": "F"
+  },
+  "calendar_loading": {
+    "message": "Chargement des jours fériés…"
+  },
+  "calendar_cached": {
+    "message": "Données de jours fériés enregistrées utilisées"
+  },
+  "calendar_unavailable": {
+    "message": "Aucune donnée de jours fériés pour cette année"
+  },
+  "calendar_error": {
+    "message": "Impossible de charger les jours fériés"
+  },
+  "calendar_publicHolidays": {
+    "message": "Jours fériés"
+  },
+  "calendar_title": {
+    "message": "Calendrier"
+  },
+  "calendar_open": {
+    "message": "Ouvrir le calendrier"
+  },
+  "calendar_today": {
+    "message": "Aujourd’hui"
+  },
+  "browserGroups": {
+    "message": "Groupes d’onglets ouverts"
+  },
+  "savedGroups": {
+    "message": "Groupes d’onglets enregistrés"
+  },
+  "readBrowserGroups": {
+    "message": "Lire les groupes d’onglets"
+  },
+  "permissionGroups": {
+    "message": "Autoriser l’accès aux groupes ouverts et à leurs onglets."
+  },
+  "noBrowserGroups": {
+    "message": "Aucun groupe d’onglets ouvert"
+  },
+  "unnamedGroup": {
+    "message": "Groupe sans titre"
+  },
+  "saveBrowserGroup": {
+    "message": "Enregistrer dans OriaTab"
+  },
+  "openCurrentTab": {
+    "message": "Ouvrir dans l’onglet actuel"
+  },
+  "openNewTab": {
+    "message": "Ouvrir dans un nouvel onglet"
+  },
+  "hdIconsTitle": {
+    "message": "Icônes de sites haute résolution"
+  },
+  "later": {
+    "message": "Plus tard"
+  },
+  "switchToLight": {
+    "message": "Passer au mode clair"
+  },
+  "switchToDark": {
+    "message": "Passer au mode sombre"
+  },
+  "hdIcons": {
+    "message": "Charger automatiquement les icônes HD"
+  },
+  "enableHdIcons": {
+    "message": "Obtenir les icônes HD"
+  },
+  "iconPermissionHint": {
+    "message": "Autorisez l’accès aux sites pour trouver et conserver leurs icônes officielles HD."
+  },
+  "customThemeColor": {
+    "message": "Couleur d’accent personnalisée"
+  },
+  "invalidColor": {
+    "message": "Choisissez une couleur valide."
+  },
+  "themeColor": {
+    "message": "Couleur d’accent"
+  },
+  "sage": {
+    "message": "Sauge"
+  },
+  "blue": {
+    "message": "Bleu"
+  },
+  "violet": {
+    "message": "Violet"
+  },
+  "rose": {
+    "message": "Rose"
+  },
+  "amber": {
+    "message": "Ambre"
+  },
+  "moveUp": {
+    "message": "Move up"
+  },
+  "moveDown": {
+    "message": "Move down"
+  },
+  "dockPosition": {
+    "message": "Position du Dock"
+  },
+  "top": {
+    "message": "Haut"
+  },
+  "bottom": {
+    "message": "Bas"
+  },
+  "left": {
+    "message": "Gauche"
+  },
+  "right": {
+    "message": "Droite"
+  },
+  "engineEnabled": {
+    "message": "Activer $engine$",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "engineDisabled": {
+    "message": "Choisissez un moteur activé."
+  },
+  "lastEngine": {
+    "message": "Gardez au moins un moteur activé."
+  },
+  "wallpaperBlur": {
+    "message": "Flou du fond d’écran"
+  },
+  "wallpaperAuto": {
+    "message": "Changer automatiquement le fond"
+  },
+  "wallpaperInterval": {
+    "message": "Fréquence de changement"
+  },
+  "wallpaperOrder": {
+    "message": "Ordre de changement"
+  },
+  "sequential": {
+    "message": "Dans l’ordre"
+  },
+  "random": {
+    "message": "Aléatoire"
+  },
+  "minutes": {
+    "message": "$count$ min",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hours": {
+    "message": "$count$ h",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daily": {
+    "message": "Chaque jour"
+  },
+  "searchPlaceholder": {
+    "message": "Rechercher sur le Web ou dans les favoris…"
+  },
+  "searchWith": {
+    "message": "Rechercher avec $engine$",
+    "placeholders": {
+      "engine": {
+        "content": "$1"
+      }
+    }
+  },
+  "webSearch": {
+    "message": "Recherche sur le Web"
+  },
+  "bookmarks": {
+    "message": "Favoris"
+  },
+  "groups": {
+    "message": "Groupes d’onglets"
+  },
+  "settings": {
+    "message": "Réglages"
+  },
+  "wallpapers": {
+    "message": "Fonds d’écran"
+  },
+  "websites": {
+    "message": "Sites"
+  },
+  "addEngine": {
+    "message": "Gérer les moteurs de recherche"
+  },
+  "selectedEngine": {
+    "message": "Moteur de recherche par défaut"
+  },
+  "engineName": {
+    "message": "Nom du moteur"
+  },
+  "engineTemplate": {
+    "message": "Modèle d’URL de recherche"
+  },
+  "templateHint": {
+    "message": "Placez {query} à l’emplacement du terme recherché."
+  },
+  "engineAdd": {
+    "message": "Ajouter un moteur"
+  },
+  "engineEdit": {
+    "message": "Modifier le moteur"
+  },
+  "addWebsite": {
+    "message": "Ajouter un site"
+  },
+  "editWebsite": {
+    "message": "Modifier le site"
+  },
+  "websiteName": {
+    "message": "Nom du site"
+  },
+  "websiteUrl": {
+    "message": "URL du site"
+  },
+  "removeDock": {
+    "message": "Retirer du Dock"
+  },
+  "moveLeft": {
+    "message": "Déplacer à gauche"
+  },
+  "moveRight": {
+    "message": "Déplacer à droite"
+  },
+  "addToDock": {
+    "message": "Ajouter au Dock"
+  },
+  "alreadyPinned": {
+    "message": "Cet élément est déjà dans le Dock."
+  },
+  "pinned": {
+    "message": "Ajouté au Dock"
+  },
+  "save": {
+    "message": "Enregistrer"
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "delete": {
+    "message": "Supprimer"
+  },
+  "edit": {
+    "message": "Modifier"
+  },
+  "done": {
+    "message": "Terminé"
+  },
+  "back": {
+    "message": "Précédent"
+  },
+  "retry": {
+    "message": "Réessayer"
+  },
+  "loading": {
+    "message": "Chargement…"
+  },
+  "saving": {
+    "message": "Enregistrement…"
+  },
+  "nameRequired": {
+    "message": "Saisissez un nom."
+  },
+  "invalidUrl": {
+    "message": "Saisissez une URL HTTP ou HTTPS valide."
+  },
+  "invalidTemplate": {
+    "message": "Saisissez une URL HTTP(S) avec exactement un {query}."
+  },
+  "saveFailed": {
+    "message": "Échec de l’enregistrement. Réessayez."
+  },
+  "builtinProtected": {
+    "message": "Les éléments intégrés ne peuvent pas être supprimés."
+  },
+  "missingGroup": {
+    "message": "Ce groupe enregistré n’existe plus."
+  },
+  "groupRequired": {
+    "message": "Saisissez un nom et sélectionnez au moins une page."
+  },
+  "genericError": {
+    "message": "Une erreur est survenue. Réessayez."
+  },
+  "preview": {
+    "message": "Aperçu dans le navigateur"
+  },
+  "previewHint": {
+    "message": "Favoris et onglets de démonstration. Installez l’extension pour vos données."
+  },
+  "previewRestore": {
+    "message": "L’aperçu ne peut pas restaurer les onglets. Chargez l’extension dans Chrome ou Edge."
+  },
+  "allBookmarks": {
+    "message": "Tous les favoris"
+  },
+  "bookmarkSearch": {
+    "message": "Trouver un favori…"
+  },
+  "noBookmarks": {
+    "message": "Aucun favori pour le moment"
+  },
+  "noResults": {
+    "message": "Aucun résultat"
+  },
+  "trySearch": {
+    "message": "Essayez un autre nom ou un autre site."
+  },
+  "bookmarkEmptyHint": {
+    "message": "Les sites enregistrés dans votre navigateur apparaîtront ici."
+  },
+  "folder": {
+    "message": "Dossier"
+  },
+  "openFolder": {
+    "message": "Ouvrir le dossier"
+  },
+  "unsupported": {
+    "message": "OriaTab ne peut pas ouvrir cette page."
+  },
+  "permissionTitle": {
+    "message": "Votre navigateur, votre espace"
+  },
+  "permissionBookmarks": {
+    "message": "Autorisez l’accès aux favoris pour les parcourir et les ajouter au Dock."
+  },
+  "permissionTabs": {
+    "message": "Autorisez l’accès aux titres et URL des onglets pour enregistrer cette fenêtre."
+  },
+  "permissionDenied": {
+    "message": "L’accès n’a pas été autorisé. Vous pouvez réessayer."
+  },
+  "allow": {
+    "message": "Autoriser l’accès"
+  },
+  "createGroup": {
+    "message": "Enregistrer cette fenêtre"
+  },
+  "createGroupTitle": {
+    "message": "Enregistrer la fenêtre actuelle"
+  },
+  "groupName": {
+    "message": "Nom du groupe"
+  },
+  "groupPlaceholder": {
+    "message": "Nouveau projet, lectures du week-end…"
+  },
+  "chooseTabs": {
+    "message": "Choisir les pages à regrouper"
+  },
+  "selectedCount": {
+    "message": "La réaction$count$sélectionnée",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectAll": {
+    "message": "Tout sélectionner"
+  },
+  "deselectAll": {
+    "message": "Désactiver tous"
+  },
+  "excluded": {
+    "message": "Non enregistré : nouvel onglet ou URL non prise en charge"
+  },
+  "pinOnSave": {
+    "message": "Ajouter ce groupe au Dock"
+  },
+  "saveGroup": {
+    "message": "Enregistrer le groupe"
+  },
+  "groupSaved": {
+    "message": "Groupe enregistré"
+  },
+  "noGroups": {
+    "message": "Aucun groupe enregistré"
+  },
+  "noGroupsHint": {
+    "message": "Enregistrez les pages de cette fenêtre comme premier groupe."
+  },
+  "tabsCount": {
+    "message": "$count$ pages",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "openAll": {
+    "message": "Ouvrir toutes les pages"
+  },
+  "openGroup": {
+    "message": "Ouvrir le groupe"
+  },
+  "newGroup": {
+    "message": "Nouveau groupe"
+  },
+  "groupRenameTitle": {
+    "message": "Renommer le groupe"
+  },
+  "groupAddPages": {
+    "message": "Ajouter des pages"
+  },
+  "groupAddUrl": {
+    "message": "Saisir une URL"
+  },
+  "groupSiteTitle": {
+    "message": "Titre de la page"
+  },
+  "groupFetchingTitle": {
+    "message": "Chargement du titre…"
+  },
+  "groupAllowTitle": {
+    "message": "Autoriser l’accès et récupérer le titre"
+  },
+  "groupTitleUnavailable": {
+    "message": "Titre indisponible ; saisissez un titre ou utilisez le domaine"
+  },
+  "groupSiteTitleHint": {
+    "message": "Récupéré depuis le lien ou saisi manuellement"
+  },
+  "groupSiteExists": {
+    "message": "Déjà dans ce groupe"
+  },
+  "groupBookmarkPermission": {
+    "message": "Autoriser les favoris pour ajouter des pages à ce groupe."
+  },
+  "groupEditHint": {
+    "message": "Moins pour retirer, plus pour ajouter"
+  },
+  "groupDeleteShort": {
+    "message": "Supprimer le groupe"
+  },
+  "groupInDock": {
+    "message": "Dans le Dock"
+  },
+  "groupRemovePage": {
+    "message": "Retirer la page : $title$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupAdd": {
+    "message": "Ajouter"
+  },
+  "renameGroup": {
+    "message": "Modifier le groupe"
+  },
+  "deleteGroup": {
+    "message": "Supprimer le groupe enregistré"
+  },
+  "deleteGroupHint": {
+    "message": "Supprime le groupe enregistré et son raccourci Dock. Les onglets ouverts restent inchangés."
+  },
+  "removeSite": {
+    "message": "Retirer du groupe"
+  },
+  "groupRename": {
+    "message": "Nom du groupe et pages"
+  },
+  "restoreFailed": {
+    "message": "Certaines pages n’ont pas pu être ouvertes"
+  },
+  "nativeGroupFailed": {
+    "message": "Les pages sont ouvertes, mais le navigateur n’a pas pu les regrouper."
+  },
+  "allOpened": {
+    "message": "Pages ouvertes"
+  },
+  "upload": {
+    "message": "Ajouter un fond d’écran"
+  },
+  "dropWallpaper": {
+    "message": "Déposez une image ou cliquez pour parcourir"
+  },
+  "uploadHint": {
+    "message": "JPG, PNG, WebP · 20 Mo max. · Conservé sur votre appareil"
+  },
+  "builtIn": {
+    "message": "NOTRE SÉLECTION"
+  },
+  "yourWallpapers": {
+    "message": "VOTRE COLLECTION"
+  },
+  "dawn": {
+    "message": "Aube au bord du lac"
+  },
+  "dusk": {
+    "message": "Après la pluie"
+  },
+  "coast": {
+    "message": "Côte paisible"
+  },
+  "bloom": {
+    "message": "Lumière diffuse"
+  },
+  "moonlit": {
+    "message": "Lac au clair de lune"
+  },
+  "aurora": {
+    "message": "Voile boréal"
+  },
+  "dunes": {
+    "message": "Dunes dorées"
+  },
+  "mist": {
+    "message": "Brume en forêt"
+  },
+  "current": {
+    "message": "Actuel"
+  },
+  "wallpaperSaved": {
+    "message": "Fond d’écran enregistré"
+  },
+  "wallpaperDeleted": {
+    "message": "Fond d’écran supprimé"
+  },
+  "imageType": {
+    "message": "Choisissez une image JPG, PNG ou WebP."
+  },
+  "imageSize": {
+    "message": "Choisissez une image de moins de 20 Mo et 80 mégapixels."
+  },
+  "imageInvalid": {
+    "message": "Cette image n’a pas pu être lue."
+  },
+  "wallpaperLoadFailed": {
+    "message": "Fond indisponible. Le fond par défaut est affiché."
+  },
+  "deleteWallpaper": {
+    "message": "Supprimer le fond d’écran"
+  },
+  "themePreset": {
+    "message": "Thème"
+  },
+  "liquidDefault": {
+    "message": "Verre liquide (par défaut)"
+  },
+  "appearance": {
+    "message": "Apparence"
+  },
+  "search": {
+    "message": "Recherche"
+  },
+  "dock": {
+    "message": "Dock"
+  },
+  "behavior": {
+    "message": "Comportement"
+  },
+  "language": {
+    "message": "Langue de l’interface"
+  },
+  "liquid": {
+    "message": "Verre liquide"
+  },
+  "theme": {
+    "message": "Mode d’apparence"
+  },
+  "system": {
+    "message": "Suivre le système"
+  },
+  "light": {
+    "message": "Clair"
+  },
+  "dark": {
+    "message": "Sombre"
+  },
+  "glassOpacity": {
+    "message": "Opacité du verre"
+  },
+  "glassColorConcentration": {
+    "message": "Intensité de la couleur"
+  },
+  "refraction": {
+    "message": "Épaisseur de réfraction"
+  },
+  "glassBevel": {
+    "message": "Largeur des bords"
+  },
+  "glassBlur": {
+    "message": "Flou"
+  },
+  "glassDispersion": {
+    "message": "Dispersion des couleurs"
+  },
+  "glassRim": {
+    "message": "Reflets des bords"
+  },
+  "wallpaperDim": {
+    "message": "Assombrissement du fond"
+  },
+  "iconSize": {
+    "message": "Taille des icônes"
+  },
+  "magnify": {
+    "message": "Agrandir au survol"
+  },
+  "newTab": {
+    "message": "Ouvrir les sites dans un nouvel onglet"
+  },
+  "nativeGroups": {
+    "message": "Restaurer en groupes d’onglets du navigateur"
+  },
+  "reduceMotion": {
+    "message": "Réduire les animations"
+  },
+  "engineDeleteHint": {
+    "message": "Supprimer ce moteur personnalisé ?"
+  },
+  "deleteTitle": {
+    "message": "Supprimer cet élément ?"
+  },
+  "confirmDelete": {
+    "message": "Retirer"
+  },
+  "dockDrop": {
+    "message": "Déposez ici pour ajouter au Dock"
+  },
+  "searchSettings": {
+    "message": "Paramètres de recherche"
+  },
+  "resetSelection": {
+    "message": "Sélection effacée"
+  },
+  "folderEmpty": {
+    "message": "Ce dossier est vide."
+  },
+  "editSaved": {
+    "message": "Modifications enregistrées"
+  },
+  "appearanceLanguage": {
+    "message": "Apparence et langue"
+  },
+  "theme_fileHint": {
+    "message": "JSON · 128 Ko max. · Stocké sur votre appareil"
+  },
+  "theme_addApply": {
+    "message": "Ajouter et appliquer"
+  },
+  "theme_deleteConfirm": {
+    "message": "Supprimer le thème « $name$ » ?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "themeLimit": {
+    "message": "Vous pouvez ajouter jusqu’à 50 thèmes."
+  },
+  "themeDuplicate": {
+    "message": "Un thème avec cet identifiant existe déjà."
+  },
+  "theme_customThemes": {
+    "message": "Thèmes ajoutés"
+  },
+  "theme_presetThemes": {
+    "message": "Thèmes prédéfinis"
+  },
+  "theme_openEditor": {
+    "message": "Éditeur ouvert"
+  },
+  "theme_add": {
+    "message": "Ajouter le thème"
+  },
+  "theme_empty": {
+    "message": "Aucun thème n'a encore été ajouté."
+  },
+  "theme_delete": {
+    "message": "Supprimer le thème$name$La réaction",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "theme_importDescription": {
+    "message": "Choisissez un fichier thème et confirmez son nom d'affichage."
+  },
+  "theme_fileLabel": {
+    "message": "Fichier thème"
+  },
+  "theme_dropFile": {
+    "message": "Choisissez un fichier thème"
+  },
+  "theme_name": {
+    "message": "Nom du thème"
+  },
+  "theme_fileType": {
+    "message": "Choisissez un fichier thème au format JSON."
+  },
+  "theme_fileSize": {
+    "message": "Les fichiers thématiques ne doivent pas dépasser 128 KB."
+  },
+  "theme_readFailed": {
+    "message": "Le fichier thème n'a pas pu être lu."
+  },
+  "themeInvalid": {
+    "message": "Ce fichier thème n'a pas pu être reconnu."
+  },
+  "material": {
+    "message": "Matériau"
+  },
+  "materialOpacity": {
+    "message": "Opacité"
+  },
+  "backgroundBlur": {
+    "message": "Flou d’arrière-plan"
+  },
+  "theme_originalColor": {
+    "message": "Couleur originale du thème"
+  },
+  "background_style": {
+    "message": "Style du fond"
+  },
+  "background_theme": {
+    "message": "Style du thème"
+  },
+  "background_custom": {
+    "message": "Fond personnalisé"
+  },
+  "background_preview": {
+    "message": "Aperçu du fond"
+  },
+  "background_type": {
+    "message": "Type de dégradé"
+  },
+  "background_solid": {
+    "message": "Couleur unie"
+  },
+  "background_linear": {
+    "message": "Dégradé linéaire"
+  },
+  "background_radial": {
+    "message": "Dégradé radial"
+  },
+  "background_conic": {
+    "message": "Dégradé conique"
+  },
+  "background_repeating_linear": {
+    "message": "Dégradé linéaire répété"
+  },
+  "background_repeating_radial": {
+    "message": "Dégradé radial répété"
+  },
+  "background_angle": {
+    "message": "Angle du dégradé"
+  },
+  "background_origin": {
+    "message": "Centre du dégradé"
+  },
+  "background_originX": {
+    "message": "Centre X"
+  },
+  "background_originY": {
+    "message": "Centre Y"
+  },
+  "background_color": {
+    "message": "Couleur du fond"
+  },
+  "background_stops": {
+    "message": "Points de couleur"
+  },
+  "background_stop": {
+    "message": "Point $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopColor": {
+    "message": "Couleur du point $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_stopPosition": {
+    "message": "Position du point $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_removeStop": {
+    "message": "Supprimer le point $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_addStop": {
+    "message": "Ajouter un point de couleur"
+  },
+  "background_pickColor": {
+    "message": "Choisir $label$",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_colorOpacity": {
+    "message": "Opacité de $label$",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "background_imageHint": {
+    "message": "Un fond en image est actif. Choisissez un fond de couleur pour le remplacer."
+  },
+  "background_themeHint": {
+    "message": "Utilise la couleur, le dégradé et la texture du thème actuel, selon le thème et le mode d’affichage."
+  },
+  "background_colorHint": {
+    "message": "Choisissez une image ci-dessous pour restaurer le fond en image. Les fonds de couleur suspendent la rotation des images."
+  },
+  "background_ivory": {
+    "message": "Ivoire"
+  },
+  "background_mist": {
+    "message": "Brume"
+  },
+  "background_slate": {
+    "message": "Ardoise"
+  },
+  "background_sunrise": {
+    "message": "Dégradé d’aube"
+  },
+  "background_sea": {
+    "message": "Dégradé côtier"
+  },
+  "background_aurora": {
+    "message": "Dégradé d’aurore"
+  },
+  "apply": {
+    "message": "Appliquer"
+  },
+  "background_defaultName": {
+    "message": "Mon fond"
+  },
+  "background_savedHint": {
+    "message": "Faites un clic droit sur un fond enregistré pour le modifier ou le supprimer."
+  },
+  "background_edit": {
+    "message": "Modifier le fond"
+  },
+  "background_add": {
+    "message": "Ajouter un fond"
+  },
+  "background_limit": {
+    "message": "Vous pouvez enregistrer jusqu’à 100 fonds."
+  },
+  "background_opacity": {
+    "message": "Opacité"
+  },
+  "background_position": {
+    "message": "Position"
+  },
+  "wallpaper_galleries": {
+    "message": "Sources des fonds"
+  },
+  "wallpaper_builtin": {
+    "message": "Intégrés"
+  },
+  "wallpaper_custom": {
+    "message": "Personnels"
+  },
+  "wallpaper_onlineHint": {
+    "message": "Images gratuites pour un usage commercial. Sélectionnez pour charger le fond en haute résolution en ligne."
+  },
+  "wallpaper_customEmpty": {
+    "message": "Aucun fond personnel pour le moment."
+  },
+  "wallpaper_loadError": {
+    "message": "Échec du chargement de l’image"
+  },
+  "wallpaper_license": {
+    "message": "Licence"
+  },
+  "fontColor": {
+    "message": "Couleur du texte"
+  },
+  "fontColor_native": {
+    "message": "Couleur du texte du thème"
+  },
+  "fontColor_light": {
+    "message": "Texte clair"
+  },
+  "fontColor_dark": {
+    "message": "Texte sombre"
+  },
+  "fontColor_warm": {
+    "message": "Texte chaud"
+  },
+  "fontColor_gray": {
+    "message": "Texte gris"
+  },
+  "fontColor_custom": {
+    "message": "Couleur du texte personnalisée"
+  },
+  "wallpaper_catalogError": {
+    "message": "Impossible de charger la galerie"
+  },
+  "wallpaper_search": {
+    "message": "Rechercher des fonds en ligne"
+  },
+  "wallpaper_searchHint": {
+    "message": "Mots-clés : mountain, earth…"
+  },
+  "wallpaper_loadMore": {
+    "message": "Charger davantage"
+  },
+  "wallpaper_end": {
+    "message": "Tous les résultats sont affichés"
+  },
+  "wallpaper_empty": {
+    "message": "Aucune image correspondante. Essayez un autre mot-clé."
+  },
+  "browserSearch": {
+    "message": "Moteur par défaut du navigateur"
+  },
+  "syncBrowserSearch": {
+    "message": "Utiliser le moteur du navigateur"
+  },
+  "browserSearchHint": {
+    "message": "Chaque recherche utilise le moteur actuel du navigateur. Une autorisation est demandée au premier usage."
+  },
+  "browserSearchPreviewHint": {
+    "message": "L’aperçu web utilise le moteur ci-dessous. Installez l’extension pour suivre votre navigateur."
+  },
+  "appearanceColors": {
+    "message": "Thème et couleurs"
+  },
+  "themeManagement": {
+    "message": "Gestion des thèmes"
+  },
+  "searchMode": {
+    "message": "Mode de recherche"
+  },
+  "independentSearch": {
+    "message": "Choisir indépendamment"
+  },
+  "openBrowserSearchSettings": {
+    "message": "Ouvrir les paramètres de recherche du navigateur"
+  },
+  "independentSearchHint": {
+    "message": "S’applique uniquement aux recherches OriaTab. Le moteur du navigateur reste inchangé."
+  },
+  "searchResults": {
+    "message": "Résultats de recherche"
+  },
+  "history": {
+    "message": "Historique"
+  },
+  "historyHint": {
+    "message": "Rechercher dans les pages visitées, y compris les résultats de recherche. Une autorisation est nécessaire."
+  },
+  "historyError": {
+    "message": "Impossible de lire l’historique. Réessayez plus tard."
+  },
+  "allowHistory": {
+    "message": "Autoriser l’accès à l’historique"
+  },
+  "allowBookmarks": {
+    "message": "Autoriser l’accès aux favoris"
+  },
+  "engine_bing": {
+    "message": "Bing"
+  },
+  "engine_baidu": {
+    "message": "Baidu"
+  },
+  "engine_google": {
+    "message": "Google"
+  },
+  "engine_quark": {
+    "message": "Quark"
+  },
+  "engine_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "engine_brave": {
+    "message": "Brave"
+  },
+  "engine_sogou": {
+    "message": "Sogou"
+  },
+  "engine_360": {
+    "message": "Recherche 360"
+  },
+  "engine_yahoo": {
+    "message": "Yahoo"
+  },
+  "wallpaper_bingDaily": {
+    "message": "Mise à jour quotidienne"
+  },
+  "wallpaper_bingDailyHint": {
+    "message": "Utiliser automatiquement le dernier fond Bing publié. Hors ligne, conserver l’image actuelle."
+  },
+  "wallpaper_bingHint": {
+    "message": "Fonds quotidiens récents de Bing. Sélectionnez une image pour la charger en haute résolution."
+  },
+  "wallpaper_bingUsage": {
+    "message": "Usage comme fond uniquement"
+  },
+  "wallpaper_bingPermission": {
+    "message": "Autorisez l’accès à Bing pour charger les fonds quotidiens récents."
+  },
+  "wallpaper_bingEmpty": {
+    "message": "Aucun fond Bing disponible."
+  },
+  "wallpaper_refresh": {
+    "message": "Actualiser les fonds"
+  },
+  "aide_add": {
+    "message": "Ajouter"
+  },
+  "aide_name": {
+    "message": "Nom"
+  },
+  "aide_custom": {
+    "message": "Personnalisé"
+  },
+  "aide_removePlatform": {
+    "message": "Supprimer la plateforme"
+  },
+  "aide_chat": {
+    "message": "Discussion"
+  },
+  "aide_translate": {
+    "message": "Traduire"
+  },
+  "aide_models": {
+    "message": "Plateformes de modèles"
+  },
+  "aide_model": {
+    "message": "Modèle"
+  },
+  "aide_preset": {
+    "message": "Préréglage"
+  },
+  "aide_protocol": {
+    "message": "Protocole API"
+  },
+  "aide_apiAddress": {
+    "message": "Adresse API"
+  },
+  "aide_configured": {
+    "message": "Configuré"
+  },
+  "aide_notConfigured": {
+    "message": "Non configuré"
+  },
+  "aide_enterKey": {
+    "message": "Saisir la clé"
+  },
+  "aide_keepKey": {
+    "message": "Laisser vide pour conserver la clé"
+  },
+  "aide_fetchModels": {
+    "message": "Charger les modèles"
+  },
+  "aide_tools": {
+    "message": "Outils"
+  },
+  "aide_webSearch": {
+    "message": "Recherche web"
+  },
+  "aide_translationTool": {
+    "message": "Outil de traduction"
+  },
+  "aide_provider": {
+    "message": "Fournisseur"
+  },
+  "aide_searchProvider": {
+    "message": "Fournisseur de recherche"
+  },
+  "aide_translationProvider": {
+    "message": "Fournisseur de traduction"
+  },
+  "aide_domain": {
+    "message": "Domaine de traduction"
+  },
+  "aide_accessKey": {
+    "message": "ID d’application / Access Key"
+  },
+  "aide_secretKey": {
+    "message": "Secret Key"
+  },
+  "aide_keyStorage": {
+    "message": "Les clés restent dans le stockage local du navigateur, hors de l’historique."
+  },
+  "aide_saved": {
+    "message": "Enregistré"
+  },
+  "aide_newChat": {
+    "message": "Nouvelle discussion"
+  },
+  "aide_history": {
+    "message": "Historique"
+  },
+  "aide_noHistory": {
+    "message": "Aucune discussion"
+  },
+  "aide_deleteChat": {
+    "message": "Supprimer la discussion"
+  },
+  "aide_noModel": {
+    "message": "Aucun modèle ajouté"
+  },
+  "aide_welcome": {
+    "message": "Comment puis-je vous aider ?"
+  },
+  "aide_welcomeHint": {
+    "message": "Posez une question, recherchez sur le web ou traduisez un texte."
+  },
+  "aide_configureHint": {
+    "message": "Ajoutez une plateforme et une clé API pour commencer."
+  },
+  "aide_configure": {
+    "message": "Configurer le modèle"
+  },
+  "aide_you": {
+    "message": "Vous"
+  },
+  "aide_assistant": {
+    "message": "Réponse Aide"
+  },
+  "aide_thinking": {
+    "message": "Réflexion"
+  },
+  "aide_retry": {
+    "message": "Régénérer"
+  },
+  "aide_message": {
+    "message": "Message"
+  },
+  "aide_messagePlaceholder": {
+    "message": "Demandez à Aide… Entrée pour envoyer, Maj+Entrée pour une nouvelle ligne"
+  },
+  "aide_stop": {
+    "message": "Arrêter"
+  },
+  "aide_stopped": {
+    "message": "Arrêté"
+  },
+  "aide_send": {
+    "message": "Envoyer"
+  },
+  "aide_sourceLanguage": {
+    "message": "Langue source"
+  },
+  "aide_targetLanguage": {
+    "message": "Langue cible"
+  },
+  "aide_autoDetect": {
+    "message": "Détection automatique"
+  },
+  "aide_swapLanguages": {
+    "message": "Inverser les langues"
+  },
+  "aide_translationText": {
+    "message": "Texte à traduire"
+  },
+  "aide_translationPlaceholder": {
+    "message": "Saisissez ou collez le texte…"
+  },
+  "aide_copy": {
+    "message": "Copier"
+  },
+  "aide_copied": {
+    "message": "Copié"
+  },
+  "aide_readAloud": {
+    "message": "Lire à voix haute"
+  },
+  "aide_stopReading": {
+    "message": "Arrêter la lecture"
+  },
+  "aide_requestFailed": {
+    "message": "Échec de la requête. Vérifiez la connexion et les réglages."
+  },
+  "aide_permissionNeeded": {
+    "message": "Autorisez l’accès aux adresses configurées."
+  },
+  "aide_modelNotConfigured": {
+    "message": "Configurez d’abord un modèle et sa clé API."
+  },
+  "aide_translationNotConfigured": {
+    "message": "Configurez la clé de traduction dans les réglages."
+  },
+  "aide_searchNotConfigured": {
+    "message": "Configurez la clé de recherche dans les réglages."
+  },
+  "aide_noSearchResults": {
+    "message": "Aucun résultat. Essayez une autre requête ou un autre fournisseur."
+  },
+  "aide_invalidEndpoint": {
+    "message": "Saisissez une adresse API HTTPS ; HTTP est permis en local."
+  },
+  "aide_invalidConfig": {
+    "message": "Vérifiez le nom, l’adresse API et l’ID du modèle."
+  },
+  "aide_invalidRequest": {
+    "message": "Requête invalide. Vérifiez le texte et les langues."
+  },
+  "aide_contextExceeded": {
+    "message": "La conversation dépasse la capacité du modèle. Créez une nouvelle discussion ou raccourcissez la saisie."
+  },
+  "aide_incompleteResponse": {
+    "message": "La réponse a été interrompue. Réessayez."
+  },
+  "aide_toolLimit": {
+    "message": "Limite d’outils atteinte. Précisez la question."
+  },
+  "aide_disconnected": {
+    "message": "Connexion interrompue. Réessayez."
+  },
+  "aide_provider_model": {
+    "message": "Traduction par modèle"
+  },
+  "aide_provider_youdao": {
+    "message": "Youdao"
+  },
+  "aide_provider_baidu": {
+    "message": "Baidu"
+  },
+  "aide_provider_volcengine": {
+    "message": "Volcengine"
+  },
+  "aide_domain_general": {
+    "message": "Général"
+  },
+  "aide_domain_information_technology": {
+    "message": "Informatique"
+  },
+  "aide_domain_finance": {
+    "message": "Finance"
+  },
+  "aide_domain_manufacturing": {
+    "message": "Industrie"
+  },
+  "aide_domain_biomedicine": {
+    "message": "Biomédecine"
+  },
+  "aide_domain_web_literature": {
+    "message": "Littérature web"
+  },
+  "aide_domain_game": {
+    "message": "Jeux"
+  },
+  "aide_providerError": {
+    "message": "Échec de la requête. Vérifiez la connexion et les réglages."
+  },
+  "aide_invalidResponse": {
+    "message": "Échec de la requête. Vérifiez la connexion et les réglages."
+  },
+  "aide_translationRejected": {
+    "message": "Échec de la requête. Vérifiez la connexion et les réglages."
+  },
+  "aide_toolNotAllowed": {
+    "message": "Échec de la requête. Vérifiez la connexion et les réglages."
+  },
+  "aide_provider_google": {
+    "message": "Google Cloud Translation"
+  },
+  "aide_provider_deepl": {
+    "message": "DeepL"
+  },
+  "aide_search_bing": {
+    "message": "Bing"
+  },
+  "aide_search_duckduckgo": {
+    "message": "DuckDuckGo"
+  },
+  "aide_search_wikipedia": {
+    "message": "Wikipedia"
+  },
+  "aide_search_tavily": {
+    "message": "Tavily"
+  },
+  "aide_search_exa": {
+    "message": "Exa"
+  },
+  "aide_search_brave": {
+    "message": "Brave"
+  },
+  "aide_search_serpapi": {
+    "message": "SerpAPI"
+  },
+  "aide_search_bocha": {
+    "message": "Bocha"
+  },
+  "aide_search_zhipu": {
+    "message": "Zhipu"
+  },
+  "aide_search_aliyun": {
+    "message": "Alibaba IQS"
+  },
+  "aide_search_qianfan": {
+    "message": "Baidu Qianfan"
+  },
+  "searchAskAide": {
+    "message": "Demander à Aide"
+  },
+  "searchTranslate": {
+    "message": "Traduire"
+  },
+  "aide_invalidToolCall": {
+    "message": "L’appel d’outil du modèle reste invalide après les tentatives automatiques. Réessayez ou changez de modèle."
+  },
+  "aide_contextSummaryFailed": {
+    "message": "Échec de la compression. Historique inchangé ; réessayez."
+  },
+  "aide_imageModelUnsupported": {
+    "message": "Choisissez un modèle de vision qui prend en charge l'entrée d'image."
+  },
+  "calendar_showHeaderLunar": {
+    "message": "Date lunaire sur l’accueil"
+  },
+  "calendar_headerLunarHint": {
+    "message": "Afficher sous la date le calendrier lunaire, les fêtes et les jours fériés ou travaillés en compensation."
+  },
+  "calendar_workdayShort": {
+    "message": "Jour travaillé"
+  },
+  "aide_page_translate": {
+    "message": "Traduire"
+  },
+  "aide_page_explain": {
+    "message": "Expliquer"
+  },
+  "aide_page_ask": {
+    "message": "Demander à Aide"
+  },
+  "aide_page_move": {
+    "message": "Déplacer la fenêtre Aide"
+  },
+  "aide_page_resize": {
+    "message": "Redimensionner la fenêtre Aide"
+  },
+  "aide_page_loadImage": {
+    "message": "Charger l’image"
+  },
+  "aide_page_imagePermission": {
+    "message": "Autorisez l’accès à l’adresse de l’image pour l’ajouter à Aide."
+  },
+  "aide_page_imageFailed": {
+    "message": "Impossible de charger l’image. Importez-la et réessayez."
+  },
+  "aide_page_explainText": {
+    "message": "Expliquez le texte sélectionné suivant :\n\n$text$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_page_explainImage": {
+    "message": "Expliquez cette image."
+  },
+  "aide_page_translateImage": {
+    "message": "Lisez et traduisez le texte de cette image en $language$.",
+    "placeholders": {
+      "language": {
+        "content": "$1"
+      }
+    }
+  },
+  "aide_shortcut_title": {
+    "message": "Raccourci clavier"
+  },
+  "aide_shortcut_open": {
+    "message": "Ouvrir Aide"
+  },
+  "aide_shortcut_current": {
+    "message": "Raccourci actuel"
+  },
+  "aide_shortcut_customize": {
+    "message": "Personnaliser"
+  },
+  "aide_shortcut_unassigned": {
+    "message": "Non attribué"
+  },
+  "aide_shortcut_unavailable": {
+    "message": "Installez l’extension pour configurer un raccourci."
+  },
+  "aide_shortcut_error": {
+    "message": "Impossible de lire ou d’ouvrir les paramètres des raccourcis. Réessayez."
+  },
+  "aide_pageContentUnavailable": {
+    "message": "Impossible de lire la page actuelle. Actualisez-la et rouvrez Aide."
+  }
+}
