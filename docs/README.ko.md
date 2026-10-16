@@ -10,7 +10,7 @@ OriaTab은 검색, 북마크, 탭 그룹, 배경화면, 달력을 갖춘 맞춤�
 
 데스크톱 Chrome과 Edge에서 동일한 Manifest V3 패키지를 사용합니다.
 
-1. [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest)에서 `oriatab-0.1.1.zip`을 다운로드하고 계속 사용할 폴더에 압축을 풉니다.
+1. [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest)에서 `oriatab-0.2.0.zip`을 다운로드하고 계속 사용할 폴더에 압축을 풉니다.
 2. Chrome에서 `chrome://extensions`, Edge에서 `edge://extensions`를 엽니다.
 3. **개발자 모드**를 켜고 **압축해제된 확장 프로그램을 로드합니다**를 선택합니다.
 4. `manifest.json`이 바로 들어 있는 폴더를 선택한 뒤 새 탭을 엽니다.
@@ -30,13 +30,13 @@ OriaTab은 검색, 북마크, 탭 그룹, 배경화면, 달력을 갖춘 맞춤�
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.1.zip
+shasum -a 256 oriatab-0.2.0.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.2.0.zip -Algorithm SHA256
 ```
 
 ## 문제 해결

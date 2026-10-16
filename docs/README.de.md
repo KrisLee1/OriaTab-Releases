@@ -10,7 +10,7 @@ OriaTab ist eine anpassbare neue Tab-Seite mit Suche, Lesezeichen, Tabgruppen, H
 
 Chrome und Edge für Desktop verwenden dasselbe Manifest-V3-Paket.
 
-1. Lade `oriatab-0.1.1.zip` unter [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) herunter und entpacke die Datei in einen Ordner, den du dauerhaft behältst.
+1. Lade `oriatab-0.2.0.zip` unter [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) herunter und entpacke die Datei in einen Ordner, den du dauerhaft behältst.
 2. Öffne `chrome://extensions` in Chrome oder `edge://extensions` in Edge.
 3. Aktiviere den **Entwicklermodus** und wähle **Entpackte Erweiterung laden**.
 4. Wähle den Ordner, der `manifest.json` direkt enthält, und öffne einen neuen Tab.
@@ -30,13 +30,13 @@ Lade [SHA256SUMS.txt](../SHA256SUMS.txt) aus diesem Repository herunter. Berechn
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.1.zip
+shasum -a 256 oriatab-0.2.0.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.2.0.zip -Algorithm SHA256
 ```
 
 ## Fehlerbehebung

@@ -568,6 +568,24 @@
   "mist": {
     "message": "雾林清晓"
   },
+  "goldenGate": {
+    "message": "金门大桥"
+  },
+  "redSquare": {
+    "message": "俄罗斯红场"
+  },
+  "shanghai": {
+    "message": "上海夜色"
+  },
+  "giza": {
+    "message": "吉萨金字塔"
+  },
+  "westminster": {
+    "message": "大本钟"
+  },
+  "fuji": {
+    "message": "富士山"
+  },
   "current": {
     "message": "正在使用"
   },
@@ -629,22 +647,22 @@
     "message": "深色"
   },
   "glassOpacity": {
-    "message": "玻璃透明度"
+    "message": "不透明度"
   },
   "glassColorConcentration": {
     "message": "颜色浓度"
   },
   "refraction": {
-    "message": "折射厚度"
+    "message": "折射"
   },
   "glassBevel": {
     "message": "边缘宽度"
   },
   "glassBlur": {
-    "message": "模糊程度"
+    "message": "模糊度"
   },
   "glassDispersion": {
-    "message": "色散强度"
+    "message": "色散"
   },
   "glassRim": {
     "message": "边缘高光"
@@ -1460,5 +1478,17 @@
   },
   "aide_pageContentUnavailable": {
     "message": "无法读取当前网页内容。请刷新页面并重新打开 Aide 后重试。"
+  },
+  "glassThickness": {
+    "message": "厚度"
+  },
+  "glassHighlight": {
+    "message": "高光"
+  },
+  "glassBrightness": {
+    "message": "亮度"
+  },
+  "glassReset": {
+    "message": "恢复默认材质"
   }
 }

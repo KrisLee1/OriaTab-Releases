@@ -568,6 +568,24 @@
   "mist": {
     "message": "霧林清曉"
   },
+  "goldenGate": {
+    "message": "金門大橋"
+  },
+  "redSquare": {
+    "message": "俄羅斯紅場"
+  },
+  "shanghai": {
+    "message": "上海夜色"
+  },
+  "giza": {
+    "message": "吉薩金字塔"
+  },
+  "westminster": {
+    "message": "大笨鐘"
+  },
+  "fuji": {
+    "message": "富士山"
+  },
   "current": {
     "message": "正在使用"
   },
@@ -629,22 +647,22 @@
     "message": "深色"
   },
   "glassOpacity": {
-    "message": "玻璃透明度"
+    "message": "不透明度"
   },
   "glassColorConcentration": {
     "message": "顏色濃度"
   },
   "refraction": {
-    "message": "折射厚度"
+    "message": "折射"
   },
   "glassBevel": {
     "message": "邊緣寬度"
   },
   "glassBlur": {
-    "message": "模糊"
+    "message": "模糊度"
   },
   "glassDispersion": {
-    "message": "色散強度"
+    "message": "色散"
   },
   "glassRim": {
     "message": "邊緣高光"
@@ -1460,5 +1478,17 @@
   },
   "aide_pageContentUnavailable": {
     "message": "無法讀取目前網頁內容。請重新整理頁面並重新開啟 Aide 後再試。"
+  },
+  "glassThickness": {
+    "message": "厚度"
+  },
+  "glassHighlight": {
+    "message": "高光"
+  },
+  "glassBrightness": {
+    "message": "亮度"
+  },
+  "glassReset": {
+    "message": "恢復預設材質"
   }
 }

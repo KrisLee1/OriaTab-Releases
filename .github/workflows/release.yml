@@ -1,0 +1,44 @@
+name: Publish verified extension
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Verify archive and unpacked extension
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, zipfile
+          version = os.environ['GITHUB_REF_NAME'].removeprefix('v')
+          archive = pathlib.Path(f'packages/oriatab-{version}.zip')
+          expected = dict((name, digest) for digest, name in (line.split() for line in pathlib.Path('SHA256SUMS.txt').read_text().splitlines()))
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected[archive.name]
+          with zipfile.ZipFile(archive) as package:
+              assert json.loads(package.read('manifest.json'))['version'] == version
+              assert set(package.namelist()) == {str(p.relative_to('extension')) for p in pathlib.Path('extension').rglob('*') if p.is_file()}
+              for name in package.namelist():
+                  assert package.read(name) == pathlib.Path('extension', name).read_bytes(), name
+          assert pathlib.Path(f'packages/v{version}.txt').read_text().strip()
+          print(f'Verified {version}: archive checksum and every unpacked file match')
+          PY
+      - name: Upload and publish release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          archive="packages/oriatab-${version}.zip"
+          gh release create "$GITHUB_REF_NAME" "$archive" SHA256SUMS.txt --verify-tag --draft --title "OriaTab ${version}" --notes-file "packages/${GITHUB_REF_NAME}.txt"
+          mkdir verified-download
+          gh release download "$GITHUB_REF_NAME" --pattern "oriatab-${version}.zip" --dir verified-download
+          cmp "$archive" "verified-download/oriatab-${version}.zip"
+          gh release edit "$GITHUB_REF_NAME" --draft=false --latest

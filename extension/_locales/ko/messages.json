@@ -568,6 +568,24 @@
   "mist": {
     "message": "안개 숲"
   },
+  "goldenGate": {
+    "message": "금문교"
+  },
+  "redSquare": {
+    "message": "붉은 광장"
+  },
+  "shanghai": {
+    "message": "상하이의 황혼"
+  },
+  "giza": {
+    "message": "기자 피라미드"
+  },
+  "westminster": {
+    "message": "빅벤"
+  },
+  "fuji": {
+    "message": "후지산"
+  },
   "current": {
     "message": "현재"
   },
@@ -629,13 +647,13 @@
     "message": "다크"
   },
   "glassOpacity": {
-    "message": "유리 불투명도"
+    "message": "불투명도"
   },
   "glassColorConcentration": {
     "message": "색상 농도"
   },
   "refraction": {
-    "message": "굴절 두께"
+    "message": "굴절"
   },
   "glassBevel": {
     "message": "가장자리 너비"
@@ -1460,5 +1478,17 @@
   },
   "aide_pageContentUnavailable": {
     "message": "현재 페이지를 읽을 수 없습니다. 새로고침한 뒤 Aide를 다시 여세요."
+  },
+  "glassThickness": {
+    "message": "두께"
+  },
+  "glassHighlight": {
+    "message": "하이라이트"
+  },
+  "glassBrightness": {
+    "message": "밝기"
+  },
+  "glassReset": {
+    "message": "유리 소재 초기화"
   }
 }

@@ -2544,3 +2544,9 @@ Brave: https://brave.com/favicon.ico
 Sogou: https://www.sogou.com/favicon.ico
 360 Search: https://www.so.com/favicon.ico
 Brand marks remain the property of their respective owners.
+
+
+LiquidGlass / @ybouane/liquidglass 1.0.3 — MIT
+Dual-surface refraction and normal-directed RGB sampling adapted from
+https://github.com/ybouane/liquidglass (59af227103795f06421a96e2c7d3dceb081decd2).
+Author attribution and full permission notice: licenses/liquidglass.txt

@@ -10,7 +10,7 @@ OriaTab — настраиваемая страница новой вкладк�
 
 Настольные версии Chrome и Edge используют один пакет Manifest V3.
 
-1. Скачайте `oriatab-0.1.1.zip` из раздела [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) и распакуйте в папку, которую будете хранить постоянно.
+1. Скачайте `oriatab-0.2.0.zip` из раздела [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) и распакуйте в папку, которую будете хранить постоянно.
 2. Откройте `chrome://extensions` в Chrome или `edge://extensions` в Edge.
 3. Включите **Режим разработчика** и выберите **Загрузить распакованное расширение**.
 4. Выберите папку, в которой непосредственно находится `manifest.json`, и откройте новую вкладку.
@@ -30,13 +30,13 @@ OriaTab — настраиваемая страница новой вкладк�
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.1.zip
+shasum -a 256 oriatab-0.2.0.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.2.0.zip -Algorithm SHA256
 ```
 
 ## Решение проблем

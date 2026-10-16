@@ -568,6 +568,24 @@
   "mist": {
     "message": "Brume en forêt"
   },
+  "goldenGate": {
+    "message": "Pont du Golden Gate"
+  },
+  "redSquare": {
+    "message": "Place Rouge"
+  },
+  "shanghai": {
+    "message": "Shanghai au crépuscule"
+  },
+  "giza": {
+    "message": "Pyramides de Gizeh"
+  },
+  "westminster": {
+    "message": "Big Ben"
+  },
+  "fuji": {
+    "message": "Mont Fuji"
+  },
   "current": {
     "message": "Actuel"
   },
@@ -629,13 +647,13 @@
     "message": "Sombre"
   },
   "glassOpacity": {
-    "message": "Opacité du verre"
+    "message": "Opacité"
   },
   "glassColorConcentration": {
     "message": "Intensité de la couleur"
   },
   "refraction": {
-    "message": "Épaisseur de réfraction"
+    "message": "Réfraction"
   },
   "glassBevel": {
     "message": "Largeur des bords"
@@ -644,7 +662,7 @@
     "message": "Flou"
   },
   "glassDispersion": {
-    "message": "Dispersion des couleurs"
+    "message": "Dispersion"
   },
   "glassRim": {
     "message": "Reflets des bords"
@@ -1460,5 +1478,17 @@
   },
   "aide_pageContentUnavailable": {
     "message": "Impossible de lire la page actuelle. Actualisez-la et rouvrez Aide."
+  },
+  "glassThickness": {
+    "message": "Épaisseur"
+  },
+  "glassHighlight": {
+    "message": "Éclat"
+  },
+  "glassBrightness": {
+    "message": "Luminosité"
+  },
+  "glassReset": {
+    "message": "Réinitialiser le verre"
   }
 }

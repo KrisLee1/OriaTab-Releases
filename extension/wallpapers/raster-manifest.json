@@ -1,0 +1,272 @@
+{
+  "renderer": "Chromium 149.0.7827.55",
+  "encoding": "WebP full quality 95, thumbnail quality 90; smart chroma subsampling",
+  "images": {
+    "aurora.svg": {
+      "source": "beb6bbf52372d247ecafb55acfe5e6c3ad16d70cd6666ec7c2e1019ac2b9a6ee",
+      "outputs": [
+        {
+          "file": "aurora.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 251236,
+          "sha256": "1608428fab36796466962ad53db4ec9385c522e97b26b3badedb866839ede9c3"
+        },
+        {
+          "file": "aurora-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 11814,
+          "sha256": "c10a789577023bb82ab3dcad78806f40d0a45df2d8c3ae2d931c06e0a12bb911"
+        }
+      ]
+    },
+    "bloom.svg": {
+      "source": "f91f91d5e24890eed585f5c646a0a65d7ed9143beed08f4b11d11e29ca9f7d11",
+      "outputs": [
+        {
+          "file": "bloom.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 95954,
+          "sha256": "a79acd64b15eb8b9e25760066f71d399c41e89338c9a68d2ec296626c03bf711"
+        },
+        {
+          "file": "bloom-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 3352,
+          "sha256": "db639f5fc6db11cf0bf20a54c091b90b8197c41144db20e64c82d45f6ba9da36"
+        }
+      ]
+    },
+    "coast.svg": {
+      "source": "b6c3329d0027e6c39d60e83eeb802dec0ee40c78e1f2e64302b5f22c39de030c",
+      "outputs": [
+        {
+          "file": "coast.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 178314,
+          "sha256": "46ea9148a14a9493c5f503e61a3a55d72074f0b7aba3352cb905dbe90c2e36b2"
+        },
+        {
+          "file": "coast-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 7848,
+          "sha256": "347646d8579ad691dca92278b03780b233ed93ff7281b5d5eea60d6bd78ee25f"
+        }
+      ]
+    },
+    "dawn.svg": {
+      "source": "b8485a43010a48c4af17c7385ae6edd1506b46235c8a3167f312dc852ada5e69",
+      "outputs": [
+        {
+          "file": "dawn.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 194110,
+          "sha256": "0c7c5d161dc98461002d18146ed1c81b6814f6d8a3df777e9110d38bff2f6765"
+        },
+        {
+          "file": "dawn-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 8230,
+          "sha256": "25454591ede353032595192cb44e2963fd78d31116a9d8e939bd87fa5e23a10d"
+        }
+      ]
+    },
+    "dunes.svg": {
+      "source": "7fb191b48cffd38716f139442d18270d4d05a47e359b3a3be4106278ed50d89e",
+      "outputs": [
+        {
+          "file": "dunes.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 118566,
+          "sha256": "164baa09c5c0b8b0e812aab956c0ad07754c3cfedaa6ccb29b1e4c4d2e51a000"
+        },
+        {
+          "file": "dunes-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 4610,
+          "sha256": "e2153e08b5793f2ddc3b5184aafb25581a74bb1b7a9a79b3913a4c459f8b33e3"
+        }
+      ]
+    },
+    "dusk.svg": {
+      "source": "6df659ba32d8b4de295ed1e0d09a5d0b0a5f5106d07991028071a9a96438835d",
+      "outputs": [
+        {
+          "file": "dusk.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 143820,
+          "sha256": "3928ee8bc6ef960aa7a8aa36fa4925122d2ed98fe49b2f4c22b07f1513fd7cbd"
+        },
+        {
+          "file": "dusk-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 6250,
+          "sha256": "0ad68e959ab5b3670f8fcae416269ba2c598e8a9068d003ed4f05530fdd3f4cf"
+        }
+      ]
+    },
+    "fuji.svg": {
+      "source": "1db56ee813beed47fb2dfaf5ef776cafa3f01579a5acc7c9512ac3663b43015b",
+      "outputs": [
+        {
+          "file": "fuji.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 295234,
+          "sha256": "581aa2666ce0aa68bf15b19e6f6c03fba9e7a8a67595980d39d334070a17c6fe"
+        },
+        {
+          "file": "fuji-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 12656,
+          "sha256": "3af3397a32e0e5142772de0aa37f1d71298f272aeff6832bc94146f91e74f0c1"
+        }
+      ]
+    },
+    "giza.svg": {
+      "source": "5ddb8ada99e0daf9c678c1e30565994d865a5dc22257b7f0128eb2d023b0e2d5",
+      "outputs": [
+        {
+          "file": "giza.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 366550,
+          "sha256": "c7dfb75ebecca3d62f5e0d17654cfd2d2aab2138230a3b62a70f4cba47b25d0c"
+        },
+        {
+          "file": "giza-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9064,
+          "sha256": "b13b7066a7d70e4768b733650abb9b1e8f511de8217235cdcf86cc2946f90baf"
+        }
+      ]
+    },
+    "golden-gate.svg": {
+      "source": "e546a8cd260075a57d6fd11ce9d510a4f5e05ce955190f5ff96d70b8ffd3c542",
+      "outputs": [
+        {
+          "file": "golden-gate.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 323178,
+          "sha256": "9f8813b911736a8f31fceff39307c96415c675754fa2eeebe8a26fdbe1ff3752"
+        },
+        {
+          "file": "golden-gate-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 13928,
+          "sha256": "a19cdaf3c2f8f600be001b03c796f651cb518263c2e3437c0d3fe5b916eb5935"
+        }
+      ]
+    },
+    "mist.svg": {
+      "source": "ca0e55a554fc6604ee78eef338cf9930cb13ecfa76ba75a873fd838b454601b2",
+      "outputs": [
+        {
+          "file": "mist.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 177574,
+          "sha256": "65baac0cc9903af77d3ed3f052b65ca9b37d73678cab1c1d039bb59782e245fe"
+        },
+        {
+          "file": "mist-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 10996,
+          "sha256": "508681235927939e7f40c067f0eab62181f4e698d4f99743e587061b6710e725"
+        }
+      ]
+    },
+    "moonlit.svg": {
+      "source": "d425e76d85b0fad0fb829b27e64fff84d6552b097922933deb52abe8886883d0",
+      "outputs": [
+        {
+          "file": "moonlit.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 141798,
+          "sha256": "1a423cf59d90f0e97670aa7fe203e6761f5235e3c0006b739ec80565a621b032"
+        },
+        {
+          "file": "moonlit-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 5282,
+          "sha256": "9071edaf6f60590e98467862d207cf99ddba22fc8d3c12a7cbe7c3adda486006"
+        }
+      ]
+    },
+    "red-square.svg": {
+      "source": "9aed4391d474bf504aac0cf6a0ebbd90b25b6d226fd38204c8f8976bc87ac3f5",
+      "outputs": [
+        {
+          "file": "red-square.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 447180,
+          "sha256": "f1b482c302180c90a1966a5b29fe20f468df2b9ecc0cf726c796e4e14a666212"
+        },
+        {
+          "file": "red-square-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 21664,
+          "sha256": "d79d68b41afe2060bc6df785555896fc857aa198662ea82235148d7ee406c53b"
+        }
+      ]
+    },
+    "shanghai.svg": {
+      "source": "e1d13c45deb2e026b9f5775a1f205db8c5ba5baa7d594747f0d95330cf131f46",
+      "outputs": [
+        {
+          "file": "shanghai.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 392052,
+          "sha256": "e5489946b9d91d65e33990167c7325a83157842556ac6920d61efe87b5213e37"
+        },
+        {
+          "file": "shanghai-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 15288,
+          "sha256": "1c97d48fd76d533957d492cc3eee1dfa4c8c7c85c1e5b3f44045ab41f63f8864"
+        }
+      ]
+    },
+    "westminster.svg": {
+      "source": "874b695cbba12ae5ed490f0a8d183963ff977b2dcbefaf038ecf87d13a83bb5a",
+      "outputs": [
+        {
+          "file": "westminster.webp",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 291122,
+          "sha256": "f00cfea5e57762e8655109cda22a721d8abd3af8c35e5b1804bece0124cbc706"
+        },
+        {
+          "file": "westminster-thumb.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 14892,
+          "sha256": "1b3353159b06dc0ce039ef9857dba804194f159e5a7aea9b9a0734924a33118e"
+        }
+      ]
+    }
+  }
+}

@@ -568,6 +568,24 @@
   "mist": {
     "message": "Лесной туман"
   },
+  "goldenGate": {
+    "message": "Мост Золотые Ворота"
+  },
+  "redSquare": {
+    "message": "Красная площадь"
+  },
+  "shanghai": {
+    "message": "Шанхай в сумерках"
+  },
+  "giza": {
+    "message": "Пирамиды Гизы"
+  },
+  "westminster": {
+    "message": "Биг-Бен"
+  },
+  "fuji": {
+    "message": "Фудзи"
+  },
   "current": {
     "message": "Текущий"
   },
@@ -629,13 +647,13 @@
     "message": "Тёмное"
   },
   "glassOpacity": {
-    "message": "Непрозрачность стекла"
+    "message": "Непрозрачность"
   },
   "glassColorConcentration": {
     "message": "Интенсивность цвета"
   },
   "refraction": {
-    "message": "Толщина преломления"
+    "message": "Преломление"
   },
   "glassBevel": {
     "message": "Ширина кромки"
@@ -644,7 +662,7 @@
     "message": "Размытие"
   },
   "glassDispersion": {
-    "message": "Дисперсия цвета"
+    "message": "Дисперсия"
   },
   "glassRim": {
     "message": "Подсветка кромки"
@@ -1460,5 +1478,17 @@
   },
   "aide_pageContentUnavailable": {
     "message": "Не удалось прочитать текущую страницу. Обновите её и снова откройте Aide."
+  },
+  "glassThickness": {
+    "message": "Толщина"
+  },
+  "glassHighlight": {
+    "message": "Блик"
+  },
+  "glassBrightness": {
+    "message": "Яркость"
+  },
+  "glassReset": {
+    "message": "Сбросить материал стекла"
   }
 }

@@ -10,7 +10,7 @@ OriaTab 提供可自訂的新分頁，結合搜尋、書籤、分頁群組、桌
 
 適用於桌面版 Chrome 與 Edge，兩者使用相同的 Manifest V3 擴充功能套件。
 
-1. 在 [Releases](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) 的 Assets 下載 `oriatab-0.1.1.zip`，解壓縮到準備長期保留的資料夾。
+1. 在 [Releases](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) 的 Assets 下載 `oriatab-0.2.0.zip`，解壓縮到準備長期保留的資料夾。
 2. Chrome 開啟 `chrome://extensions`；Edge 開啟 `edge://extensions`。
 3. 開啟「開發人員模式」，選擇「載入未封裝項目」。
 4. 選取直接包含 `manifest.json` 的資料夾，開啟新分頁即可使用。
@@ -30,13 +30,13 @@ OriaTab 提供可自訂的新分頁，結合搜尋、書籤、分頁群組、桌
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.1.zip
+shasum -a 256 oriatab-0.2.0.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.2.0.zip -Algorithm SHA256
 ```
 
 ## 疑難排解

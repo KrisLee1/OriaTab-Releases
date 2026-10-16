@@ -568,6 +568,24 @@
   "mist": {
     "message": "Forest mist"
   },
+  "goldenGate": {
+    "message": "Golden Gate Bridge"
+  },
+  "redSquare": {
+    "message": "Red Square"
+  },
+  "shanghai": {
+    "message": "Shanghai at dusk"
+  },
+  "giza": {
+    "message": "Pyramids of Giza"
+  },
+  "westminster": {
+    "message": "Big Ben"
+  },
+  "fuji": {
+    "message": "Mount Fuji"
+  },
   "current": {
     "message": "Current"
   },
@@ -629,13 +647,13 @@
     "message": "Dark"
   },
   "glassOpacity": {
-    "message": "Glass opacity"
+    "message": "Opacity"
   },
   "glassColorConcentration": {
     "message": "Colour concentration"
   },
   "refraction": {
-    "message": "Refraction thickness"
+    "message": "Refraction"
   },
   "glassBevel": {
     "message": "Edge width"
@@ -644,7 +662,7 @@
     "message": "Blur"
   },
   "glassDispersion": {
-    "message": "Colour dispersion"
+    "message": "Dispersion"
   },
   "glassRim": {
     "message": "Edge highlights"
@@ -1460,5 +1478,17 @@
   },
   "aide_pageContentUnavailable": {
     "message": "Could not read the current page. Refresh it and reopen Aide to try again."
+  },
+  "glassThickness": {
+    "message": "Thickness"
+  },
+  "glassHighlight": {
+    "message": "Highlight"
+  },
+  "glassBrightness": {
+    "message": "Brightness"
+  },
+  "glassReset": {
+    "message": "Reset glass material"
   }
 }

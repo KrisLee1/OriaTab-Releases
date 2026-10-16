@@ -10,7 +10,7 @@ OriaTab propose une page de nouvel onglet personnalisable avec recherche, favori
 
 Chrome et Edge pour ordinateur utilisent le même paquet Manifest V3.
 
-1. Téléchargez `oriatab-0.1.1.zip` dans [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest), puis extrayez-le dans un dossier que vous conserverez.
+1. Téléchargez `oriatab-0.2.0.zip` dans [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest), puis extrayez-le dans un dossier que vous conserverez.
 2. Ouvrez `chrome://extensions` dans Chrome ou `edge://extensions` dans Edge.
 3. Activez le **Mode développeur**, puis choisissez **Charger l’extension non empaquetée**.
 4. Sélectionnez le dossier contenant directement `manifest.json`, puis ouvrez un nouvel onglet.
@@ -30,13 +30,13 @@ Téléchargez [SHA256SUMS.txt](../SHA256SUMS.txt) depuis ce dépôt. Calculez le
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.1.zip
+shasum -a 256 oriatab-0.2.0.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.2.0.zip -Algorithm SHA256
 ```
 
 ## Dépannage

@@ -568,6 +568,24 @@
   "mist": {
     "message": "霧の森"
   },
+  "goldenGate": {
+    "message": "ゴールデンゲートブリッジ"
+  },
+  "redSquare": {
+    "message": "赤の広場"
+  },
+  "shanghai": {
+    "message": "上海の夕景"
+  },
+  "giza": {
+    "message": "ギザのピラミッド"
+  },
+  "westminster": {
+    "message": "ビッグ・ベン"
+  },
+  "fuji": {
+    "message": "富士山"
+  },
   "current": {
     "message": "現在"
   },
@@ -629,13 +647,13 @@
     "message": "ダーク"
   },
   "glassOpacity": {
-    "message": "ガラスの不透明度"
+    "message": "不透明度"
   },
   "glassColorConcentration": {
     "message": "色の濃さ"
   },
   "refraction": {
-    "message": "屈折の厚さ"
+    "message": "屈折"
   },
   "glassBevel": {
     "message": "エッジの幅"
@@ -1460,5 +1478,17 @@
   },
   "aide_pageContentUnavailable": {
     "message": "現在のページを読み取れません。ページを更新して Aide を開き直してください。"
+  },
+  "glassThickness": {
+    "message": "厚さ"
+  },
+  "glassHighlight": {
+    "message": "ハイライト"
+  },
+  "glassBrightness": {
+    "message": "明るさ"
+  },
+  "glassReset": {
+    "message": "ガラス素材をリセット"
   }
 }

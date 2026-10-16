@@ -10,7 +10,7 @@ OriaTab は、検索、ブックマーク、タブグループ、壁紙、カレ
 
 デスクトップ版 Chrome と Edge は同じ Manifest V3 パッケージを使用します。
 
-1. [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) から `oriatab-0.1.1.zip` をダウンロードし、継続して使用するフォルダーに展開します。
+1. [Releases → Assets](https://github.com/KrisLee1/OriaTab-Releases/releases/latest) から `oriatab-0.2.0.zip` をダウンロードし、継続して使用するフォルダーに展開します。
 2. Chrome では `chrome://extensions`、Edge では `edge://extensions` を開きます。
 3. 「デベロッパー モード」を有効にし、「パッケージ化されていない拡張機能を読み込む」を選びます。
 4. `manifest.json` が直接入っているフォルダーを選択し、新しいタブを開きます。
@@ -30,13 +30,13 @@ OriaTab は、検索、ブックマーク、タブグループ、壁紙、カレ
 macOS / Linux:
 
 ```sh
-shasum -a 256 oriatab-0.1.1.zip
+shasum -a 256 oriatab-0.2.0.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256
+Get-FileHash .\oriatab-0.2.0.zip -Algorithm SHA256
 ```
 
 ## 問題が発生した場合

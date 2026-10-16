@@ -10,7 +10,7 @@ OriaTab 的公开扩展包发布仓库，提供安装包、版本说明和校验
 
 ## 手动安装
 
-1. 在 Releases 的 Assets 中下载 `oriatab-0.1.1.zip`，解压到准备长期保留的文件夹。
+1. 在 Releases 的 Assets 中下载 `oriatab-0.2.0.zip`，解压到准备长期保留的文件夹。
 2. Chrome 打开 `chrome://extensions`；Edge 打开 `edge://extensions`。
 3. 开启「开发者模式」，点击「加载已解压的扩展程序」。
 4. 选择包含 `manifest.json` 的解压目录，打开新标签页即可使用。
@@ -25,7 +25,7 @@ OriaTab 的公开扩展包发布仓库，提供安装包、版本说明和校验
 
 手动安装的版本需要手动更新。将新版本解压后替换原安装文件夹中的文件，在扩展管理页点击「重新加载」。保留同一个安装路径；不要先卸载扩展，卸载会移除本地扩展数据。
 
-校验值见仓库的 [SHA256SUMS.txt](SHA256SUMS.txt)。macOS / Linux 可在下载目录运行 `shasum -a 256 oriatab-0.1.1.zip`，Windows PowerShell 可运行 `Get-FileHash .\oriatab-0.1.1.zip -Algorithm SHA256`，并与校验文件比较。
+校验值见仓库的 [SHA256SUMS.txt](SHA256SUMS.txt)。macOS / Linux 可在下载目录运行 `shasum -a 256 oriatab-0.2.0.zip`，Windows PowerShell 可运行 `Get-FileHash .\oriatab-0.2.0.zip -Algorithm SHA256`，并与校验文件比较。
 
 ## 功能
 
