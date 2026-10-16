@@ -2,22 +2,35 @@ name: Publish verified extension
 on:
   push:
     tags: ['v*']
+    branches: [main]
+    paths: ['packages/**', '.github/workflows/release.yml']
 permissions:
   contents: write
 jobs:
   release:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    concurrency:
+      group: publish-extension
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
+      - name: Resolve release tag
+        shell: bash
+        run: |
+          version="$(python3 -c 'import json; print(json.load(open("extension/manifest.json"))["version"])')"
+          echo "RELEASE_TAG=v${version}" >> "$GITHUB_ENV"
+          if [[ "$GITHUB_REF_TYPE" == tag ]]; then
+            test "$GITHUB_REF_NAME" = "v${version}"
+          fi
       - name: Verify archive and unpacked extension
         shell: bash
         run: |
           python3 - <<'PY'
           import hashlib, json, os, pathlib, zipfile
-          version = os.environ['GITHUB_REF_NAME'].removeprefix('v')
+          version = os.environ['RELEASE_TAG'].removeprefix('v')
           archive = pathlib.Path(f'packages/oriatab-{version}.zip')
           expected = dict((name, digest) for digest, name in (line.split() for line in pathlib.Path('SHA256SUMS.txt').read_text().splitlines()))
           assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected[archive.name]
@@ -35,10 +48,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          version="${GITHUB_REF_NAME#v}"
+          version="${RELEASE_TAG#v}"
           archive="packages/oriatab-${version}.zip"
-          gh release create "$GITHUB_REF_NAME" "$archive" SHA256SUMS.txt --verify-tag --draft --title "OriaTab ${version}" --notes-file "packages/${GITHUB_REF_NAME}.txt"
+          if gh release view "$RELEASE_TAG" --json isDraft --jq '.isDraft' | grep -qx false; then
+            mkdir existing-release
+            gh release download "$RELEASE_TAG" --pattern "oriatab-${version}.zip" --dir existing-release
+            cmp "$archive" "existing-release/oriatab-${version}.zip"
+            exit 0
+          fi
+          gh release create "$RELEASE_TAG" "$archive" SHA256SUMS.txt --verify-tag --draft --title "OriaTab ${version}" --notes-file "packages/${RELEASE_TAG}.txt"
           mkdir verified-download
-          gh release download "$GITHUB_REF_NAME" --pattern "oriatab-${version}.zip" --dir verified-download
+          gh release download "$RELEASE_TAG" --pattern "oriatab-${version}.zip" --dir verified-download
           cmp "$archive" "verified-download/oriatab-${version}.zip"
-          gh release edit "$GITHUB_REF_NAME" --draft=false --latest
+          gh release edit "$RELEASE_TAG" --draft=false --latest
